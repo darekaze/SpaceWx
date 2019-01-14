@@ -1,13 +1,15 @@
 <template>
-  <HelloWorld />
+  <div>
+    <HelloWorld />
+    <HelloWorld />
+    <HelloWorld />
+  </div>
 </template>
 
 <script>
-import HelloWorld from '@/components/HelloWorld.vue';
-
 export default {
   components: {
-    HelloWorld,
+    HelloWorld: () => import('@/components/HelloWorld.vue'),
   },
 };
 </script>
