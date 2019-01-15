@@ -29,7 +29,7 @@ export default {
   name: 'main-header',
   data() {
     return {
-      toolbarItems: ['topics', 'impacts', 'events'],
+      toolbarItems: ['phenomenon', 'impacts', 'historical events'],
     };
   },
 };

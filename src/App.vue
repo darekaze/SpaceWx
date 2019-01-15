@@ -34,4 +34,8 @@ export default {
 .h-pad {
   padding-top: 56px;
 }
+
+.v-carousel__controls {
+  background: transparent;
+}
 </style>
