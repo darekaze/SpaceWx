@@ -37,5 +37,9 @@ export default {
 
 .v-carousel__controls {
   background: transparent;
+  justify-content: flex-end;
+  > .v-item-group {
+    margin-right: 8%;
+  }
 }
 </style>

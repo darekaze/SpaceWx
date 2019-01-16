@@ -1,13 +1,14 @@
 <template>
   <v-carousel
-    hide-controls>
+    hide-controls
+    interval="8000">
     <v-carousel-item
       v-for="item in items"
       :key="item.title"
       :src="item.src">
       <v-container fill-height>
         <v-layout align-center>
-          <v-flex class="white--text">
+          <v-flex offset-xs1 offset-md1 class="white--text">
             <h3 class="display-2 mb-2">{{ item.title }}</h3>
             <span class="subheading">{{ item.text }}</span>
           </v-flex>
@@ -21,7 +22,7 @@
 export default {
   data() {
     return {
-      // TODO: Add items and locale
+      // TODO: Add items and locale, and link to details
       items: [
         {
           title: 'Solar wind',
@@ -39,7 +40,3 @@ export default {
   },
 };
 </script>
-
-<style>
-
-</style>
