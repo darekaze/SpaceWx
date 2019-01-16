@@ -7,13 +7,13 @@
       <span>Space Weather</span>
     </v-toolbar-title>
     <v-spacer></v-spacer>
-    <v-toolbar-items
-      class="hidden-xs-only"
-      v-for="(item, index) in toolbarItems" :key="index">
+    <v-toolbar-items class="hidden-xs-only">
       <v-btn
-        class="text-capitalize"
-        :to="`/${item}`" flat>
-        {{ item }}
+        v-for="item in toolbarItems" :key="item.name"
+        :to="`/${item.name}`" flat
+        class="text-capitalize"> <!-- default px-3 -->
+        <v-icon dark class="mr-2">{{ item.icon }}</v-icon>
+        {{ item.name }}
       </v-btn>
     </v-toolbar-items>
     <v-toolbar-items
@@ -29,7 +29,11 @@ export default {
   name: 'main-header',
   data() {
     return {
-      toolbarItems: ['phenomenon', 'impacts', 'historical events'],
+      toolbarItems: [
+        { name: 'phenomenon', icon: 'track_changes' },
+        { name: 'impacts', icon: 'multiline_chart' }, // Backup: new_releases
+        { name: 'historical events', icon: 'timeline' },
+      ],
     };
   },
 };
