@@ -42,4 +42,9 @@ export default {
     margin-right: 8%;
   }
 }
+
+.rounded-card{
+  border-radius: 4px;
+  margin: 0px auto;
+}
 </style>
