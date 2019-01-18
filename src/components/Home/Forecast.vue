@@ -14,7 +14,7 @@
           <v-card class="rounded-card">
             <v-card-title>
               <div>
-                <h2 class="title indigo--text font-weight-bold">Date</h2>
+                <h2 class="subheading indigo--text font-weight-bold">Date</h2>
                 <div>Status</div>
               </div>
             </v-card-title>

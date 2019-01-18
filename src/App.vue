@@ -6,6 +6,7 @@
         <router-view/>
       </transition>
     </v-content>
+    <t-footer/>
   </v-app>
 </template>
 
@@ -16,6 +17,7 @@ export default {
   name: 'App',
   components: {
     THeader,
+    TFooter: () => import('@/components/TFooter.vue'),
   },
 };
 </script>
