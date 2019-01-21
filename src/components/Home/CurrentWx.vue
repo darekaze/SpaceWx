@@ -4,7 +4,7 @@
       <!-- Current Status Title -->
       <v-flex>
         <div class="mb-2">
-          <h2 class="headline font-weight-bold">Current Status</h2>
+          <h2 class="headline font-weight-bold">Space Weather Conditions</h2>
           <div class="subheading">Updated at XXX</div>
           <!-- TODO: Add api function to update time -->
         </div>
@@ -18,7 +18,7 @@
             class="rounded-card"
             max-width="380px">
             <v-img
-              :src="item.imageURL"
+              :src="require(`@/assets/images/${item.image}`)"
               aspect-ratio="1.9">
             </v-img>
             <v-card-title primary-title class="p-relative">
@@ -33,7 +33,7 @@
               </v-btn>
               <div>
                 <h2 class="title indigo--text font-weight-bold">{{ item.name }}</h2>
-                <div>{{ item.description }}</div>
+                <div class="pt-2">{{ item.description }}</div>
               </div>
             </v-card-title>
             <v-card-actions>

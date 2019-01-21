@@ -1,20 +1,20 @@
 [
 {
     "name": "Radio Blackout",
-    "description": "Temp",
-    "imageURL": "https://cdn.vuetifyjs.com/images/cards/desert.jpg",
+    "description": "Intense X-rays with ionizing power upset the Earth's ionosphere, producing signal scintillations and disrupting radio communication.",
+    "image": "radio_blackout.jpg",
     "show": false
 },
 {
     "name": "Solar Radiation Storm",
-    "description": "Temp",
-    "imageURL": "https://cdn.vuetifyjs.com/images/cards/desert.jpg",
+    "description": "Streams of energetic particles and plasma pose threats to astronauts in space and to passengers and crews on polar flights.",
+    "image": "solar_radiation_storm.jpg",
     "show": false
 },
 {
     "name": "Geomagnetic Storm",
-    "description": "Temp",
-    "imageURL": "https://cdn.vuetifyjs.com/images/cards/desert.jpg",
+    "description": "Through electromagnetic induction, transient electric surges can damage transformers, electronic instruments and navigation equipment.",
+    "image": "geomagnetic_storm.jpg",
     "show": false
 }
 ]

@@ -1,10 +1,10 @@
 <template>
-  <v-container grid-list-sm>
+  <v-container grid-list-sm pt-2>
     <v-layout column>
       <!-- Forecast Title -->
       <v-flex>
         <div class="mb-1">
-          <h2 class="headline font-weight-bold">3-Day Forecast</h2>
+          <h2 class="subheader">3-Day Forecast</h2>
         </div>
       </v-flex>
       <!-- Tiles -->
