@@ -19,14 +19,14 @@
             max-width="380px">
             <v-img
               :src="require(`@/assets/images/${item.image}`)"
-              aspect-ratio="1.9">
+              aspect-ratio="2">
             </v-img>
             <v-card-title primary-title class="p-relative">
               <!-- Adjust btn text and color for active warning -->
               <!-- When btn was click activate dialog for legend -->
               <v-btn
                 absolute depressed round
-                color="success lighten-1"
+                color="success"
                 class="white--text alert-btn">
                 <v-icon dark class="pr-1">check_circle</v-icon>
                 No Alert

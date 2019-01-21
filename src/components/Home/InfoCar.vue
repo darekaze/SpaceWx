@@ -5,12 +5,12 @@
     <v-carousel-item
       v-for="item in slides"
       :key="item.title"
-      :src="item.src">
+      :src="require(`@/assets/images/${item.image}`)">
       <v-container fill-height>
         <v-layout align-center>
-          <v-flex offset-xs1 offset-md0 class="white--text">
+          <v-flex xs10 sm8 offset-xs1 offset-md0 class="white--text">
             <h3 class="display-2 mb-2">{{ item.title }}</h3>
-            <span class="subheading">{{ item.text }}</span>
+            <div class="subheading">{{ item.text }}</div>
           </v-flex>
         </v-layout>
       </v-container>
@@ -30,3 +30,10 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.t-justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+</style>
