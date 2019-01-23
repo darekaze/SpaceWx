@@ -1,0 +1,42 @@
+[
+    { 
+        "name": "Space Weather Prediction Center (SWPC)",
+        "name_zh": "美國太空天氣預報中心(SWPC)",
+        "url": "https://www.swpc.noaa.gov"
+    },
+    { 
+        "name": "Space Weather Action Center (NASA)",
+        "name_zh": "空間環境預報中心",
+        "url": "https://sunearthday.gsfc.nasa.gov/swac"
+    },
+    { 
+        "name": "European Space Weather Portal",
+        "name_zh": "歐洲太空天氣網",
+        "url": "http://swe.ssa.esa.int"
+    },
+    { 
+        "name": "UK Met Office",
+        "name_zh": "英國氣象局",
+        "url": "https://www.metoffice.gov.uk/services/public-sector/emergencies/space-weather"
+    },
+    { 
+        "name": "National Satellite Meteorological Center",
+        "name_zh": "國家空間天氣監測預警中心",
+        "url": "http://www.nsmc.org.cn/NSMC/Channels/SpaceWeather.html"
+    },
+    { 
+        "name": "Space Environment Prediction Center",
+        "name_zh": "空間環境預報中心",
+        "url": "http://www.sepc.ac.cn"
+    },
+    { 
+        "name": "Solar Activity Prediction Center",
+        "name_zh": "太陽活動預報中心",
+        "url": "http://rwcc.bao.ac.cn"
+    },
+    { 
+        "name": "Hong Kong Space Museum",
+        "name_zh": "香港太空館",
+        "url": "https://www.lcsd.gov.hk/CE/Museum/Space"
+    }
+]
