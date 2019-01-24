@@ -21,7 +21,7 @@ export default {
     this.$store.dispatch('loadConditions');
     this.interval = setInterval(() => {
       this.$store.dispatch('loadConditions');
-    }, 60 * 1000);
+    }, 30 * 1000);
   },
   beforeDestroy() {
     clearInterval(this.interval);
