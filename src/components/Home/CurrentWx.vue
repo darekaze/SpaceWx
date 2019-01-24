@@ -5,8 +5,7 @@
       <v-flex>
         <div class="mb-2">
           <h2 class="headline font-weight-bold">Space Weather Conditions</h2>
-          <div class="subheading">Updated at XXX</div>
-          <!-- TODO: Add api function to update time -->
+          <div class="subheading">Updated at {{ dateTime }}</div>
         </div>
       </v-flex>
       <!-- Tiles -->
@@ -54,15 +53,24 @@
 </template>
 
 <script>
-// https://services.swpc.noaa.gov/products/noaa-scales.json
-// TODO: Add axios (Prefer to use vuex to do 1 api call)
+import { mapState } from 'vuex';
 import subjects from '@/assets/context/subjects.json';
 
 export default {
+  name: 'current-wx',
   data() {
     return {
       subjects,
     };
+  },
+  computed: {
+    ...mapState([
+      'conditions',
+    ]),
+    dateTime() {
+      const { DateStamp, TimeStamp } = this.conditions[0];
+      return `${DateStamp}, ${TimeStamp} UTC`;
+    },
   },
 };
 </script>

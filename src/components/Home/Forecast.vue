@@ -27,8 +27,6 @@
 </template>
 
 <script>
-// https://services.swpc.noaa.gov/products/noaa-scales.json
-// TODO: Add axios (Prefer to use vuex to do 1 api call)
 export default {
   data() {
     return {

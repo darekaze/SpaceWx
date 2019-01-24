@@ -12,6 +12,7 @@
     "register-service-worker": "^1.5.2",
     "vue": "^2.5.21",
     "vue-agile": "^0.3.7",
+    "vue-axios": "^2.1.4",
     "vue-router": "^3.0.1",
     "vuetify": "^1.4.2",
     "vuex": "^3.1.0"
@@ -42,7 +43,9 @@
       "plugin:vue/essential",
       "@vue/airbnb"
     ],
-    "rules": {},
+    "rules": {
+      "no-param-reassign": ["error", { "props": false }]
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }
