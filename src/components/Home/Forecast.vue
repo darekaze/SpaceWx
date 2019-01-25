@@ -14,8 +14,44 @@
           <v-card class="rounded-card">
             <v-card-title>
               <div>
-                <h2 class="subheading indigo--text font-weight-bold">Date</h2>
-                <div>Status</div>
+                <h2 class="subheading indigo--text font-weight-bold">
+                  {{ getDate(i) }}
+                </h2>
+                <!-- Forecast details -->
+                <!-- TODO: Design Layout and Refactor -->
+                <div>
+                  <span>R1-R2 (minor)</span>
+                  <v-spacer></v-spacer>
+                  <div @click="maaa()" class="rate">
+                    <status-indicator positive pulse></status-indicator>
+                    {{ conditions[i]['R'].MinorProb }}%
+                  </div>
+                </div>
+                <div>
+                  <span>R3-R5 (major)</span>
+                  <v-spacer></v-spacer>
+                  <div @click="maaa()" class="rate">
+                    <status-indicator positive pulse></status-indicator>
+                    {{ conditions[i]['R'].MajorProb }}%
+                  </div>
+                </div>
+                <div>
+                  <span>S1 or above</span>
+                  <v-spacer></v-spacer>
+                  <div @click="maaa()" class="rate">
+                    <status-indicator positive pulse></status-indicator>
+                    {{ conditions[i]['S'].Prob }}%
+                  </div>
+                </div>
+                <div>
+                  <span>G Scale</span>
+                  <v-spacer></v-spacer>
+                  <div @click="maaa()" class="rate">
+                    <status-indicator positive pulse></status-indicator>
+                    {{ conditions[i]['G'].Scale }}
+                  </div>
+                </div>
+
               </div>
             </v-card-title>
           </v-card>
@@ -27,11 +63,39 @@
 </template>
 
 <script>
+import { mapState } from 'vuex';
+import 'vue-status-indicator/styles.css';
+import { StatusIndicator } from 'vue-status-indicator';
+
 export default {
-  data() {
-    return {
-      //
-    };
+  name: 'three-day-forecast',
+  components: {
+    StatusIndicator,
+  },
+  computed: {
+    ...mapState([
+      'conditions',
+    ]),
+    getDate() {
+      return i => this.conditions[i].DateStamp;
+    },
+    getScale() {
+      return code => parseInt(this.conditions[0][code].Scale, 10);
+    },
+    getIndicatorColor() {
+      return code => this.indicators[this.getScale(code)];
+    },
+  },
+  methods: {
+    maaa() {
+      console.log('asdsad');
+    },
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.rate {
+  cursor: pointer;
+}
+</style>

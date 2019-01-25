@@ -1,6 +1,7 @@
 <template>
   <v-carousel
     hide-controls
+    height="580"
     interval="8000">
     <v-carousel-item
       v-for="item in slides"
@@ -11,6 +12,7 @@
           <v-flex xs10 sm8 offset-xs1 offset-md0 class="white--text">
             <h3 class="display-2 mb-2">{{ item.title }}</h3>
             <div class="subheading">{{ item.text }}</div>
+            <v-btn outline class="mt-3">Discover more</v-btn>
           </v-flex>
         </v-layout>
       </v-container>
