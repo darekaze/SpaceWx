@@ -77,7 +77,11 @@ export default {
       'conditions',
     ]),
     getDate() {
-      return i => this.conditions[i].DateStamp;
+      return (day) => {
+        const date = new Date(this.conditions[day].DateStamp);
+        const options = { year: 'numeric', month: 'short', day: 'numeric' };
+        return date.toLocaleDateString('en-US', options);
+      };
     },
     getScale() {
       return code => parseInt(this.conditions[0][code].Scale, 10);

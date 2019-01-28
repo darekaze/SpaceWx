@@ -27,7 +27,7 @@
                 absolute depressed round
                 :color="getIndicatorColor(item.code)"
                 class="alert-btn white--text text-capitalize">
-                <v-icon dark class="pr-1">{{ getIcon(item.code) }}</v-icon>
+                <v-icon dark class="pr-2">{{ getIcon(item.code) }}</v-icon>
                 {{ alertMessage(item.code) }}
               </v-btn>
 
@@ -109,7 +109,7 @@ export default {
 <style lang="scss" scoped>
 .p-relative {
   position: relative;
-  padding-top: 18px;
+  padding-top: 20px;
 
   .alert-btn {
     text-transform: none;
