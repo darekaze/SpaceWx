@@ -2,7 +2,7 @@
   <v-container grid-list-sm pt-2>
     <v-layout column>
       <!-- Forecast Title -->
-      <v-flex>
+      <v-flex xs12>
         <div class="mb-1">
           <h2 class="subheader">3-Day Forecast</h2>
         </div>
