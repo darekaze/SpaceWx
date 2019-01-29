@@ -13,7 +13,7 @@ export default {
     interval: null,
   }),
   components: {
-    InfoCarousel: () => import('@/components/Home/InfoCar.vue'),
+    InfoCarousel: () => import('@/components/Home/InfoCarousel.vue'),
     CurrentWx: () => import('@/components/Home/CurrentWx.vue'),
     Forecast: () => import('@/components/Home/Forecast.vue'),
   },
