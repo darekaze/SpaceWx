@@ -1,8 +1,8 @@
 <template>
   <div>
     <info-carousel/>
-    <current-wx/>
-    <forecast/>
+    <space-wx-panel/>
+    <forecast-panel/>
   </div>
 </template>
 
@@ -14,8 +14,8 @@ export default {
   }),
   components: {
     InfoCarousel: () => import('@/components/Home/InfoCarousel.vue'),
-    CurrentWx: () => import('@/components/Home/CurrentWx.vue'),
-    Forecast: () => import('@/components/Home/Forecast.vue'),
+    SpaceWxPanel: () => import('@/components/Home/SpaceWxPanel.vue'),
+    ForecastPanel: () => import('@/components/Home/ForecastPanel.vue'),
   },
   mounted() {
     this.$store.dispatch('loadConditions');

@@ -95,7 +95,7 @@ import 'vue-status-indicator/styles.css';
 import { StatusIndicator } from 'vue-status-indicator';
 
 export default {
-  name: 'three-day-forecast',
+  name: 'forecast-panel',
   components: {
     StatusIndicator,
   },
