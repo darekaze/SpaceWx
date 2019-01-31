@@ -10,6 +10,7 @@
       <!-- TODO: When btn was clicked activate dialog for legend -->
       <v-btn
         v-if="condition"
+        @click.stop="showDialog()"
         absolute depressed round
         :color="condition.color"
         class="alert-btn white--text text-capitalize">
@@ -26,7 +27,7 @@
         Explore
       </v-btn>
       <v-spacer/>
-      <v-btn icon @click="item.show = !(item.show)">
+      <v-btn icon @click.stop="showDialog()">
         <v-icon class="temp-fix">info_outline</v-icon>
       </v-btn>
     </v-card-actions>
@@ -40,6 +41,12 @@ export default {
   props: {
     item: Object,
     condition: Object,
+  },
+  methods: {
+    showDialog() {
+      this.item.show = !(this.item.show);
+      console.log(this.item.show);
+    },
   },
 };
 </script>
