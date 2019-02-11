@@ -1,6 +1,7 @@
 <template>
   <div>
     <info-carousel/>
+    <phenomena-slider></phenomena-slider>
     <space-wx-panel/>
     <forecast-panel/>
   </div>
@@ -14,6 +15,7 @@ export default {
   }),
   components: {
     InfoCarousel: () => import('@/components/Home/InfoCarousel.vue'),
+    PhenomenaSlider: () => import('@/components/Home/PhenomenaSlider.vue'),
     SpaceWxPanel: () => import('@/components/Home/SpaceWxPanel.vue'),
     ForecastPanel: () => import('@/components/Home/ForecastPanel.vue'),
   },
