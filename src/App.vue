@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <THeader/>
+    <!-- <THeader/> -->
     <v-content>
       <transition name="fade" mode="out-in">
         <router-view/>
@@ -11,12 +11,10 @@
 </template>
 
 <script>
-import THeader from '@/components/THeader.vue';
-
 export default {
   name: 'App',
   components: {
-    THeader,
+    // THeader: () => import('@/components/THeader.vue'),
     TFooter: () => import('@/components/TFooter.vue'),
   },
 };
@@ -31,22 +29,5 @@ export default {
 .fade-enter,
 .fade-leave-active {
   opacity: 0;
-}
-
-.h-pad {
-  padding-top: 56px;
-}
-
-.v-carousel__controls {
-  background: transparent;
-  justify-content: flex-end;
-  > .v-item-group {
-    margin-right: 8%;
-  }
-}
-
-.rounded-card{
-  border-radius: 4px;
-  margin: 0px auto;
 }
 </style>

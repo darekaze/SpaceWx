@@ -1,5 +1,5 @@
 <template>
-  <v-container grid-list-md pt-4>
+  <v-container grid-list-md pt-3>
     <v-layout column>
       <!-- Current Status Title -->
       <v-flex xs12>
@@ -26,7 +26,7 @@ import subjects from '@/assets/context/subjects.json';
 export default {
   name: 'space-wx-panel',
   components: {
-    AlertCard: () => import('@/components/Home/AlertCard.vue'),
+    AlertCard: () => import('@/components/Home/Parts/AlertCard.vue'),
   },
   data() {
     return {

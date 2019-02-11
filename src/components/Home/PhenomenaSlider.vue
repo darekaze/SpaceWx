@@ -1,66 +1,56 @@
 <template>
-  <!-- swiper -->
-  <swiper :options="swiperOption">
-    <swiper-slide v-for="(item, index) in 10" :key="index">
-      <v-card>
-        <v-img
-          src="https://cdn.vuetifyjs.com/images/cards/desert.jpg"
-          aspect-ratio="1.8"
-        ></v-img>
-
-        <v-card-title primary-title>
-          <div>
-            <h3 class="headline mb-0">Kangaroo Valley Safari</h3>
-            <div>Located two hours south of Sydney in the <br>Southern Highlands of New South Wales, ...</div>
-          </div>
-        </v-card-title>
-      </v-card>
-    </swiper-slide>
-    <div class="swiper-button-prev" slot="button-prev"></div>
-    <div class="swiper-button-next" slot="button-next"></div>
-  </swiper>
+  <v-container pt-3>
+    <!-- TITLE -->
+    <div class="mb-3">
+      <h2 class="headline font-weight-bold">Phenomena</h2>
+      <div class="subheading">Temp subtitle holder</div>
+    </div>
+    <swiper :options="swiperOption">
+      <swiper-slide v-for="item in phenomena" :key="item.title">
+        <topic-card :title="item.title" :image="item.image"/>
+      </swiper-slide>
+      <div class="swiper-button-prev" slot="button-prev"></div>
+      <div class="swiper-button-next" slot="button-next"></div>
+    </swiper>
+  </v-container>
 </template>
 
 <script>
-import 'swiper/dist/css/swiper.css';
+import 'swiper/dist/css/swiper.css'; // eslint-disable-line import/no-extraneous-dependencies
 import { swiper, swiperSlide } from 'vue-awesome-swiper';
+import phenomena from '@/assets/context/phenomena.json';
 
 export default {
   components: {
     swiper,
     swiperSlide,
+    TopicCard: () => import('@/components/Home/Parts/Topic.vue'),
   },
   data() {
     return {
+      phenomena,
       swiperOption: {
         slidesPerView: 5,
-        spaceBetween: 30,
-        // init: false,
+        spaceBetween: 12,
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
           hideOnClick: true,
         },
         breakpoints: {
-          1024: {
-            slidesPerView: 4,
-            spaceBetween: 40
-          },
-          768: {
-            slidesPerView: 3,
-            spaceBetween: 30
-          },
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 20
-          },
-          320: {
-            slidesPerView: 1,
-            spaceBetween: 10
-          }
-        }
-      }
-    }
-  }
+          1264: { slidesPerView: 4 },
+          872: { slidesPerView: 3 },
+          694: { slidesPerView: 2 },
+        },
+      },
+    };
+  },
 };
 </script>
+
+<style lang="scss" scoped>
+.swiper-button {
+  &-next, &-prev { transform: scale(0.7); }
+  &-disabled { opacity: 0; }
+}
+</style>

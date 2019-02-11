@@ -1,9 +1,8 @@
 <template>
   <div>
-    <info-carousel/>
-    <phenomena-slider></phenomena-slider>
+    <banner/>
+    <phenomena-slider/>
     <space-wx-panel/>
-    <forecast-panel/>
   </div>
 </template>
 
@@ -14,10 +13,9 @@ export default {
     interval: null,
   }),
   components: {
-    InfoCarousel: () => import('@/components/Home/InfoCarousel.vue'),
+    Banner: () => import('@/components/Home/Banner.vue'),
     PhenomenaSlider: () => import('@/components/Home/PhenomenaSlider.vue'),
     SpaceWxPanel: () => import('@/components/Home/SpaceWxPanel.vue'),
-    ForecastPanel: () => import('@/components/Home/ForecastPanel.vue'),
   },
   mounted() {
     this.$store.dispatch('loadConditions');

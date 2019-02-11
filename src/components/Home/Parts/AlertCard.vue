@@ -1,7 +1,5 @@
 <template>
-  <v-card
-    class="rounded-card"
-    max-width="380px">
+  <v-card max-width="380px">
     <v-img
       :src="require(`@/assets/images/${item.image}`)"
       aspect-ratio="2">

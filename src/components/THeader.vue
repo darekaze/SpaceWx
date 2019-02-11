@@ -7,6 +7,7 @@
       <span>Space Weather</span>
     </v-toolbar-title>
     <v-spacer></v-spacer>
+    <!-- TODO: change to burger menu only -->
     <v-toolbar-items class="hidden-xs-only">
       <v-btn
         v-for="item in toolbarItems" :key="item.name"
@@ -20,7 +21,6 @@
       class="hidden-sm-and-up">
       <v-toolbar-side-icon></v-toolbar-side-icon>
     </v-toolbar-items>
-    <!-- TODO: add hamburger for mobile screen -->
   </v-toolbar>
 </template>
 
