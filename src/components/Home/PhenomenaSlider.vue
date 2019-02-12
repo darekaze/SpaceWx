@@ -1,16 +1,15 @@
 <template>
   <v-container pt-3>
-    <!-- TITLE -->
-    <div class="mb-3">
+    <div class="mb-2">
       <h2 class="headline font-weight-bold">Phenomena</h2>
       <div class="subheading">Temp subtitle holder</div>
     </div>
     <swiper :options="swiperOption">
       <swiper-slide v-for="item in phenomena" :key="item.title">
-        <topic-card :title="item.title" :image="item.image"/>
+        <topic-card  :topic="item" :ratio="0.88"/>
       </swiper-slide>
-      <div class="swiper-button-prev" slot="button-prev"></div>
-      <div class="swiper-button-next" slot="button-next"></div>
+      <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>
+      <div class="swiper-button-next swiper-button-white" slot="button-next"></div>
     </swiper>
   </v-container>
 </template>
@@ -50,7 +49,9 @@ export default {
 
 <style lang="scss" scoped>
 .swiper-button {
-  &-next, &-prev { transform: scale(0.7); }
+  &-next, &-prev {
+    transform: scale(0.7);
+  }
   &-disabled { opacity: 0; }
 }
 </style>

@@ -1,24 +1,30 @@
 <template>
-  <v-card>
-    <!-- TODO: Bind src -->
+<v-hover>
+  <v-card
+    slot-scope="{ hover }"
+    :to="topic.link"
+    :class="`elevation-${hover ? 4 : 0}`"
+    class="round">
     <v-img
-      src="https://cdn.vuetifyjs.com/images/cards/desert.jpg"
-      aspect-ratio="0.88">
+      :src="require(`@/assets/images/${topic.image}`)"
+      :aspect-ratio="ratio"
+      gradient="to top, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.10)">
       <v-layout fill-height align-center justify-center>
-        <span class="headline white--text text-xs-center">
-          {{ title }}
+        <span class="headline font-weight-light white--text text-xs-center">
+          {{ topic.title }}
         </span>
       </v-layout>
     </v-img>
   </v-card>
+</v-hover>
 </template>
 
 <script>
 export default {
   name: 'topic-card',
   props: {
-    title: String,
-    image: String,
+    topic: Object,
+    ratio: Number,
   },
 };
 </script>

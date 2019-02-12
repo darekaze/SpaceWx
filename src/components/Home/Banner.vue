@@ -1,16 +1,16 @@
 <template>
-  <v-container>
+  <v-container fluid px-0 pt-0>
     <v-img
-      class="grey lighten-2"
+      class="grey lighten-2 round"
       height="580"
       :src="require('@/assets/images/hero.jpg')">
       <v-layout fill-height align-center pa-3>
         <v-flex
           xs10 offset-xs1
           class="white--text">
-          <h1 class="display-3 font-weight-light">
+          <h2 class="display-3 font-weight-light">
             Space Weather
-          </h1>
+          </h2>
           <div class="subheading pl-2 mb-2">
             Conditions in space that can impact our technological systems
           </div>

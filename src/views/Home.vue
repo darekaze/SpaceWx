@@ -2,6 +2,7 @@
   <div>
     <banner/>
     <phenomena-slider/>
+    <impacts-panel/>
     <space-wx-panel/>
   </div>
 </template>
@@ -15,6 +16,7 @@ export default {
   components: {
     Banner: () => import('@/components/Home/Banner.vue'),
     PhenomenaSlider: () => import('@/components/Home/PhenomenaSlider.vue'),
+    ImpactsPanel: () => import('@/components/Home/ImpactsPanel.vue'),
     SpaceWxPanel: () => import('@/components/Home/SpaceWxPanel.vue'),
   },
   mounted() {

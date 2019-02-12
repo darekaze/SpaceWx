@@ -1,34 +1,32 @@
 <template>
-  <v-card max-width="380px">
+  <v-card flat
+    max-width="380px"
+    color="#FAFAFA"
+    class="round">
     <v-img
       :src="require(`@/assets/images/${item.image}`)"
-      aspect-ratio="2">
+      :aspect-ratio="1.9"
+      class="round">
     </v-img>
-    <v-card-title class="p-relative">
-      <!-- TODO: When btn was clicked activate dialog for legend -->
+    <v-card-title class="p-relative pt-2 pl-1">
+      <!-- TODO: When btn was clicked activate alert dialog -->
       <v-btn
         v-if="condition"
         @click.stop="showDialog()"
-        absolute depressed round
+        absolute icon large dark
         :color="condition.color"
-        class="alert-btn white--text text-capitalize">
-        <v-icon dark class="pr-2">{{ condition.icon }}</v-icon>
-        {{ condition.message }}
+        class="alert-btn">
+        <v-icon dark medium>{{ condition.icon }}</v-icon>
       </v-btn>
       <div>
-        <h2 class="title indigo--text font-weight-bold">{{ item.name }}</h2>
-        <div class="pt-1">{{ item.description }}</div>
+        <h3 class="subheading indigo--text font-weight-bold">
+          {{ item.name }}
+        </h3>
+        <!-- TODO: Add status indicator -->
+        <!-- NOTE: Move swiper and indicator to global plugins -->
+        <div>{{ condition.message }}</div>
       </div>
     </v-card-title>
-    <v-card-actions>
-      <v-btn flat color="deep-purple">
-        Explore
-      </v-btn>
-      <v-spacer/>
-      <v-btn icon @click.stop="showDialog()">
-        <v-icon class="temp-fix">info_outline</v-icon>
-      </v-btn>
-    </v-card-actions>
   </v-card>
 </template>
 
@@ -52,15 +50,12 @@ export default {
 <style lang="scss" scoped>
 .p-relative {
   position: relative;
-  padding-top: 20px;
+  padding-top: 16px;
   padding-bottom: 12px;
 
   .alert-btn {
-    text-transform: none;
-    top: -14px;
+    top: -28px;
     right: 8px;
-    height: 30px;
-    padding: 0 10px 0 4px;
   }
 }
 </style>
