@@ -4,7 +4,7 @@
     color="#FAFAFA"
     class="round">
     <v-img
-      :src="require(`@/assets/images/${item.image}`)"
+      :src="require(`@/assets/images/${image}`)"
       :aspect-ratio="1.9"
       class="round">
     </v-img>
@@ -21,11 +21,15 @@
       </v-btn>
       <div>
         <h3 class="subheading indigo--text font-weight-bold">
-          {{ item.name }}
+          {{ title }}
         </h3>
-        <!-- TODO: Add status indicator -->
-        <!-- NOTE: Move swiper and indicator to global plugins -->
-        <div>{{ condition.message }}</div>
+        <div>
+          <status-indicator
+            pulse positive
+            :intermediary="isMinor"
+            :negative="isMajor"/>
+          <span class="pl-2">{{ condition.message }}</span>
+        </div>
       </div>
     </v-card-title>
   </v-card>
@@ -36,17 +40,19 @@ export default {
   name: 'alert-card',
   components: {},
   props: {
-    item: Object,
+    title: String,
+    image: String,
     condition: Object,
   },
   methods: {
     showDialog() {
-      this.item.show = !(this.item.show);
-      console.log(this.item.show);
+      console.log('display dialog');
     },
   },
   computed: {
     isDesktop() { return this.$vuetify.breakpoint.mdAndUp; },
+    isMinor() { return this.condition.scale > 0; },
+    isMajor() { return this.condition.scale > 2; },
   },
 };
 </script>

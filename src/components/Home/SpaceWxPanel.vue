@@ -12,7 +12,10 @@
       <v-layout row wrap justify-start>
         <v-flex xs6 sm4 xl3
           v-for="item in subjects" :key="item.code">
-          <alert-card :item="item" :condition="getConditionInfo(item.code)" />
+          <alert-card
+            :title="item.name"
+            :image="item.image"
+            :condition="getConditionInfo(item.code)"/>
         </v-flex>
       </v-layout>
 
@@ -60,12 +63,14 @@ export default {
   },
   methods: {
     getConditionInfo(code) {
+      // HACK: in the future return scale and message only
       const { Scale, Text } = this.conditions[0][code];
-      const sl = parseInt(Scale, 10);
+      const sc = parseInt(Scale, 10);
       return {
-        icon: sl ? 'notifications_active' : 'notifications',
-        color: this.indicators[sl],
-        message: sl ? `${code}${sl} / ${Text}` : 'No Alert',
+        scale: sc,
+        icon: sc ? 'notifications_active' : 'notifications',
+        color: this.indicators[sc],
+        message: sc ? `${code}${sc} / ${Text}` : 'No Alert',
       };
     },
   },
