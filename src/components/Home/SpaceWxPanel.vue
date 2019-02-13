@@ -17,7 +17,7 @@
       </v-layout>
 
       <v-flex xs12>
-        <topic-card :topic="chinaLink" :ratio="6"/>
+        <external-card :link="chinaLink"/>
       </v-flex>
     </v-layout>
   </v-container>
@@ -31,7 +31,7 @@ export default {
   name: 'space-wx-panel',
   components: {
     AlertCard: () => import('@/components/Home/Parts/AlertCard.vue'),
-    TopicCard: () => import('@/components/Home/Parts/Topic.vue'),
+    ExternalCard: () => import('@/components/Home/Parts/ExternalLink.vue'),
   },
   data() {
     return {
@@ -43,7 +43,7 @@ export default {
       chinaLink: {
         title: '3-day Space Weather Forecast by National Satellite Meteorological Center',
         image: 'satellite.jpg',
-        link: '/',
+        url: 'http://www.nsmc.org.cn/NSMC/Channels/SpaceWeather.html',
       },
     };
   },

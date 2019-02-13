@@ -7,7 +7,7 @@
     <v-layout row wrap justify-start>
       <v-flex xs12 sm6
         v-for="(item, index) in topics" :key="index">
-        <topic-card :topic="item" :ratio="1.5"/>
+        <topic-card :topic="item" :ratio="17/9"/>
       </v-flex>
     </v-layout>
   </v-container>

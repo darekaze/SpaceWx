@@ -2,16 +2,18 @@
   <v-hover>
     <v-card
       slot-scope="{ hover }"
-      :to="topic.link"
+      target="_blank"
+      rel="noopener noreferrer"
+      :href="link.url"
       :class="`elevation-${hover ? 4 : 0}`"
       class="round">
       <v-img
-        :src="require(`@/assets/images/${topic.image}`)"
-        :aspect-ratio="ratio"
+        :src="require(`@/assets/images/${link.image}`)"
+        :aspect-ratio="6"
         gradient="to top, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.10)">
         <v-layout fill-height align-center justify-center>
           <span class="headline font-weight-light white--text text-xs-center">
-            {{ topic.title }}
+            {{ link.title }}
           </span>
         </v-layout>
       </v-img>
@@ -21,9 +23,9 @@
 
 <script>
 export default {
-  name: 'topic-card',
+  name: 'external-link-card',
   props: {
-    topic: Object,
+    link: Object,
     ratio: Number,
   },
 };
