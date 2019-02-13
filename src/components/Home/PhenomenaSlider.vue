@@ -2,7 +2,9 @@
   <v-container pt-3>
     <div class="mb-2">
       <h2 class="headline font-weight-bold">Phenomena</h2>
-      <div class="subheading">Temp subtitle holder</div>
+      <div class="subheading">
+        Explore Various Space Environments between the Sun and Earth
+      </div>
     </div>
     <swiper :options="swiperOption">
       <swiper-slide v-for="item in phenomena" :key="item.title">
@@ -39,7 +41,7 @@ export default {
         breakpoints: {
           1264: { slidesPerView: 4 },
           872: { slidesPerView: 3 },
-          694: { slidesPerView: 2 },
+          600: { slidesPerView: 2 },
         },
       },
     };

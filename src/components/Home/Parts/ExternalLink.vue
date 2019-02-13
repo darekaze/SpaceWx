@@ -11,7 +11,9 @@
         :src="require(`@/assets/images/${link.image}`)"
         :aspect-ratio="6"
         gradient="to top, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.10)">
-        <v-layout fill-height align-center justify-center>
+        <v-layout
+          fill-height px-3 py-4
+          align-center justify-center>
           <span class="headline font-weight-light white--text text-xs-center">
             {{ link.title }}
           </span>

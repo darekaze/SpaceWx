@@ -1,5 +1,5 @@
 <template>
-  <v-container grid-list-md pt-2>
+  <v-container grid-list-sm pt-2>
     <v-layout column>
       <!-- Current Status Title -->
       <v-flex xs12>

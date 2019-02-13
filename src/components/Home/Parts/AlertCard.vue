@@ -8,15 +8,16 @@
       :aspect-ratio="1.9"
       class="round">
     </v-img>
-    <v-card-title class="p-relative pt-2 pl-1">
+    <v-card-title class="p-relative pl-1">
       <!-- TODO: When btn was clicked activate alert dialog -->
       <v-btn
         v-if="condition"
         @click.stop="showDialog()"
-        absolute icon large dark
+        absolute icon dark
+        :large="isDesktop"
         :color="condition.color"
         class="alert-btn">
-        <v-icon dark medium>{{ condition.icon }}</v-icon>
+        <v-icon dark :medium="isDesktop">{{ condition.icon }}</v-icon>
       </v-btn>
       <div>
         <h3 class="subheading indigo--text font-weight-bold">
@@ -44,17 +45,19 @@ export default {
       console.log(this.item.show);
     },
   },
+  computed: {
+    isDesktop() { return this.$vuetify.breakpoint.mdAndUp; },
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 .p-relative {
   position: relative;
-  padding-top: 16px;
-  padding-bottom: 12px;
+  padding: 6px 4px 8px 4px;
 
   .alert-btn {
-    top: -28px;
+    top: -26px;
     right: 8px;
   }
 }
