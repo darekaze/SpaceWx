@@ -8,7 +8,7 @@
     </div>
     <swiper :options="swiperOption">
       <swiper-slide v-for="item in phenomena" :key="item.title">
-        <topic-card  :topic="item" :ratio="0.88"/>
+        <topic-card  :topic="item" :ratio="0.85"/>
       </swiper-slide>
       <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>
       <div class="swiper-button-next swiper-button-white" slot="button-next"></div>
@@ -33,6 +33,7 @@ export default {
       swiperOption: {
         slidesPerView: 5,
         spaceBetween: 12,
+        freeMode: true,
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
@@ -41,7 +42,7 @@ export default {
         breakpoints: {
           1264: { slidesPerView: 4 },
           872: { slidesPerView: 3 },
-          600: { slidesPerView: 2 },
+          599: { slidesPerView: 2 },
         },
       },
     };
