@@ -28,7 +28,7 @@
 
 <script>
 import { mapState } from 'vuex';
-import subjects from '@/assets/context/subjects.json';
+import subjects from '@/assets/contexts/subjects.json';
 
 export default {
   name: 'space-wx-panel',

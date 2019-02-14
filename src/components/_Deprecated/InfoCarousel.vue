@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import slides from '@/assets/context/slides.json';
+import slides from '@/assets/contexts/slides.json';
 
 export default {
   data() {

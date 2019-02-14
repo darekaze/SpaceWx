@@ -3,7 +3,7 @@
     <div class="mb-2">
       <h2 class="headline font-weight-bold">Phenomena</h2>
       <div class="subheading">
-        Explore Various Space Environments between the Sun and Earth
+        Explore various space environments between the Sun and Earth
       </div>
     </div>
     <swiper :options="swiperOption">
@@ -19,7 +19,7 @@
 <script>
 import 'swiper/dist/css/swiper.css'; // eslint-disable-line import/no-extraneous-dependencies
 import { swiper, swiperSlide } from 'vue-awesome-swiper';
-import phenomena from '@/assets/context/phenomena.json';
+import phenomena from '@/assets/contexts/phenomena.json';
 
 export default {
   components: {

@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import links from '@/assets/context/links.json';
+import links from '@/assets/contexts/links.json';
 
 export default {
   data() {
