@@ -1,15 +1,19 @@
 <template>
   <v-container grid-list-sm pt-2>
     <v-layout column>
-      <!-- Current Status Title -->
       <v-flex xs12>
         <div class="mb-2">
           <h2 class="headline font-weight-bold">Space Weather Conditions</h2>
-          <div v-if="conditions" class="subheading">Updated at {{ dateTime }}</div>
+          <v-layout row justify-space-between v-if="conditions">
+            <div class="subheading">Updated at {{ dateTime }}</div>
+            <div class="font-italic" v-if="$vuetify.breakpoint.smAndUp">
+              (Source: Space Weather Prediction Center)
+            </div>
+          </v-layout>
         </div>
       </v-flex>
-      <!-- Cards -->
-      <v-layout row wrap justify-start>
+      <!-- Alert cards -->
+      <v-layout row wrap justify-center>
         <v-flex xs6 sm4 xl3
           v-for="item in subjects" :key="item.code">
           <alert-card
@@ -18,7 +22,7 @@
             :condition="getConditionInfo(item.code)"/>
         </v-flex>
       </v-layout>
-
+      <!-- Links to NSMC -->
       <v-flex xs12>
         <external-card :link="chinaLink"/>
       </v-flex>

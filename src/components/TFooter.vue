@@ -2,8 +2,8 @@
   <v-footer
     dark height="auto"
     class="mt-3 white--text">
-    <v-container pt-2>
-      <v-layout justify-start row wrap>
+    <v-container pt-3 pb-0>
+      <v-layout row wrap pb-3 justify-start>
         <v-flex pt-4 pb-3 xs12>
           <div class="title">Related Links</div>
         </v-flex>
@@ -19,16 +19,18 @@
             {{ item.name }}
           </a>
         </v-flex>
-
-        <v-flex
-          py-3 mx-1 xs12
-          text-xs-center>
-          <v-divider/>
-          <div class="pt-3">
-            &copy;2019 — <strong>Hong Kong Observatory</strong>
-          </div>
-        </v-flex>
       </v-layout>
+
+      <!-- FIXME: text should be center, need to optimize for mobile -->
+      <v-card flat tile color="transparent">
+        <v-divider/>
+        <v-card-title class="pl-0 text-xs-center">
+          <div>&copy;2019 — <strong>Hong Kong Observatory</strong></div>
+          <v-spacer></v-spacer>
+          <v-btn dark flat to="/about">Acknowledgement</v-btn>
+        </v-card-title>
+    </v-card>
+      
     </v-container>
   </v-footer>
 </template>
@@ -37,6 +39,7 @@
 import links from '@/assets/contexts/links.json';
 
 export default {
+  name: 'main-footer',
   data() {
     return {
       links,

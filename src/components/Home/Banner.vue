@@ -15,7 +15,7 @@
             Conditions in space that can impact our technological systems
           </div>
           <v-btn dark outline depressed
-            color="cyan"
+            color="cyan lighten-3"
             @click="$vuetify.goTo('#phenomena')">
             Discover More
           </v-btn>

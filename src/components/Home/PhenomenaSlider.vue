@@ -22,6 +22,7 @@ import { swiper, swiperSlide } from 'vue-awesome-swiper';
 import phenomena from '@/assets/contexts/phenomena.json';
 
 export default {
+  name: 'phenomena-slider',
   components: {
     swiper,
     swiperSlide,
