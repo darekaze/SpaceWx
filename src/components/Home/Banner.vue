@@ -2,7 +2,7 @@
   <v-container fluid px-0 pt-0>
     <v-img
       class="grey lighten-2 round"
-      height="580"
+      height="80vh"
       :src="require('@/assets/images/hero.jpg')">
       <v-layout fill-height align-center pa-3>
         <v-flex
@@ -16,7 +16,7 @@
           </div>
           <v-btn dark outline depressed
             color="cyan"
-            to="/">
+            @click="$vuetify.goTo('#phenomena')">
             Discover More
           </v-btn>
         </v-flex>
