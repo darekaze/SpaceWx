@@ -23,7 +23,7 @@ export default {
 <style lang="scss">
 .fade-enter-active,
 .fade-leave-active {
-  transition: opacity 0.3s ease;
+  transition: opacity 0.24s ease;
 }
 
 .fade-enter,
