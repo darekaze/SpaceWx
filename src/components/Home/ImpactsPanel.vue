@@ -25,12 +25,12 @@ export default {
         {
           title: 'Effects on People and System',
           image: 'impact_effect.jpg',
-          link: '/',
+          link: '/impacts',
         },
         {
           title: 'Historical Events',
           image: 'historical_event.jpg',
-          link: '/',
+          link: '/historical-events',
         },
       ],
     };
