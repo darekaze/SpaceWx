@@ -3,9 +3,8 @@
     <sub-banner image="hero.jpg">
       <template v-slot:title>Impacts</template>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, fugit
-        perferendis iusto repellendus ipsa facilis nesciunt aliquid pariatur
-        laboriosam maxime incidunt accusantium ad praese
+        Learn how Space weather can affect our activities
+        <br>(placeholder, more description to be added)
       </p>
     </sub-banner>
 
@@ -16,7 +15,8 @@
 export default {
   name: 'impacts',
   components: {
-    SubBanner: () => import('@/components/Category/SubBanner.vue'),
+    SubBanner: () => import('@/components/Panels/SubBanner.vue'),
+
   },
 };
 </script>

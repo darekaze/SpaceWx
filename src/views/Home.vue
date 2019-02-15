@@ -14,10 +14,10 @@ export default {
     interval: null,
   }),
   components: {
-    Banner: () => import('@/components/Home/Banner.vue'),
-    PhenomenaSlider: () => import('@/components/Home/PhenomenaSlider.vue'),
-    ImpactsPanel: () => import('@/components/Home/ImpactsPanel.vue'),
-    SpaceWxPanel: () => import('@/components/Home/SpaceWxPanel.vue'),
+    Banner: () => import('@/components/Panels/HeroBanner.vue'),
+    PhenomenaSlider: () => import('@/components/Panels/PhenomenaSlider.vue'),
+    ImpactsPanel: () => import('@/components/Panels/ImpactsPanel.vue'),
+    SpaceWxPanel: () => import('@/components/Panels/SpaceWxPanel.vue'),
   },
   mounted() {
     this.$store.dispatch('loadConditions');
