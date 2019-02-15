@@ -53,9 +53,8 @@ export default {
       return this.$refs.mySwiper.swiper;
     },
   },
-  mounted() {
+  beforeDestroy() {
     this.swiper.destroy(false, false);
-    this.swiper.init();
   },
 };
 </script>
