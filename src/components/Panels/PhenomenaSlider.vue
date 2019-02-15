@@ -6,7 +6,7 @@
         Explore various space environments between the Sun and Earth
       </div>
     </div>
-    <swiper :options="swiperOption">
+    <swiper ref="mySwiper" :options="swiperOption">
       <swiper-slide v-for="item in phenomena" :key="item.title">
         <topic-card  :topic="item" :ratio="0.85"/>
       </swiper-slide>
@@ -47,6 +47,15 @@ export default {
         },
       },
     };
+  },
+  computed: {
+    swiper() {
+      return this.$refs.mySwiper.swiper;
+    },
+  },
+  mounted() {
+    this.swiper.destroy(false, false);
+    this.swiper.init();
   },
 };
 </script>
