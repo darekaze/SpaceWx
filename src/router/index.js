@@ -7,7 +7,4 @@ Vue.use(Router);
 export default new Router({
   routes,
   base: __dirname,
-  scrollBehavior(to, from, savedPosition) {
-    return savedPosition || { x: 0, y: 0 };
-  },
 });
