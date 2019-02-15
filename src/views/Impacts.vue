@@ -1,33 +1,22 @@
 <template>
-  <sub-layout>
+  <div>
+    <sub-banner image="hero.jpg">
+      <template v-slot:title>Impacts</template>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, fugit
+        perferendis iusto repellendus ipsa facilis nesciunt aliquid pariatur
+        laboriosam maxime incidunt accusantium ad praese
+      </p>
+    </sub-banner>
 
-    <template v-slot:header>
-      <h1>Impacts</h1>
-    </template>
-
-    <p>
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, fugit
-      perferendis iusto repellendus ipsa facilis nesciunt aliquid pariatur
-      laboriosam maxime incidunt accusantium ad praesentium quae inventore
-      optio ullam dolorem amet!
-    </p>
-
-  </sub-layout>
+  </div>
 </template>
 
 <script>
 export default {
   name: 'impacts',
   components: {
-    SubLayout: () => import('@/components/SubLayout.vue'),
+    SubBanner: () => import('@/components/Category/SubBanner.vue'),
   },
-  data: () => ({
-    heading: {
-      title: 'Impacts',
-      icon: '',
-      description: '',
-    },
-    content: '', // sub-component to load
-  })
 };
 </script>

@@ -37,8 +37,8 @@ import subjects from '@/assets/contexts/subjects.json';
 export default {
   name: 'space-wx-panel',
   components: {
-    AlertCard: () => import('@/components/Home/Parts/AlertCard.vue'),
-    ExternalCard: () => import('@/components/Home/Parts/ExternalLink.vue'),
+    AlertCard: () => import('@/components/Parts/AlertCard.vue'),
+    ExternalCard: () => import('@/components/Parts/ExternalLink.vue'),
   },
   data() {
     return {

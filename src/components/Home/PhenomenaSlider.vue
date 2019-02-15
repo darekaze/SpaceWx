@@ -26,7 +26,7 @@ export default {
   components: {
     swiper,
     swiperSlide,
-    TopicCard: () => import('@/components/Home/Parts/Topic.vue'),
+    TopicCard: () => import('@/components/Parts/Topic.vue'),
   },
   data() {
     return {
