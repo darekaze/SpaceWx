@@ -5,11 +5,14 @@
       :to="topic.link"
       :class="`elevation-${hover ? 4 : 0}`"
       class="round">
+      <!-- TODO: Gradient hover effect -->
       <v-img
         :src="require(`@/assets/images/${topic.image}`)"
         :aspect-ratio="ratio"
         gradient="to top, rgba(0, 0, 0, 0.20), rgba(0, 0, 0, 0.10)">
-        <v-layout fill-height align-center justify-center>
+        <v-layout
+          fill-height pa-3
+          align-center justify-center>
           <span class="headline font-weight-light white--text text-xs-center">
             {{ topic.title }}
           </span>

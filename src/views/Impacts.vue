@@ -4,19 +4,24 @@
       <template v-slot:title>Impacts</template>
       <p>
         Learn how Space weather can affect our activities
-        <br>(placeholder, more description to be added)
+        <br>(Placeholder: Content to be added, more description to be added)
       </p>
     </sub-banner>
-
+    <grid-list :list="impacts" />
   </div>
 </template>
 
 <script>
+import impacts from '@/assets/contexts/impacts.json';
+
 export default {
   name: 'impacts',
   components: {
     SubBanner: () => import('@/components/Panels/SubBanner.vue'),
-
+    GridList: () => import('@/components/Listing/Grid.vue'),
   },
+  data: () => ({
+    impacts,
+  }),
 };
 </script>
