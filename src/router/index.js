@@ -4,7 +4,19 @@ import routes from './routes';
 
 Vue.use(Router);
 
+window.history.scrollRestoration = 'manual';
+
 export default new Router({
   routes,
   base: __dirname,
+  scrollBehavior(to, from, savedPosition) {
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        if (savedPosition) {
+          resolve(savedPosition);
+        }
+        resolve({ x: 0, y: 0 });
+      }, 220);
+    });
+  },
 });

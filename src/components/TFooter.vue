@@ -26,7 +26,7 @@
         <v-card-title class="pl-0 text-xs-center">
           <div>&copy;2019 — <strong>Hong Kong Observatory</strong></div>
           <v-spacer/>
-          <v-btn small dark flat to="/about">Acknowledgement</v-btn>
+          <v-btn small dark flat to="/acknowledgement">Acknowledgement</v-btn>
         </v-card-title>
     </v-card>
 
