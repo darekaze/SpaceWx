@@ -1,7 +1,7 @@
 <template>
   <div>
     <banner/>
-    <phenomena-slider/>
+    <phenomena-panel/>
     <impacts-panel/>
     <space-wx-panel/>
   </div>
@@ -15,7 +15,7 @@ export default {
   }),
   components: {
     Banner: () => import('@/components/Panels/HeroBanner.vue'),
-    PhenomenaSlider: () => import('@/components/Panels/PhenomenaSlider.vue'),
+    PhenomenaPanel: () => import('@/components/Panels/PhenomenaPanel.vue'),
     ImpactsPanel: () => import('@/components/Panels/ImpactsPanel.vue'),
     SpaceWxPanel: () => import('@/components/Panels/SpaceWxPanel.vue'),
   },

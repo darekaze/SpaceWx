@@ -7,17 +7,23 @@
         <br>(placeholder, more description to be added)
       </p>
     </sub-banner>
-    <!-- TODO: Separate panel and phenomena -->
-    <phenomena-slider/>
+    <v-container fill-height pt-2>
+      <slider-list :list="phenomena" />
+    </v-container>
   </div>
 </template>
 
 <script>
+import phenomena from '@/assets/contexts/phenomena.json';
+
 export default {
-  name: 'phenomena',
+  name: 'Phenomena',
   components: {
     SubBanner: () => import('@/components/Panels/SubBanner.vue'),
-    PhenomenaSlider: () => import('@/components/Panels/PhenomenaSlider.vue'),
+    SliderList: () => import('@/components/Listing/Slider.vue'),
   },
+  data: () => ({
+    phenomena,
+  }),
 };
 </script>
