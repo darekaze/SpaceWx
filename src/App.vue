@@ -34,7 +34,7 @@ export default {
 
       setTimeout(() => {
         element.style.height = height;
-      }, 200);
+      }, 240);
     },
     afterEnter(element) {
       element.style.height = 'auto';
