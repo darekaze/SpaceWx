@@ -67,6 +67,7 @@ export default {
   },
   methods: {
     getConditionInfo(code) {
+      // FIXME: Need to handle async render
       // HACK: in the future return scale and message only
       const { Scale, Text } = this.conditions[0][code];
       const sc = parseInt(Scale, 10);
