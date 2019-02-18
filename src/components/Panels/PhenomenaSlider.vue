@@ -1,14 +1,16 @@
 <template>
   <v-container pt-2 id="phenomena">
+
     <div class="mb-2">
       <h2 class="headline font-weight-bold">Phenomena</h2>
       <div class="subheading">
         Explore various space environments between the Sun and Earth
       </div>
     </div>
+
     <swiper ref="mySwiper" :options="swiperOption">
       <swiper-slide v-for="item in phenomena" :key="item.title">
-        <topic-card  :topic="item" :ratio="0.85"/>
+        <slider-card  :topic="item" :ratio="0.85"/>
       </swiper-slide>
       <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>
       <div class="swiper-button-next swiper-button-white" slot="button-next"></div>
@@ -26,7 +28,7 @@ export default {
   components: {
     swiper,
     swiperSlide,
-    TopicCard: () => import('@/components/Parts/Topic.vue'),
+    SliderCard: () => import('@/components/Parts/SliderCard.vue'),
   },
   data() {
     return {

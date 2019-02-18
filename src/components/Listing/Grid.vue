@@ -15,7 +15,7 @@ export default {
   name: 'grid-list',
   props: { list: Array },
   components: {
-    TopicCard: () => import('@/components/Parts/Topic.vue'),
+    TopicCard: () => import('@/components/Parts/TopicCard.vue'),
   },
 };
 </script>
