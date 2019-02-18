@@ -15,7 +15,7 @@
 import impacts from '@/assets/contexts/impacts.json';
 
 export default {
-  name: 'impacts',
+  name: 'Impacts',
   components: {
     SubBanner: () => import('@/components/Panels/SubBanner.vue'),
     GridList: () => import('@/components/Listing/Grid.vue'),

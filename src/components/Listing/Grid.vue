@@ -1,6 +1,5 @@
 <template>
   <v-container grid-list-md pt-3>
-    <!-- TODO: Change to no grid padding and no round card -->
     <v-layout row wrap justify-center>
       <v-flex xs6 sm4 lg3
         v-for="item in list" :key="item.code">

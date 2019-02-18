@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: 'historical-events',
+  name: 'Historical-events',
   components: {
     SubBanner: () => import('@/components/Panels/SubBanner.vue'),
 
