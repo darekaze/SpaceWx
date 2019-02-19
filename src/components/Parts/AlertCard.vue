@@ -4,55 +4,63 @@
     color="#FAFAFA"
     class="round">
     <v-img
-      :src="require(`@/assets/images/${image}`)"
+      :src="require(`@/assets/images/${info.image}`)"
       :aspect-ratio="1.9"
       class="round">
     </v-img>
     <v-card-title class="p-relative pl-1">
-      <!-- TODO: When btn was clicked activate alert dialog -->
-      <v-btn
-        v-if="condition"
-        @click.stop="showDialog()"
-        absolute icon dark
-        :large="isDesktop"
-        :color="condition.color"
-        class="alert-btn">
-        <v-icon dark :medium="isDesktop">{{ condition.icon }}</v-icon>
-      </v-btn>
+      <v-tooltip left open-delay="100">
+        <template #activator="hint">
+          <v-btn
+            v-if="condition"
+            v-on="hint.on"
+            @click.stop="toogleDialog()"
+            absolute icon dark
+            :large="isDesktop"
+            :color="getColor(condition.scale)"
+            class="alert-btn">
+            <v-icon dark :medium="isDesktop">
+              {{ alertIcon }}
+            </v-icon>
+          </v-btn>
+        </template>
+        <span>Show Details</span>
+      </v-tooltip>
       <div>
         <h3 class="subheading indigo--text font-weight-bold">
-          {{ title }}
+          {{ info.name }}
         </h3>
-        <div>
-          <status-indicator
-            pulse positive
-            :intermediary="isMinor"
-            :negative="isMajor"/>
-          <span class="pl-2">{{ condition.message }}</span>
-        </div>
+        <indicator :scale="condition.scale" :msg="condition.message"/>
       </div>
     </v-card-title>
+    <alert-dialog
+      ref="alertDialog" :info="info" :condition="condition"/>
   </v-card>
 </template>
 
 <script>
+import getColor from '@/helpers/indicatorColor';
+
 export default {
-  name: 'alert-card',
-  components: {},
+  components: {
+    AlertDialog: () => import('@/components/Parts/AlertDialog.vue'),
+    Indicator: () => import('@/components/Parts/Indicator.vue'),
+  },
   props: {
-    title: String,
-    image: String,
+    info: Object,
     condition: Object,
   },
   methods: {
-    showDialog() {
-      console.log('display dialog');
+    getColor,
+    toogleDialog() {
+      this.$refs.alertDialog.display();
     },
   },
   computed: {
     isDesktop() { return this.$vuetify.breakpoint.mdAndUp; },
-    isMinor() { return this.condition.scale > 0; },
-    isMajor() { return this.condition.scale > 2; },
+    alertIcon() {
+      return this.condition.scale ? 'notifications_active' : 'notifications';
+    },
   },
 };
 </script>

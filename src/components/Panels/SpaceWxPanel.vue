@@ -1,37 +1,34 @@
 <template>
   <v-container grid-list-sm pt-2>
-    <v-layout column>
-      <v-flex xs12>
-        <div class="mb-2">
-          <h2 class="headline font-weight-bold">Space Weather Conditions</h2>
-          <v-layout row justify-space-between v-if="conditions">
-            <div class="subheading">Updated at {{ dateTime }}</div>
-            <div class="font-italic" v-if="$vuetify.breakpoint.smAndUp">
-              (Source: Space Weather Prediction Center)
-            </div>
-          </v-layout>
+    <div class="mb-2">
+      <h2 class="headline font-weight-bold">Space Weather Conditions</h2>
+      <v-layout
+        row justify-space-between
+        v-if="isInit">
+        <div class="subheading">Updated at {{ dateTime }}</div>
+        <div class="font-italic" v-if="$vuetify.breakpoint.smAndUp">
+          (Source: Space Weather Prediction Center)
         </div>
-      </v-flex>
-      <!-- Alert cards -->
-      <v-layout row wrap justify-center>
-        <v-flex xs6 sm4 xl3
-          v-for="item in subjects" :key="item.code">
-          <alert-card
-            :title="item.name"
-            :image="item.image"
-            :condition="getConditionInfo(item.code)"/>
-        </v-flex>
       </v-layout>
-      <!-- Links to NSMC -->
-      <v-flex xs12>
-        <external-card :link="chinaLink"/>
+    </div>
+    <v-layout
+      row wrap justify-center
+      v-if="isInit">
+      <!-- Alert cards -->
+      <v-flex xs6 sm4 xl3
+        v-for="item in subjects" :key="item.code">
+        <alert-card
+          :info="item"
+          :condition="getConditionInfo(item.code)"/>
       </v-flex>
     </v-layout>
+    <!-- Links to NSMC -->
+    <external-card :link="chinaLink"/>
   </v-container>
 </template>
 
 <script>
-import { mapState } from 'vuex';
+import { mapGetters } from 'vuex';
 import subjects from '@/assets/contexts/subjects.json';
 
 export default {
@@ -43,10 +40,6 @@ export default {
   data() {
     return {
       subjects,
-      indicators: [
-        'green accent-4', 'amber darken-1', 'amber darken-2',
-        'orange darken-2', 'deep-orange darken-2', 'deep-orange darken-3',
-      ],
       chinaLink: {
         title: '3-day Space Weather Forecast by National Satellite Meteorological Center',
         image: 'satellite.jpg',
@@ -55,11 +48,13 @@ export default {
     };
   },
   computed: {
-    ...mapState([
-      'conditions',
+    ...mapGetters([
+      'isInit',
+      'getCurrentDataByCode',
+      'getDate',
     ]),
     dateTime() {
-      const { DateStamp, TimeStamp } = this.conditions[0];
+      const { DateStamp, TimeStamp } = this.getDate(0);
       return `
         ${DateStamp}, ${TimeStamp.substr(0, TimeStamp.length - 3)} (UTC)
       `;
@@ -67,14 +62,11 @@ export default {
   },
   methods: {
     getConditionInfo(code) {
-      // FIXME: Need to handle async render
-      // HACK: in the future return scale and message only
-      const { Scale, Text } = this.conditions[0][code];
+      // FIXME: Think can be further optimized
+      const { Scale, Text } = this.getCurrentDataByCode(code);
       const sc = parseInt(Scale, 10);
       return {
         scale: sc,
-        icon: sc ? 'notifications_active' : 'notifications',
-        color: this.indicators[sc],
         message: sc ? `${code}${sc} / ${Text}` : 'No Alert',
       };
     },

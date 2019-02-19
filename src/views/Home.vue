@@ -19,8 +19,10 @@ export default {
     ImpactsPanel: () => import('@/components/Panels/ImpactsPanel.vue'),
     SpaceWxPanel: () => import('@/components/Panels/SpaceWxPanel.vue'),
   },
+  async beforeMount() {
+    await this.$store.dispatch('loadConditions');
+  },
   mounted() {
-    this.$store.dispatch('loadConditions');
     this.interval = setInterval(() => {
       this.$store.dispatch('loadConditions');
     }, 30 * 1000);

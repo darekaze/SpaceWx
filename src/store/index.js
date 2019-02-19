@@ -27,4 +27,9 @@ export default new Vuex.Store({
         });
     },
   },
+  getters: {
+    isInit: state => !!state.conditions,
+    getDate: state => num => state.conditions[num],
+    getCurrentDataByCode: state => code => state.conditions[0][code],
+  },
 });
