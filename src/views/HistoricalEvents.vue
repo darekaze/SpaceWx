@@ -7,12 +7,12 @@
         <br>(placeholder, more description to be added)
       </p>
     </sub-banner>
-    <event-list :list="impacts" />
+    <event-list :list="histories" />
   </div>
 </template>
 
 <script>
-import impacts from '@/assets/contexts/impacts.json'; // placeholder
+import histories from '@/assets/contexts/histories.json'; // placeholder
 
 export default {
   name: 'Historical-events',
@@ -21,7 +21,7 @@ export default {
     EventList: () => import('@/components/Listing/Event.vue'),
   },
   data: () => ({
-    impacts,
+    histories,
   }),
 };
 </script>

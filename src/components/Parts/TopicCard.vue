@@ -33,12 +33,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .gradient-effect {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.05));
-    transition: 0.2s;
+.gradient-effect {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.05));
+  transition: 0.2s;
 
-    &:hover {
-      background-color: rgba(251, 147, 28, 0.1);
-    }
+  &:hover {
+    background-color: rgba(251, 147, 28, 0.1);
   }
+}
 </style>
