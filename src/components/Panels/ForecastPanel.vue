@@ -1,125 +1,96 @@
 <template>
-  <v-container grid-list-sm pt-2>
-    <v-layout column>
-      <!-- Forecast Title -->
-      <v-flex xs12>
-        <div class="mb-1">
-          <h2 class="subheader">3-Day Forecast</h2>
+  <v-layout grid-list-lg pt-2 row wrap>
+    <v-flex xs12>
+      <v-layout row align-center justify-space-between>
+        <div class="subheading font-weight-bold pl-1">
+          3-Day Forecast
         </div>
-      </v-flex>
-      <!-- Tiles -->
-      <v-layout row wrap justify-start>
-        <v-flex xs12 sm4 xl3
-          v-for="i in 3" :key="i">
-          <!-- TODO: separate into single card component -->
-          <v-card class="rounded-card">
-            <v-card-title>
-              <v-layout row wrap>
-                <v-flex xs12 pb-0>
-                  <h2 class="subheading indigo--text font-weight-bold">
-                    {{ getDate(i) }}
-                  </h2>
-                  <span class="grey--text text--darken-1">Chance of Occurance</span>
-                </v-flex>
-                <!-- RB -->
-                <v-flex
-                  xs6 class="rate"
-                  @click="showPopUp()">
-                  <div class="text-xs-center">
-                    <h4>
-                      <status-indicator positive pulse/>
-                      <span class="pl-2">R1-R2</span>
-                    </h4>
-                    <span class="subheading pl-4">
-                      {{ conditions[i]['R'].MinorProb }}%
-                    </span>
-                  </div>
-                </v-flex>
-                <v-flex
-                  xs6 class="rate"
-                  @click="showPopUp()">
-                  <div class="text-xs-center">
-                    <h4>
-                      <status-indicator positive pulse/>
-                      <span class="pl-2">R3-R5</span>
-                    </h4>
-                    <span class="subheading pl-4">
-                      {{ conditions[i]['R'].MajorProb }}%
-                    </span>
-                  </div>
-                </v-flex>
-
-                <!-- SRS -->
-                <v-flex
-                  offset-xs0 class="rate"
-                  @click="showPopUp()">
-                  <div class="text-xs-center">
-                    <h4>
-                      <status-indicator positive pulse/>
-                      <span class="pl-2">S1 or greater</span>
-                    </h4>
-                    <span class="subheading pl-4">
-                      {{ conditions[i]['S'].Prob }}%
-                    </span>
-                  </div>
-                </v-flex>
-
-                <!-- GS -->
-                <v-flex
-                  offset-xs0 class="rate"
-                  @click="showPopUp()">
-                  <div class="text-xs-center">
-                    <h4>
-                      <status-indicator positive pulse/>
-                      <span class="pl-2">G-Scale</span>
-                    </h4>
-                    <span class="subheading pl-4">
-                      {{ conditions[i]['G'].Scale }}
-                    </span>
-                  </div>
-                </v-flex>
-
-              </v-layout>
-            </v-card-title>
-          </v-card>
-        </v-flex>
+        <!-- TODO: Add legend dialog -->
+        <v-btn
+          flat
+          color="green darken-1"
+          class="mx-0 pr-2"
+          @click="showLegend()">
+          Legend<v-icon dark>keyboard_arrow_down</v-icon>
+        </v-btn>
       </v-layout>
-
-    </v-layout>
-  </v-container>
+    </v-flex>
+    <v-flex xs12 sm4
+      v-for="item in getForecast" :key="item.DateStamp">
+      <v-card tile>
+        <v-card-title>
+          <v-layout row wrap>
+            <v-flex>
+              <h2 class="subheading indigo--text font-weight-bold">
+                {{ formatDate(item.DateStamp) }}
+              </h2>
+              <div class="grey--text text--darken-1 body-1">
+                {{ isG ? 'Maximum Scale' : 'Chance of Occurance' }}
+              </div>
+            </v-flex>
+            <v-flex @click="showLegend()">
+              <div
+                class="text-xs-center rate py-1"
+                v-for="(value, key) in getAttr(item)" :key="key">
+                <h4>
+                  <indicator :scale="getLevel(value)" :msg="msg[key]"/>
+                </h4>
+                <span class="subheading pl-4">
+                  {{ `${value}${isG ? '' : '%'}` }}
+                </span>
+              </div>
+            </v-flex>
+          </v-layout>
+        </v-card-title>
+      </v-card>
+    </v-flex>
+  </v-layout>
 </template>
 
 <script>
-import { mapState } from 'vuex';
-import 'vue-status-indicator/styles.css';
-import { StatusIndicator } from 'vue-status-indicator';
+import { mapGetters } from 'vuex';
+import _identity from 'lodash/identity';
+import _pickBy from 'lodash/pickBy';
 
 export default {
-  name: 'forecast-panel',
+  props: { code: String },
   components: {
-    StatusIndicator,
+    Indicator: () => import('@/components/Parts/Indicator.vue'),
   },
+  data: () => ({
+    msg: {
+      MinorProb: 'R1-R2',
+      MajorProb: 'R3-R5',
+      Prob: 'S1 or greater',
+      Scale: 'G Scale',
+    },
+  }),
   computed: {
-    ...mapState([
-      'conditions',
+    ...mapGetters([
+      'getForecast',
     ]),
-    getDate() {
+    formatDate() {
       return (day) => {
-        const date = new Date(this.conditions[day].DateStamp);
+        const date = new Date(day);
         const options = { month: 'short', day: 'numeric' };
         return date.toLocaleDateString('en-US', options);
       };
     },
-    getScale() {
-      return code => parseInt(this.conditions[0][code].Scale, 10);
+    getLevel() {
+      return value => value / 100 * 5;
     },
-    getIndicatorColor() {
-      return code => this.indicators[this.getScale(code)];
+    isG() {
+      return this.code === 'G';
     },
   },
   methods: {
-    showPopUp() {
-      console.log('asdsad');
+    _pickBy,
+    _identity,
+    showLegend() {
+      console.log('Show Legend');
+    },
+    getAttr(item) {
+      return _pickBy(item[this.code], el => !!_identity(el) && el !== 'none');
     },
   },
 };

@@ -68,7 +68,7 @@ import getColor from '@/helpers/indicatorColor';
 export default {
   components: {
     Indicator: () => import('@/components/Parts/Indicator.vue'),
-    ForecastPanel: () => import('@/components/Listing/Forcast.vue'),
+    ForecastPanel: () => import('@/components/Panels/ForecastPanel.vue'),
   },
   props: {
     info: Object,
@@ -91,7 +91,6 @@ export default {
 
 <style lang="scss" scoped>
 .border-lint {
-  // HACK: Workaround
-  border-color: rgba(0,0,0,0.18) !important;
+  border-color: rgba(0,0,0,0.18) !important; // HACK: Workaround
 }
 </style>
