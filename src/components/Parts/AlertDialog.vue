@@ -18,11 +18,29 @@
           </v-flex>
         </v-layout>
       </v-img>
-      <v-card-title>
-        <div class="subheading">
-          {{ info.description }}
-        </div>
+      <v-card-title class="pt-2">
+        <v-layout column fill-height wrap px-3>
+          <v-flex xs12 class="pt-1">
+            <div class="subheading">
+              {{ info.description }}
+            </div>
+          </v-flex>
+
+          <v-flex xs12>
+            <!-- TODO: apply alert content and separate as component -->
+            <v-alert
+              :value="false"
+              icon="priority_high"
+              :color="getColor(condition.scale)"
+              class="border-lint mt-3">
+              {{ condition.message }}
+            </v-alert>
+          </v-flex>
+
         <!-- TODO: Add modified forecast panel here -->
+        <forecast-panel :code="info.code"/>
+
+        </v-layout>
       </v-card-title>
 
       <v-card-actions>
@@ -30,9 +48,8 @@
         <v-btn
           color="green darken-1"
           flat="flat"
-          @click="null">
-          <!-- TODO: Add legend dialog -->
-          Legend
+          to="#">
+          Learn more
         </v-btn>
         <v-btn
           color="green darken-1"
@@ -46,9 +63,12 @@
 </template>
 
 <script>
+import getColor from '@/helpers/indicatorColor';
+
 export default {
   components: {
     Indicator: () => import('@/components/Parts/Indicator.vue'),
+    ForecastPanel: () => import('@/components/Listing/Forcast.vue'),
   },
   props: {
     info: Object,
@@ -58,6 +78,7 @@ export default {
     dialog: false,
   }),
   methods: {
+    getColor,
     display() {
       this.dialog = !this.dialog;
     },
@@ -67,3 +88,10 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.border-lint {
+  // HACK: Workaround
+  border-color: rgba(0,0,0,0.18) !important;
+}
+</style>

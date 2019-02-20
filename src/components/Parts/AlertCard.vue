@@ -26,7 +26,7 @@
         </template>
         <span>Show Details</span>
       </v-tooltip>
-      <div>
+      <div class="ctx-click" @click.stop="toogleDialog()">
         <h3 class="subheading indigo--text font-weight-bold">
           {{ info.name }}
         </h3>
@@ -74,5 +74,10 @@ export default {
     top: -26px;
     right: 8px;
   }
+}
+
+.ctx-click {
+  cursor: pointer;
+  user-select: none;
 }
 </style>

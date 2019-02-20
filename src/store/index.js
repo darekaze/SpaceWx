@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Vuex from 'vuex';
 import axios from 'axios';
 import VueAxios from 'vue-axios';
+import _filter from 'lodash/filter';
 
 Vue.use(Vuex);
 Vue.use(VueAxios, axios);
@@ -22,8 +23,7 @@ export default new Vuex.Store({
           commit('SET_CONDITIONS', data);
         })
         .catch(() => {
-          // eslint-disable-next-line no-console
-          console.log('Failed to obtain NOAA Scales..Try to retry');
+          console.log('Failed to obtain NOAA Scales..Try to retry'); // eslint-disable-line no-console
         });
     },
   },
@@ -31,5 +31,6 @@ export default new Vuex.Store({
     isInit: state => !!state.conditions,
     getDate: state => num => state.conditions[num],
     getCurrentDataByCode: state => code => state.conditions[0][code],
+    getForecast: state => _filter(state.conditions, item => !!item.S.Prob),
   },
 });

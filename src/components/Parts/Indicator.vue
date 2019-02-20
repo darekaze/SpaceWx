@@ -15,8 +15,8 @@ export default {
     msg: String,
   },
   computed: {
-    isMinor() { return this.scale > 0; },
-    isMajor() { return this.scale > 2; },
+    isMinor() { return this.scale >= 1; },
+    isMajor() { return this.scale >= 3; },
   },
 };
 </script>
