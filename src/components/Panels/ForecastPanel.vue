@@ -10,13 +10,13 @@
           color="green darken-1"
           class="mx-0 pr-2"
           @click.stop="toogleLegend()">
-          Legend<v-icon dark>keyboard_arrow_right</v-icon>
+          Legend<v-icon dark>keyboard_arrow_down</v-icon>
         </v-btn>
       </v-layout>
-      <legend-dialog ref="legend" :code="code" />
     </v-flex>
     <v-flex xs12 sm4
       v-for="item in getForecast" :key="item.DateStamp">
+      <!-- TODO: split card -->
       <v-card tile>
         <v-card-title>
           <v-layout row wrap>
@@ -43,6 +43,9 @@
           </v-layout>
         </v-card-title>
       </v-card>
+    </v-flex>
+    <v-flex xs12>
+      <legend-dialog ref="legend" :code="code" />
     </v-flex>
   </v-layout>
 </template>
