@@ -90,7 +90,7 @@ export default {
       console.log('Show Legend');
     },
     getAttr(item) {
-      return _pickBy(item[this.code], el => !!_identity(el) && el !== 'none');
+      return _pickBy(item[this.code], el => !!_identity(el) && el.length < 3);
     },
   },
 };
