@@ -1,5 +1,5 @@
 <template>
-  <v-layout grid-list-lg pt-2 row wrap>
+  <v-layout pt-2 row wrap>
     <v-flex xs12>
       <v-layout row align-center justify-space-between>
         <div class="subheading font-weight-bold pl-1">

@@ -1,7 +1,8 @@
 <template>
   <v-dialog
     v-model="dialog"
-    max-width="600">
+    max-width="600"
+    scrollable>
     <v-card>
       <v-img
         :src="require(`@/assets/images/${info.image}`)"
@@ -18,41 +19,30 @@
           </v-flex>
         </v-layout>
       </v-img>
-      <v-card-title class="pt-2">
-        <v-layout column fill-height wrap px-3>
-          <v-flex xs12 class="pt-1">
-            <div class="subheading">
-              {{ info.description }}
-            </div>
-          </v-flex>
-
-          <v-flex xs12>
-            <!-- TODO: apply alert content and separate as component -->
-            <v-alert
-              :value="false"
-              icon="priority_high"
-              :color="getColor(condition.scale)"
-              class="border-lint mt-3">
-              {{ condition.message }}
-            </v-alert>
-          </v-flex>
-
+      <v-card-text>
+        <v-layout column fill-height px-3>
+          <div class="subheading pt-1">
+            {{ info.description }}
+          </div>
+          <!-- TODO: apply alert content and separate as component -->
+          <v-alert
+            :value="false"
+            icon="priority_high"
+            :color="getColor(condition.scale)"
+            class="border-lint mt-3">
+            {{ condition.message }}
+          </v-alert>
+          <!-- Forecast panel and legend -->
           <forecast-panel :code="info.code"/>
         </v-layout>
-      </v-card-title>
+      </v-card-text>
 
       <v-card-actions>
         <v-spacer></v-spacer>
-        <v-btn
-          color="green darken-1"
-          flat="flat"
-          to="#">
+        <v-btn flat color="green darken-1" to="#">
           Learn more
         </v-btn>
-        <v-btn
-          color="green darken-1"
-          flat="flat"
-          @click="dialog = false">
+        <v-btn flat color="green darken-1" @click.stop="dialog = false">
           Close
         </v-btn>
       </v-card-actions>
