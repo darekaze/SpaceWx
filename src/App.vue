@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <!-- <THeader/> -->
+    <THeader/>
     <v-content>
       <transition
         name="fade" mode="out-in"
@@ -18,7 +18,7 @@
 export default {
   name: 'App',
   components: {
-    // THeader: () => import('@/components/THeader.vue'),
+    THeader: () => import('@/components/THeader.vue'),
     TFooter: () => import('@/components/TFooter.vue'),
   },
   data: () => ({
