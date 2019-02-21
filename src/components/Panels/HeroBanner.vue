@@ -1,9 +1,9 @@
 <template>
   <v-container fluid px-0 pt-0>
-    <!-- desire height is 80vh, now 580 -->
+    <!-- desire height is 80vh, then 580 -->
     <v-img
       class="grey lighten-2 round"
-      height="580"
+      height="550"
       :src="require('@/assets/images/hero.jpg')">
       <v-layout fill-height align-center pa-3>
         <v-flex
