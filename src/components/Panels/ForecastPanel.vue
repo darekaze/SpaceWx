@@ -5,15 +5,15 @@
         <div class="subheading font-weight-bold pl-1">
           3-Day Forecast
         </div>
-        <!-- TODO: Add legend dialog -->
         <v-btn
           flat
           color="green darken-1"
           class="mx-0 pr-2"
-          @click="showLegend()">
-          Legend<v-icon dark>keyboard_arrow_down</v-icon>
+          @click.stop="toogleLegend()">
+          Legend<v-icon dark>keyboard_arrow_right</v-icon>
         </v-btn>
       </v-layout>
+      <legend-dialog ref="legend" :code="code" />
     </v-flex>
     <v-flex xs12 sm4
       v-for="item in getForecast" :key="item.DateStamp">
@@ -28,7 +28,7 @@
                 {{ isG ? 'Maximum Scale' : 'Chance of Occurance' }}
               </div>
             </v-flex>
-            <v-flex @click="showLegend()">
+            <v-flex @click.stop="toogleLegend()">
               <div
                 class="text-xs-center rate py-1"
                 v-for="(value, key) in getAttr(item)" :key="key">
@@ -56,19 +56,20 @@ export default {
   props: { code: String },
   components: {
     Indicator: () => import('@/components/Parts/Indicator.vue'),
+    LegendDialog: () => import('@/components/Parts/Legend.vue'),
   },
   data: () => ({
     msg: {
       MinorProb: 'R1-R2',
       MajorProb: 'R3-R5',
       Prob: 'S1 or greater',
-      Scale: 'G Scale',
+      Scale: 'G-Scale',
     },
   }),
   computed: {
-    ...mapGetters([
-      'getForecast',
-    ]),
+    ...mapGetters(['getForecast']),
+    isG() { return this.code === 'G'; },
+    getLevel() { return value => value / 100 * 5; },
     formatDate() {
       return (day) => {
         const date = new Date(day);
@@ -76,18 +77,13 @@ export default {
         return date.toLocaleDateString('en-US', options);
       };
     },
-    getLevel() {
-      return value => value / 100 * 5;
-    },
-    isG() {
-      return this.code === 'G';
-    },
+
   },
   methods: {
     _pickBy,
     _identity,
-    showLegend() {
-      console.log('Show Legend');
+    toogleLegend() {
+      this.$refs.legend.display();
     },
     getAttr(item) {
       return _pickBy(item[this.code], el => !!_identity(el) && el.length < 3);
@@ -97,7 +93,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.rate {
-  cursor: pointer;
-}
+.rate { cursor: pointer; }
 </style>

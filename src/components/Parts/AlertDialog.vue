@@ -37,9 +37,7 @@
             </v-alert>
           </v-flex>
 
-        <!-- TODO: Add modified forecast panel here -->
-        <forecast-panel :code="info.code"/>
-
+          <forecast-panel :code="info.code"/>
         </v-layout>
       </v-card-title>
 
