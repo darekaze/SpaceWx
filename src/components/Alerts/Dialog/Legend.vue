@@ -37,7 +37,7 @@
 
 <script>
 import getColor from '@/helpers/indicatorColor';
-import scales from '@/assets/contexts/scales.json';
+import scales from '@/data/contexts/legends.json';
 
 export default {
   props: { code: String },

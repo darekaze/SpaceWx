@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import histories from '@/assets/contexts/histories.json'; // placeholder
+import histories from '@/data/contexts/histories.json'; // placeholder
 
 export default {
   name: 'Historical-events',

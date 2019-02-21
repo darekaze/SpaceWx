@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import impacts from '@/assets/contexts/impacts.json';
+import impacts from '@/data/contexts/impacts.json';
 
 export default {
   name: 'Impacts',

@@ -35,7 +35,7 @@
 </template>
 
 <script>
-import links from '@/assets/contexts/links.json';
+import links from '@/data/contexts/links.json';
 
 export default {
   name: 'main-footer',

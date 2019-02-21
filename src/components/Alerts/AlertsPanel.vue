@@ -16,7 +16,7 @@
       v-if="isInit">
       <!-- Alert cards -->
       <v-flex xs6 sm4 xl3
-        v-for="item in subjects" :key="item.code">
+        v-for="item in alertsInfo" :key="item.code">
         <alert-card
           :info="item"
           :condition="getConditionInfo(item.code)"/>
@@ -29,7 +29,7 @@
 
 <script>
 import { mapGetters } from 'vuex';
-import subjects from '@/assets/contexts/subjects.json';
+import alertsInfo from '@/data/contexts/alerts.json';
 
 export default {
   name: 'alerts-panel',
@@ -39,7 +39,7 @@ export default {
   },
   data() {
     return {
-      subjects,
+      alertsInfo,
       chinaLink: {
         title: '3-day Space Weather Forecast by National Satellite Meteorological Center',
         image: 'satellite.jpg',

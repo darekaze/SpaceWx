@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import phenomena from '@/assets/contexts/phenomena.json';
+import phenomena from '@/data/contexts/phenomena.json';
 
 export default {
   name: 'phenomena-panel',
