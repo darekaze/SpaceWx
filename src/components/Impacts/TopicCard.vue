@@ -24,7 +24,6 @@
 
 <script>
 export default {
-  name: 'topic-card',
   props: {
     topic: Object,
     ratio: Number,

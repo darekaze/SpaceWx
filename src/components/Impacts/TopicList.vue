@@ -11,10 +11,10 @@
 
 <script>
 export default {
-  name: 'grid-list',
+  name: 'topic-list',
   props: { list: Array },
   components: {
-    TopicCard: () => import('@/components/Parts/TopicCard.vue'),
+    TopicCard: () => import('@/components/Impacts/TopicCard.vue'),
   },
 };
 </script>

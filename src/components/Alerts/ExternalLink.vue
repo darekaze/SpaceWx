@@ -25,7 +25,6 @@
 
 <script>
 export default {
-  name: 'external-link-card',
   props: {
     link: Object,
     ratio: Number,

@@ -3,7 +3,7 @@
     <banner/>
     <phenomena-panel/>
     <impacts-panel/>
-    <space-wx-panel/>
+    <alerts-panel/>
   </div>
 </template>
 
@@ -14,10 +14,10 @@ export default {
     interval: null,
   }),
   components: {
-    Banner: () => import('@/components/Panels/HeroBanner.vue'),
-    PhenomenaPanel: () => import('@/components/Panels/PhenomenaPanel.vue'),
-    ImpactsPanel: () => import('@/components/Panels/ImpactsPanel.vue'),
-    SpaceWxPanel: () => import('@/components/Panels/SpaceWxPanel.vue'),
+    Banner: () => import('@/components/Banners/Hero.vue'),
+    PhenomenaPanel: () => import('@/components/Phenomena/PhenomenaPanel.vue'),
+    ImpactsPanel: () => import('@/components/Impacts/ImpactsPanel.vue'),
+    AlertsPanel: () => import('@/components/Alerts/AlertsPanel.vue'),
   },
   async beforeMount() {
     await this.$store.dispatch('loadConditions');

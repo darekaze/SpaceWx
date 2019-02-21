@@ -16,7 +16,6 @@
     </v-flex>
     <v-flex xs12 sm4
       v-for="item in getForecast" :key="item.DateStamp">
-      <!-- TODO: split card -->
       <v-card tile>
         <v-card-title>
           <v-layout row wrap>
@@ -45,7 +44,7 @@
       </v-card>
     </v-flex>
     <v-flex xs12>
-      <legend-dialog ref="legend" :code="code" />
+      <legends ref="legend" :code="code" />
     </v-flex>
   </v-layout>
 </template>
@@ -58,8 +57,8 @@ import _pickBy from 'lodash/pickBy';
 export default {
   props: { code: String },
   components: {
-    Indicator: () => import('@/components/Parts/Indicator.vue'),
-    LegendDialog: () => import('@/components/Parts/Legend.vue'),
+    Indicator: () => import('@/components/Alerts/Indicator.vue'),
+    Legends: () => import('@/components/Alerts/Dialog/Legend.vue'),
   },
   data: () => ({
     msg: {

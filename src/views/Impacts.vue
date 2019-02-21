@@ -7,7 +7,7 @@
         <br>(Placeholder: Content to be added, more description to be added)
       </p>
     </sub-banner>
-    <grid-list :list="impacts" />
+    <topic-list :list="impacts" />
   </div>
 </template>
 
@@ -17,8 +17,8 @@ import impacts from '@/assets/contexts/impacts.json';
 export default {
   name: 'Impacts',
   components: {
-    SubBanner: () => import('@/components/Panels/SubBanner.vue'),
-    GridList: () => import('@/components/Listing/Grid.vue'),
+    SubBanner: () => import('@/components/Banners/Sub.vue'),
+    TopicList: () => import('@/components/Impacts/TopicList.vue'),
   },
   data: () => ({
     impacts,

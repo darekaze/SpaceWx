@@ -17,7 +17,7 @@
 export default {
   name: 'impact-panel',
   components: {
-    TopicCard: () => import('@/components/Parts/TopicCard.vue'),
+    TopicCard: () => import('@/components/Impacts/TopicCard.vue'),
   },
   data() {
     return {

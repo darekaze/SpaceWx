@@ -26,7 +26,6 @@
 
 <script>
 export default {
-  name: 'sub-banner',
   props: { image: String },
   computed: {
     isMobile() { return this.$vuetify.breakpoint.xsOnly; },

@@ -32,10 +32,10 @@ import { mapGetters } from 'vuex';
 import subjects from '@/assets/contexts/subjects.json';
 
 export default {
-  name: 'space-wx-panel',
+  name: 'alerts-panel',
   components: {
-    AlertCard: () => import('@/components/Parts/AlertCard.vue'),
-    ExternalCard: () => import('@/components/Parts/ExternalLink.vue'),
+    AlertCard: () => import('@/components/Alerts/AlertCard.vue'),
+    ExternalCard: () => import('@/components/Alerts/ExternalLink.vue'),
   },
   data() {
     return {
@@ -62,7 +62,6 @@ export default {
   },
   methods: {
     getConditionInfo(code) {
-      // FIXME: Think can be further optimized
       const { Scale, Text } = this.getCurrentDataByCode(code);
       const sc = parseInt(Scale, 10);
       return {

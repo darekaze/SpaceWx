@@ -8,7 +8,7 @@
       </p>
     </sub-banner>
     <v-container fill-height pt-2>
-      <slider-list :list="phenomena" />
+      <slider :list="phenomena" />
     </v-container>
   </div>
 </template>
@@ -19,8 +19,8 @@ import phenomena from '@/assets/contexts/phenomena.json';
 export default {
   name: 'Phenomena',
   components: {
-    SubBanner: () => import('@/components/Panels/SubBanner.vue'),
-    SliderList: () => import('@/components/Listing/Slider.vue'),
+    SubBanner: () => import('@/components/Banners/Sub.vue'),
+    Slider: () => import('@/components/Phenomena/Slider.vue'),
   },
   data: () => ({
     phenomena,

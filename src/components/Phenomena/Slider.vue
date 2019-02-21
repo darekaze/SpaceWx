@@ -17,7 +17,7 @@ export default {
   components: {
     swiper,
     swiperSlide,
-    SliderCard: () => import('@/components/Parts/SliderCard.vue'),
+    SliderCard: () => import('@/components/Phenomena/SliderCard.vue'),
   },
   props: { list: Array },
   data: () => ({

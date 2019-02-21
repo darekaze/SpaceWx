@@ -65,8 +65,8 @@ import getColor from '@/helpers/indicatorColor';
 
 export default {
   components: {
-    Indicator: () => import('@/components/Parts/Indicator.vue'),
-    ForecastPanel: () => import('@/components/Panels/ForecastPanel.vue'),
+    Indicator: () => import('@/components/Alerts/Indicator.vue'),
+    ForecastPanel: () => import('@/components/Alerts/Dialog/Forecast.vue'),
   },
   props: {
     info: Object,

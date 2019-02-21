@@ -14,7 +14,7 @@ export default {
   name: 'event-list',
   props: { list: Array },
   components: {
-    EventCard: () => import('@/components/Parts/EventCard.vue'),
+    EventCard: () => import('@/components/Impacts/EventCard.vue'),
   },
 };
 </script>

@@ -6,7 +6,7 @@
         Explore various space environments between the Sun and Earth
       </div>
     </div>
-    <slider-list :list="phenomena"/>
+    <slider :list="phenomena"/>
   </v-container>
 </template>
 
@@ -16,7 +16,7 @@ import phenomena from '@/assets/contexts/phenomena.json';
 export default {
   name: 'phenomena-panel',
   components: {
-    SliderList: () => import('@/components/Listing/Slider.vue'),
+    Slider: () => import('@/components/Phenomena/Slider.vue'),
   },
   data: () => ({
     phenomena,

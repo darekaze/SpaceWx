@@ -43,8 +43,8 @@ import getColor from '@/helpers/indicatorColor';
 
 export default {
   components: {
-    AlertDialog: () => import('@/components/Parts/AlertDialog.vue'),
-    Indicator: () => import('@/components/Parts/Indicator.vue'),
+    AlertDialog: () => import('@/components/Alerts/Dialog/AlertDialog.vue'),
+    Indicator: () => import('@/components/Alerts/Indicator.vue'),
   },
   props: {
     info: Object,

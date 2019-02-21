@@ -20,7 +20,6 @@
 
 <script>
 export default {
-  name: 'slider-card',
   props: {
     topic: Object,
     ratio: Number,
