@@ -7,7 +7,7 @@
         <br>(placeholder, more description to be added)
       </p>
     </sub-banner>
-    <v-container fill-height pt-2>
+    <v-container pt-2>
       <slider :list="phenomena" />
     </v-container>
   </div>
