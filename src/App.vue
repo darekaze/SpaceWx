@@ -29,4 +29,7 @@ export default {
 .fade-leave-active {
   opacity: 0;
 }
+.round {
+  border-radius: 6px !important;
+}
 </style>
