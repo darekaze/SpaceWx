@@ -34,7 +34,7 @@ export default {
 
 <style lang="scss" scoped>
 .gradient-effect {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.05));
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.18));
   transition: 0.2s;
 
   &:hover {

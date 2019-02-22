@@ -6,6 +6,18 @@
     "image": "phenomena/aurora.jpg"
 },
 {
+    "title": "Solar Wind",
+    "title_zh": "",
+    "link": "/phenomena/solarwind",
+    "image": "phenomena/solarwind.jpg"
+},
+{
+    "title": "Ionosphere",
+    "title_zh": "",
+    "link": "/phenomena/ionosphere",    
+    "image": "phenomena/ionosphere.jpg"
+},
+{
     "title": "Coronal Holes",
     "title_zh": "",
     "link": "/phenomena/coronal-holes",
@@ -18,45 +30,45 @@
     "image": "phenomena/coronal_holes.jpg"
 },
 {
+    "title": "Sunspots & Solar Cycle",
+    "title_zh": "",
+    "link": "/phenomena/sunspots",
+    "image": "phenomena/sunspots.png"
+},
+{
     "title": "Earth's Magnetosphere",
     "title_zh": "",
     "link": "/phenomena/earth-magnetosphere",    
-    "image": "radio_blackout.jpg"
-},
-{
-    "title": "F10.7 cm Radio Emissions",
-    "title_zh": "",
-    "link": "/phenomena/107-radio-emissions",
-    "image": "radio_blackout.jpg"
-},
-{
-    "title": "Ionosphere",
-    "title_zh": "",
-    "link": "/phenomena/ionosphere",    
-    "image": "phenomena/ionosphere.jpg"
-},
-{
-    "title": "Radiation Belts",
-    "title_zh": "",
-    "link": "/phenomena/radiation-belts",
-    "image": "radio_blackout.jpg"
-},
-{
-    "title": "Sunspots",
-    "title_zh": "",
-    "link": "/phenomena/sunspots",
-    "image": "radio_blackout.jpg"
-},
-{
-    "title": "Solar Wind",
-    "title_zh": "",
-    "link": "/phenomena/solarwind",
-    "image": "radio_blackout.jpg"
+    "image": "phenomena/magnetosphere.png"
 },
 {
     "title": "Shock Wave",
     "title_zh": "",
     "link": "/phenomena/shockwave",
+    "image": "phenomena/shockwave.png"
+},
+{
+    "title": "F10.7 cm Radio Emissions",
+    "title_zh": "太陽10.7厘米射電流量",
+    "link": "/phenomena/107-radio-emissions",
+    "image": "phenomena/sunspots.png"
+},
+{
+    "title": "Geomagnetic Storm",
+    "title_zh": "地磁風暴",
+    "link": "/phenomena/geomagnetic-storms",
+    "image": "geomagnetic_storm.jpg"
+},
+{
+    "title": "Radio Blackouts",
+    "title_zh": "太陽耀斑/無線電通信中斷",
+    "link": "/phenomena/radio-blackouts",
     "image": "radio_blackout.jpg"
+},
+{
+    "title": "Solar Radiation Storm",
+    "title_zh": "太陽輻射風暴",
+    "link": "/phenomena/solar-radiation-storm",
+    "image": "solar_radiation_storm.jpg"
 }
 ]
