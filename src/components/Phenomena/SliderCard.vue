@@ -3,6 +3,7 @@
     :to="topic.link"
     class="round">
     <v-img
+      class="grey round"
       :src="require(`@/assets/images/${topic.image}`)"
       :aspect-ratio="ratio">
       <div class="fill-height gradient-effect">

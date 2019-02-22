@@ -6,6 +6,7 @@
       :class="`elevation-${hover ? 8 : 0}`"
       class="round">
       <v-img
+        class="grey darken-1 round"
         :src="require(`@/assets/images/${topic.image}`)"
         :aspect-ratio="ratio">
         <div class="fill-height gradient-effect">

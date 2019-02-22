@@ -1,7 +1,7 @@
 <template>
   <v-container fluid px-0 pt-0>
     <v-img
-      class="grey lighten-2 round"
+      class="grey darken-1 round"
       height="350"
       :src="require(`@/assets/images/${image}`)">
       <v-layout

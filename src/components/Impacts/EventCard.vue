@@ -6,6 +6,7 @@
       :class="`elevation-${hover ? 8 : 0}`"
       tile dark>
       <v-img
+        class="grey darken-1"
         :src="require(`@/assets/images/${value.image}`)"
         :aspect-ratio="1.2">
         <div class="fill-height gradient-effect">
