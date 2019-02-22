@@ -4,7 +4,7 @@
       <template v-slot:title>Impacts</template>
       <p>
         Learn how Space weather can affect our activities
-        <br>(Placeholder: Content to be added, more description to be added)
+        <br>(Placeholder: Contents subject to change, WIP)
       </p>
     </sub-banner>
     <topic-list :list="impacts" />
