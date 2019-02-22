@@ -3,9 +3,11 @@
     flat dark absolute
     height="54px"
     :color="headerColor">
-    <v-toolbar-title class="headline font-weight-light">
-      <!-- TODO: make link to home and hide link in home -->
-      <!-- <span>Space Weather</span> -->
+    <v-toolbar-title
+      v-if="!atHome"
+      @click="goHome()"
+      class="headline font-weight-light hover-pt">
+      Space Weather
     </v-toolbar-title>
     <v-spacer/>
     <v-menu offset-y nudge-left="280">
@@ -55,9 +57,21 @@ export default {
     ],
   }),
   computed: {
-    headerColor() {
-      return this.$route.path === '/' ? 'transparent' : '#000000a8';
+    atHome() {
+      return this.$route.path === '/';
     },
+    headerColor() {
+      return this.atHome ? 'transparent' : '#000000a8';
+    },
+  },
+  methods: {
+    goHome() { this.$router.push('/'); },
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.hover-pt {
+  cursor: pointer;
+}
+</style>
