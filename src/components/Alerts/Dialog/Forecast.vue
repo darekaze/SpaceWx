@@ -71,7 +71,6 @@ export default {
   computed: {
     ...mapGetters(['getForecast']),
     isG() { return this.code === 'G'; },
-    getLevel() { return value => value / 100 * 5; },
     formatDate() {
       return (day) => {
         const date = new Date(day);
@@ -86,6 +85,10 @@ export default {
     _identity,
     toogleLegend() {
       this.$refs.legend.display();
+    },
+    getLevel(value) {
+      const v = parseInt(value, 10);
+      return this.isG ? v : v / 100 * 5;
     },
     getAttr(item) {
       return _pickBy(item[this.code], el => !!_identity(el) && el.length < 3);
