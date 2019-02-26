@@ -1,0 +1,38 @@
+[
+{
+    "title": "Electric Power",
+    "title_zh": "影響",
+    "link": "/impacts/electric",
+    "image": "impacts/eletric_power.jpg"
+},
+{
+    "title": "Navigation System",
+    "title_zh": "導航及定位系統",
+    "link": "/impacts/navigation",
+    "image": "impacts/gps_system.jpg"
+},
+{
+    "title": "Communication",
+    "title_zh": "通訊",
+    "link": "/impacts/communication",
+    "image": "impacts/communication.jpg"
+},
+{
+    "title": "Aviation",
+    "title_zh": "航空",
+    "link": "/impacts/aviation",
+    "image": "impacts/aviation.jpg"
+},
+{
+    "title": "Human space exploration",
+    "title_zh": "人類太空探索",
+    "link": "/impacts/exploration",
+    "image": "impacts/space_expo.jpg"
+},
+{
+    "title": "Satellite",
+    "title_zh": "人造衞星",
+    "link": "/impacts/satellite",
+    "image": "impacts/satellite.jpg"
+}
+]

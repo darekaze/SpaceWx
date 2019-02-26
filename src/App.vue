@@ -1,12 +1,8 @@
 <template>
   <v-app>
-    <!-- <THeader/> -->
+    <THeader/>
     <v-content>
-      <transition
-        name="fade" mode="out-in"
-        @beforeLeave="beforeLeave"
-        @enter="enter"
-        @afterEnter="afterEnter">
+      <transition name="fade" mode="out-in">
         <router-view/>
       </transition>
     </v-content>
@@ -18,27 +14,8 @@
 export default {
   name: 'App',
   components: {
-    // THeader: () => import('@/components/THeader.vue'),
-    TFooter: () => import('@/components/TFooter.vue'),
-  },
-  data: () => ({
-    prevHeight: 0,
-  }),
-  methods: {
-    beforeLeave(element) {
-      this.prevHeight = getComputedStyle(element).height;
-    },
-    enter(element) {
-      const { height } = getComputedStyle(element);
-      element.style.height = this.prevHeight;
-
-      setTimeout(() => {
-        element.style.height = height;
-      }, 240);
-    },
-    afterEnter(element) {
-      element.style.height = 'auto';
-    },
+    THeader: () => import('@/components/THeader.vue'),
+    TFooter: () => import('@/components/TFooter/Index.vue'),
   },
 };
 </script>
@@ -46,17 +23,12 @@ export default {
 <style lang="scss">
 .fade-enter-active,
 .fade-leave-active {
-  transition-duration: 0.24s;
-  transition-property: height, opacity;
-  transition-timing-function: ease;
-  overflow: hidden;
+  transition: 0.2s opacity ease;
 }
-
 .fade-enter,
 .fade-leave-active {
   opacity: 0;
 }
-
 .round {
   border-radius: 6px !important;
 }

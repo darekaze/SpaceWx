@@ -26,11 +26,6 @@ export default [
     component: load('HistoricalEvents'),
   },
   {
-    path: '/acknowledgement',
-    name: 'acknowledgement',
-    component: load('Acknowledgement'),
-  },
-  {
     // Redirect user for 404
     path: '*',
     redirect: '/',

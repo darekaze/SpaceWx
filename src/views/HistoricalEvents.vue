@@ -12,13 +12,13 @@
 </template>
 
 <script>
-import histories from '@/assets/contexts/histories.json'; // placeholder
+import histories from '@/data/contexts/histories.json'; // placeholder
 
 export default {
   name: 'Historical-events',
   components: {
-    SubBanner: () => import('@/components/Panels/SubBanner.vue'),
-    EventList: () => import('@/components/Listing/Event.vue'),
+    SubBanner: () => import('@/components/Banners/Sub.vue'),
+    EventList: () => import('@/components/Impacts/EventList.vue'),
   },
   data: () => ({
     histories,
