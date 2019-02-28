@@ -9,7 +9,13 @@
 </template>
 
 <script>
+import 'vue-status-indicator/styles.css';
+import { StatusIndicator } from 'vue-status-indicator';
+
 export default {
+  components: {
+    StatusIndicator,
+  },
   props: {
     scale: Number,
     msg: String,
