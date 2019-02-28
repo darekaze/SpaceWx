@@ -13,12 +13,4 @@ Vue.use(Vuetify, {
     warning: '#FFC107',
   },
   iconfont: 'md',
-  breakpoint: {
-    thresholds: {
-      xs: 600,
-      sm: 960,
-      md: 1280,
-      lg: 2160,
-    },
-  },
 });
