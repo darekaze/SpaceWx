@@ -15,7 +15,10 @@ Vue.use(Vuetify, {
   iconfont: 'md',
   breakpoint: {
     thresholds: {
-      xl: 2160,
+      xs: 600,
+      sm: 960,
+      md: 1280,
+      lg: 2160,
     },
   },
 });

@@ -57,7 +57,9 @@ export default {
     },
   },
   computed: {
-    isDesktop() { return this.$vuetify.breakpoint.mdAndUp; },
+    isDesktop() {
+      return this.$vuetify.breakpoint.mdAndUp;
+    },
     alertIcon() {
       return this.condition.scale ? 'notifications_active' : 'notifications';
     },
