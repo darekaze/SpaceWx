@@ -13,4 +13,9 @@ Vue.use(Vuetify, {
     warning: '#FFC107',
   },
   iconfont: 'md',
+  breakpoint: {
+    thresholds: {
+      xl: 2160,
+    },
+  },
 });
