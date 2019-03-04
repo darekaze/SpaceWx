@@ -8,5 +8,5 @@ const color = [
 ];
 
 export default function (scale) {
-  return color[scale];
+  return color[scale] || 'blue';
 }
