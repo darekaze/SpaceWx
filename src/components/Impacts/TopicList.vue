@@ -2,7 +2,7 @@
   <v-container grid-list-md pt-3>
     <v-layout row wrap justify-center>
       <v-flex xs6 sm4 lg3
-        v-for="item in list" :key="item.code">
+        v-for="(item, index) in list" :key="index">
         <topic-card :topic="item" :ratio="0.94"/>
       </v-flex>
     </v-layout>

@@ -2,7 +2,7 @@
   <v-hover>
     <v-card
       slot-scope="{ hover }"
-      :to="topic.link"
+      :to="$i18nRoute(topic.link)"
       :class="`elevation-${hover ? 8 : 0}`"
       class="round">
       <v-img
@@ -13,7 +13,7 @@
           <v-container fluid fill-height>
             <v-layout fill-height align-center justify-center>
               <span class="headline font-weight-light white--text text-xs-center">
-                {{ topic.title }}
+                {{ topic.title[lang] || topic.title }}
               </span>
             </v-layout>
           </v-container>
@@ -24,10 +24,17 @@
 </template>
 
 <script>
+import { Trans } from '@/plugins/i18n';
+
 export default {
   props: {
     topic: Object,
     ratio: Number,
+  },
+  computed: {
+    lang() {
+      return Trans.currentLanguage;
+    },
   },
 };
 </script>
