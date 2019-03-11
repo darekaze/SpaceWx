@@ -13,7 +13,7 @@ export default [
     beforeEnter: Trans.routeMiddleware,
     children: [
       {
-        path: '/',
+        path: '',
         name: 'home',
         component: Home,
       },
