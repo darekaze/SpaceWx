@@ -33,7 +33,7 @@
     "hero-subtitle": "Conditions in space that can impact our technological systems",
     "discover-more": "Discover More"
   },
-  "zh-hk": {
+  "zh_hk": {
     "space-weather": "太空天氣",
     "hero-subtitle": "太空中影響我們技術系統的氣候",
     "discover-more": "探索更多"

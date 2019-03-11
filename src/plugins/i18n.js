@@ -16,7 +16,7 @@ export const Trans = {
     return 'en';
   },
   get supportedLanguages() {
-    return ['en', 'zh-hk', 'zh-cn'];
+    return ['en', 'zh_hk', 'zh_cn'];
   },
   get currentLanguage() {
     return i18n.locale;
