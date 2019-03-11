@@ -1,10 +1,10 @@
 <template>
   <swiper ref="mySwiper" :options="swiperOption">
-    <swiper-slide v-for="item in list" :key="item.title">
+    <swiper-slide v-for="item in list" :key="item.link">
       <slider-card  :topic="item" :ratio="0.85"/>
     </swiper-slide>
-    <div class="swiper-button-prev swiper-button-white" slot="button-prev"></div>
-    <div class="swiper-button-next swiper-button-white" slot="button-next"></div>
+    <div class="swiper-button-prev swiper-button-white" slot="button-prev"/>
+    <div class="swiper-button-next swiper-button-white" slot="button-next"/>
   </swiper>
 </template>
 
@@ -20,7 +20,7 @@ export default {
     swiperSlide,
     SliderCard,
   },
-  props: { list: Array },
+  props: { list: Object },
   data: () => ({
     swiperOption: {
       slidesPerView: 5,

@@ -40,6 +40,8 @@
 </template>
 
 <script>
+import { Trans } from '@/plugins/i18n';
+
 export default {
   name: 'main-header',
   data: () => ({
@@ -67,7 +69,7 @@ export default {
     },
   },
   methods: {
-    goHome() { this.$router.push('/'); },
+    goHome() { this.$router.push(Trans.i18nRoute({ name: 'home' })); },
   },
 };
 </script>
@@ -87,7 +89,7 @@ export default {
     "impacts": "Impacts",
     "historical-events": "Historical Events"
   },
-  "zh-hk": {
+  "zh_hk": {
     "space-weather": "太空天氣",
     "home": "首頁",
     "phenomena": "現象",

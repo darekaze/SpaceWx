@@ -11,7 +11,8 @@
           fill-height px-3
           align-center justify-center>
           <span class="headline font-weight-light white--text text-xs-center">
-            {{ topic.title }}
+            <!-- HACK -->
+            {{ topic.title[$route.params.lang] }}
           </span>
         </v-layout>
       </div>
@@ -29,12 +30,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .gradient-effect {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.05));
-    transition: 0.2s;
+.gradient-effect {
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.05));
+  transition: 0.2s;
 
-    &:hover {
-      background-color: rgba(28, 251, 195, 0.15);
-    }
+  &:hover {
+    background-color: rgba(28, 251, 195, 0.15);
   }
+}
 </style>

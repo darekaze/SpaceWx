@@ -1,74 +1,110 @@
-[
 {
-    "title": "Aurora",
-    "title_zh": "",
-    "link": "/phenomena/aurora",
+  "aurora": {
+    "title": {
+      "en": "Aurora",
+      "zh_hk": "極光",
+      "zh_cn": ""
+    },
+    "link": "aurora",
     "image": "phenomena/aurora.jpg"
-},
-{
-    "title": "Solar Wind",
-    "title_zh": "",
-    "link": "/phenomena/solarwind",
+  },
+  "solar-wind": {
+    "title": {
+      "en": "Solar Wind",
+      "zh_hk": "太陽風",
+      "zh_cn": ""
+    },
+    "link": "solarwind",
     "image": "phenomena/solarwind.jpg"
-},
-{
-    "title": "Ionosphere",
-    "title_zh": "",
-    "link": "/phenomena/ionosphere",    
-    "image": "phenomena/ionosphere.jpg"
-},
-{
-    "title": "Coronal Holes",
-    "title_zh": "",
-    "link": "/phenomena/coronal-holes",
-    "image": "phenomena/coronal_holes.jpg"
-},
-{
-    "title": "Coronal Mass Ejections",
-    "title_zh": "",
-    "link": "/phenomena/coronal-mass-ejections",
-    "image": "phenomena/coronal_holes.jpg"
-},
-{
-    "title": "Sunspots & Solar Cycle",
-    "title_zh": "",
-    "link": "/phenomena/sunspots",
+  },
+  "sunspots": {
+    "title": {
+      "en": "Sunspots & Solar Cycle",
+      "zh_hk": "太陽黑子/太陽周期",
+      "zh_cn": ""
+    },
+    "link": "sunspots",
     "image": "phenomena/sunspots.png"
-},
-{
-    "title": "Earth's Magnetosphere",
-    "title_zh": "",
-    "link": "/phenomena/earth-magnetosphere",    
+  },
+  "coronal-holes": {
+    "title": {
+      "en": "Coronal Holes",
+      "zh_hk": "冕洞",
+      "zh_cn": ""
+    },
+    "link": "coronal-holes",
+    "image": "phenomena/coronal_holes.jpg"
+  },
+  "cme": {
+    "title": {
+      "en": "Coronal Mass Ejections",
+      "zh_hk": "日冕物質拋射",
+      "zh_cn": ""
+    },
+    "link": "coronal-mass-ejections",
+    "image": "phenomena/cme@JanRobbe.jpg"
+  },
+  "magnetosphere": {
+    "title": {
+      "en": "Earth's Magnetosphere",
+      "zh_hk": "地球磁層",
+      "zh_cn": ""
+    },
+    "link": "earth-magnetosphere",
     "image": "phenomena/magnetosphere.png"
-},
-{
-    "title": "Shock Wave",
-    "title_zh": "",
-    "link": "/phenomena/shockwave",
-    "image": "phenomena/shockwave.png"
-},
-{
-    "title": "F10.7 cm Radio Emissions",
-    "title_zh": "太陽10.7厘米射電流量",
-    "link": "/phenomena/107-radio-emissions",
-    "image": "phenomena/sunspots.png"
-},
-{
-    "title": "Geomagnetic Storm",
-    "title_zh": "地磁風暴",
-    "link": "/phenomena/geomagnetic-storms",
+  },
+  "geomagnetic-storm": {
+    "title": {
+      "en": "Geomagnetic Storm",
+      "zh_hk": "地磁風暴",
+      "zh_cn": ""
+    },
+    "link": "geomagnetic-storms",
     "image": "geomagnetic_storm.jpg"
-},
-{
-    "title": "Radio Blackouts",
-    "title_zh": "太陽耀斑/無線電通信中斷",
-    "link": "/phenomena/radio-blackouts",
+  },
+  "ionosphere": {
+    "title": {
+      "en": "Ionosphere",
+      "zh_hk": "電離層",
+      "zh_cn": ""
+    },
+    "link": "ionosphere",
+    "image": "phenomena/ionosphere.jpg"
+  },
+  "radiation-belt": {
+    "title": {
+      "en": "Radiation Belt",
+      "zh_hk": "輻射帶",
+      "zh_cn": ""
+    },
+    "link": "radiation-belt",
+    "image": "phenomena/radiation_belt.jpg"
+  },
+  "radio-blackouts": {
+    "title": {
+      "en": "Radio Blackouts",
+      "zh_hk": "太陽耀斑/無線電通信中斷",
+      "zh_cn": ""
+    },
+    "link": "radio-blackouts",
     "image": "radio_blackout.jpg"
-},
-{
-    "title": "Solar Radiation Storm",
-    "title_zh": "太陽輻射風暴",
-    "link": "/phenomena/solar-radiation-storm",
+  },
+  "solar-radiation-storm": {
+    "title": {
+      "en": "Solar Radiation Storm",
+      "zh_hk": "太陽輻射風暴",
+      "zh_cn": ""
+    },
+    "link": "solar-radiation-storm",
     "image": "solar_radiation_storm.jpg"
+  },
+  "f107-radio-emissions": {
+    "title": {
+      "en": "F10.7cm Radio Emissions",
+      "zh_hk": "太陽10.7厘米射電流量",
+      "zh_cn": ""
+    },
+    "link": "f107-radio-emissions",
+    "image": "phenomena/sunspots.png"
+  }
 }
-]

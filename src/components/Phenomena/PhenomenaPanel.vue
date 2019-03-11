@@ -1,9 +1,9 @@
 <template>
   <v-container pt-2 id="phenomena">
     <div class="mb-2">
-      <h2 class="headline font-weight-bold">Phenomena</h2>
+      <h2 class="headline font-weight-bold">{{ $t('phenomena') }}</h2>
       <div class="subheading">
-        Explore various space environments between the Sun and Earth
+        {{ $t('ph-info') }}
       </div>
     </div>
     <slider :list="phenomena"/>
@@ -23,3 +23,16 @@ export default {
   }),
 };
 </script>
+
+<i18n>
+{
+  "en": {
+    "phenomena": "Phenomena",
+    "ph-info": "Explore various space environments between the Sun and the Earth"
+  },
+  "zh_hk": {
+    "phenomena": "現象",
+    "ph-info": "探索太陽與地球之間的各種空間環境"
+  }
+}
+</i18n>
