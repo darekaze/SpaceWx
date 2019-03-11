@@ -33,8 +33,15 @@ export default [
         component: load('HistoricalEvents'),
       },
       {
+        path: 'article/:topic',
+        name: 'article',
+        component: load('Article'),
+      },
+      {
         path: '*',
-        redirect: `/${Trans.currentLanguage}/`,
+        redirect() {
+          return `/${Trans.currentLanguage}/`;
+        },
       },
     ],
   },

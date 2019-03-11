@@ -1,6 +1,6 @@
 <template>
   <v-card
-    :to="topic.link"
+    :to="$i18nRoute({ name: 'article', params: { topic: topic.link } })"
     class="round">
     <v-img
       class="grey round"
@@ -11,8 +11,7 @@
           fill-height px-3
           align-center justify-center>
           <span class="headline font-weight-light white--text text-xs-center">
-            <!-- HACK -->
-            {{ topic.title[$route.params.lang] }}
+            {{ topic.title[lang] }}
           </span>
         </v-layout>
       </div>
@@ -21,10 +20,17 @@
 </template>
 
 <script>
+import { Trans } from '@/plugins/i18n';
+
 export default {
   props: {
     topic: Object,
     ratio: Number,
+  },
+  computed: {
+    lang() {
+      return Trans.currentLanguage;
+    },
   },
 };
 </script>
