@@ -1,6 +1,6 @@
 <template>
   <v-card
-    :to="$i18nRoute({ name: 'article', params: { topic: topic.link } })"
+    :to="$i18nRoute({ name: 'section', params: { topic: topic.link } })"
     class="round">
     <v-img
       class="grey round"

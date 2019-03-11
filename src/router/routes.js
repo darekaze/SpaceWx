@@ -33,9 +33,9 @@ export default [
         component: load('HistoricalEvents'),
       },
       {
-        path: 'article/:topic',
-        name: 'article',
-        component: load('Article'),
+        path: 'section/:topic',
+        name: 'section',
+        component: load('Section'),
       },
       {
         path: '*',
