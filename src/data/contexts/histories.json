@@ -1,11 +1,47 @@
 [
 {
-    "title": " Spectacular fireworks show on the sun",
-    "subheading": "A single, unusual, transient but spectacular fireworks event on the Sun's surface was recorded by NASA...",
-    "title_zh": "",
-    "subheading_zh": "",
-    "year": "2011",
-    "link": "/historical-events/fireworks",
-    "image": "histories/solar_activity.jpg"
+  "title": {
+    "en": "Carrington Event",
+    "zh_hk": "卡靈頓事件",
+    "zh_cn": ""
+  },
+  "subheading": {
+    "en": "On 1 September that year, English astronomer Richard Carrington observed one very extreme explosion of a group of sunspots through the image projected from his telescope...",
+    "zh_hk": "當年９月１日，英國天文學家理查卡靈頓從他的望遠鏡投射出來的影像上觀察到太陽黑子群中的一次特大爆炸...",
+    "zh_cn": ""
+  },
+  "year": "2011",
+  "link": "carrington-event",
+  "image": "historical-events/1859@Univ_of_Alaska.jpg"
+},
+{
+  "title": {
+    "en": "Solar Flare – Quebec Electrical Blackout",
+    "zh_hk": "太陽耀斑-魁北克電力系統中斷",
+    "zh_cn": ""
+  },
+  "subheading": {
+    "en": "In March 1989, a sunspot group which is as large as the sum of the size of 54 Earths caused more than 195 solar flares...",
+    "zh_hk": "一個大小相等於五十四個地球的黑子群於一九八九年三月總共發生了多達一百九十五次的耀斑爆發...",
+    "zh_cn": ""
+  },
+  "year": "1989",
+  "link": "quebec-electrical-blackout",
+  "image": "historical-events/1989@Ken_Spencer.jpg"
+},
+{
+  "title": {
+    "en": "\"Halloween\" Solar Storm",
+    "zh_hk": "萬聖節太陽風暴",
+    "zh_cn": ""
+  },
+  "subheading": {
+    "en": "One of the largest solar storm of the past half-century (X45-class)...",
+    "zh_hk": "2003年10月26日至11月4日，耀斑爆發連續發生了一個星期，其耀斑等級更高達X45級。在10月28日，一個日冕物質拋射離開了太陽，使耀斑爆發惡化...",
+    "zh_cn": ""
+  },
+  "year": "2003",
+  "link": "halloween-solar-storm",
+  "image": "historical-events/2003@ISS.jpg"
 }
 ]

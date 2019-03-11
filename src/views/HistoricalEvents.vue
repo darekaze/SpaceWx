@@ -1,18 +1,15 @@
 <template>
   <div>
-    <sub-banner image="hero.jpg">
-      <template v-slot:title>Historical Events</template>
-      <p>
-        Learn history...
-        <br>(placeholder, more description to be added)
-      </p>
+    <sub-banner image="sub_history.jpg">
+      <template v-slot:title>{{ $t('historical-events') }}</template>
+      <p>{{ $t('historical-events-info') }}</p>
     </sub-banner>
-    <event-list :list="histories" />
+    <event-list :list="histories"/>
   </div>
 </template>
 
 <script>
-import histories from '@/data/contexts/histories.json'; // placeholder
+import histories from '@/data/contexts/histories.json';
 
 export default {
   name: 'Historical-events',
@@ -25,3 +22,16 @@ export default {
   }),
 };
 </script>
+
+<i18n>
+{
+  "en": {
+    "historical-events": "Historical Events",
+    "historical-events-info": "Discover more about past interesting space weather historical events"
+  },
+  "zh_hk": {
+    "historical-events": "有趣的歷史事件",
+    "historical-events-info": "瞭解有關過去有趣的太空天氣歷史現象"
+  }
+}
+</i18n>

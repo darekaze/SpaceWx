@@ -23,10 +23,10 @@
                 {{ value.year }}
               </v-chip>
               <h3 class="title font-weight-bold mb-2 e-title">
-                {{ value.title }}
+                {{ value.title[lang] }}
               </h3>
               <div class="body-1 e-subheading">
-                {{ value.subheading }}
+                {{ value.subheading[lang] }}
               </div>
             </v-flex>
             <v-flex align-self-end>
@@ -34,7 +34,7 @@
                 class="ma-0 text-uppercase font-weight-medium"
                 color="cyan darken-2"
                 label small>
-                Read More
+                {{ $t('read-more') }}
               </v-chip>
             </v-flex>
           </v-layout>
@@ -45,11 +45,18 @@
 </template>
 
 <script>
+import { Trans } from '@/plugins/i18n';
+
 export default {
   props: {
     value: {
       type: Object,
       default: () => ({}),
+    },
+  },
+  computed: {
+    lang() {
+      return Trans.currentLanguage;
     },
   },
 };
@@ -64,16 +71,25 @@ export default {
     background-color: rgba(86, 255, 232, 0.1);
   }
 }
-
 .e-title {
   margin-left: auto;
   margin-right: 0;
   width: 70%;
 }
-
 .e-subheading {
   margin-left: auto;
   margin-right: 0;
   width: 66%;
 }
 </style>
+
+<i18n>
+{
+  "en": {
+    "read-more": "Read more"
+  },
+  "zh_hk": {
+    "read-more": "瞭解更多"
+  }
+}
+</i18n>
