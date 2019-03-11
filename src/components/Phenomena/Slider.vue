@@ -20,7 +20,7 @@ export default {
     swiperSlide,
     SliderCard,
   },
-  props: { list: Object },
+  props: { list: Array },
   data: () => ({
     swiperOption: {
       slidesPerView: 5,

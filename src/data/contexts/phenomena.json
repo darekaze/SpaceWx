@@ -1,5 +1,5 @@
-{
-  "aurora": {
+[
+  {
     "title": {
       "en": "Aurora",
       "zh_hk": "極光",
@@ -8,7 +8,7 @@
     "link": "aurora",
     "image": "phenomena/aurora.jpg"
   },
-  "solar-wind": {
+  {
     "title": {
       "en": "Solar Wind",
       "zh_hk": "太陽風",
@@ -17,7 +17,7 @@
     "link": "solarwind",
     "image": "phenomena/solarwind.jpg"
   },
-  "sunspots": {
+  {
     "title": {
       "en": "Sunspots & Solar Cycle",
       "zh_hk": "太陽黑子/太陽周期",
@@ -26,7 +26,7 @@
     "link": "sunspots",
     "image": "phenomena/sunspots.png"
   },
-  "coronal-holes": {
+  {
     "title": {
       "en": "Coronal Holes",
       "zh_hk": "冕洞",
@@ -35,7 +35,7 @@
     "link": "coronal-holes",
     "image": "phenomena/coronal_holes.jpg"
   },
-  "cme": {
+  {
     "title": {
       "en": "Coronal Mass Ejections",
       "zh_hk": "日冕物質拋射",
@@ -44,7 +44,7 @@
     "link": "coronal-mass-ejections",
     "image": "phenomena/cme@JanRobbe.jpg"
   },
-  "magnetosphere": {
+  {
     "title": {
       "en": "Earth's Magnetosphere",
       "zh_hk": "地球磁層",
@@ -53,7 +53,7 @@
     "link": "earth-magnetosphere",
     "image": "phenomena/magnetosphere.png"
   },
-  "geomagnetic-storm": {
+  {
     "title": {
       "en": "Geomagnetic Storm",
       "zh_hk": "地磁風暴",
@@ -62,7 +62,7 @@
     "link": "geomagnetic-storms",
     "image": "geomagnetic_storm.jpg"
   },
-  "ionosphere": {
+  {
     "title": {
       "en": "Ionosphere",
       "zh_hk": "電離層",
@@ -71,7 +71,7 @@
     "link": "ionosphere",
     "image": "phenomena/ionosphere.jpg"
   },
-  "radiation-belt": {
+  {
     "title": {
       "en": "Radiation Belt",
       "zh_hk": "輻射帶",
@@ -80,7 +80,7 @@
     "link": "radiation-belt",
     "image": "phenomena/radiation_belt.jpg"
   },
-  "radio-blackouts": {
+  {
     "title": {
       "en": "Radio Blackouts",
       "zh_hk": "太陽耀斑/無線電通信中斷",
@@ -89,7 +89,7 @@
     "link": "radio-blackouts",
     "image": "radio_blackout.jpg"
   },
-  "solar-radiation-storm": {
+  {
     "title": {
       "en": "Solar Radiation Storm",
       "zh_hk": "太陽輻射風暴",
@@ -98,7 +98,7 @@
     "link": "solar-radiation-storm",
     "image": "solar_radiation_storm.jpg"
   },
-  "f107-radio-emissions": {
+  {
     "title": {
       "en": "F10.7cm Radio Emissions",
       "zh_hk": "太陽10.7厘米射電流量",
@@ -107,4 +107,4 @@
     "link": "f107-radio-emissions",
     "image": "phenomena/sunspots.png"
   }
-}
+]
