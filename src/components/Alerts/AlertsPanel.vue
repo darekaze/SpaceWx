@@ -77,6 +77,7 @@ export default {
 // ENHANCE: Split alert info to json
 </script>
 
+<i18n src="@/data/contexts/alerts.json"></i18n>
 <i18n>
 {
   "en": {
