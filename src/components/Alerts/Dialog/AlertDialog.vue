@@ -40,10 +40,10 @@
       <v-card-actions>
         <v-spacer></v-spacer>
         <v-btn flat color="green darken-1" to="#">
-          Learn more
+          {{ $t('learn-more') }}
         </v-btn>
         <v-btn flat color="green darken-1" @click.stop="dialog = false">
-          Close
+          {{ $t('close') }}
         </v-btn>
       </v-card-actions>
     </v-card>
@@ -82,3 +82,16 @@ export default {
   border-color: rgba(0,0,0,0.18) !important; // HACK: Workaround
 }
 </style>
+
+<i18n>
+{
+  "en": {
+    "learn-more": "Learn More",
+    "close": "Close"
+  },
+  "zh_hk": {
+    "learn-more": "瞭解更多",
+    "close": "關閉"
+  }
+}
+</i18n>
