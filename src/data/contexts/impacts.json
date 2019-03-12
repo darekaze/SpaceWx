@@ -8,7 +8,8 @@
     "link": {
       "name": "section",
       "params": {
-        "topic": "electric-power"
+        "topic": "electric-power",
+        "category": "impacts"
       }
     },
     "image": "impacts/eletric_power.jpg"
@@ -22,7 +23,8 @@
     "link": {
       "name": "section",
       "params": {
-        "topic": "navigation-system"
+        "topic": "navigation-system",
+        "category": "impacts"
       }
     },
     "image": "impacts/gps_system.jpg"
@@ -36,7 +38,8 @@
     "link": {
       "name": "section",
       "params": {
-        "topic": "communication"
+        "topic": "communication",
+        "category": "impacts"
       }
     },
     "image": "impacts/communication.jpg"
@@ -50,7 +53,8 @@
     "link": {
       "name": "section",
       "params": {
-        "topic": "aviation"
+        "topic": "aviation",
+        "category":"impacts"
       }
     },
     "image": "impacts/aviation.jpg"
@@ -64,7 +68,8 @@
     "link": {
       "name": "section",
       "params": {
-        "topic": "human-space-exploration"
+        "topic": "human-space-exploration",
+        "category": "impacts"
       }
     },
     "image": "impacts/space_expo.jpg"
@@ -78,7 +83,8 @@
     "link": {
       "name": "section",
       "params": {
-        "topic": "satellite"
+        "topic": "satellite",
+        "category": "impacts"
       }
     },
     "image": "impacts/satellite.jpg"

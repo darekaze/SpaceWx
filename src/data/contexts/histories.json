@@ -10,8 +10,11 @@
     "zh_hk": "當年９月１日，英國天文學家理查卡靈頓從他的望遠鏡投射出來的影像上觀察到太陽黑子群中的一次特大爆炸...",
     "zh_cn": ""
   },
+  "params": {
+    "topic": "carrington-event",
+    "category": "historical-events"
+  },
   "year": "2011",
-  "link": "carrington-event",
   "image": "historical-events/1859@Univ_of_Alaska.jpg"
 },
 {
@@ -25,8 +28,11 @@
     "zh_hk": "一個大小相等於五十四個地球的黑子群於一九八九年三月總共發生了多達一百九十五次的耀斑爆發...",
     "zh_cn": ""
   },
+  "params": {
+    "topic": "quebec-electrical-blackout",
+    "category": "historical-events"
+  },
   "year": "1989",
-  "link": "quebec-electrical-blackout",
   "image": "historical-events/1989@Ken_Spencer.jpg"
 },
 {
@@ -40,8 +46,11 @@
     "zh_hk": "2003年10月26日至11月4日，耀斑爆發連續發生了一個星期，其耀斑等級更高達X45級。在10月28日，一個日冕物質拋射離開了太陽，使耀斑爆發惡化...",
     "zh_cn": ""
   },
+  "params": {
+    "topic": "halloween-solar-storm",
+    "category": "historical-events"
+  },
   "year": "2003",
-  "link": "halloween-solar-storm",
   "image": "historical-events/2003@ISS.jpg"
 }
 ]

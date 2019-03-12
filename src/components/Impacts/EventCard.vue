@@ -2,7 +2,7 @@
   <v-hover>
     <v-card
       slot-scope="{ hover }"
-      :to="value.link"
+      :to="$i18nRoute({ name: 'section', params: value.params })"
       :class="`elevation-${hover ? 8 : 0}`"
       tile dark>
       <v-img
