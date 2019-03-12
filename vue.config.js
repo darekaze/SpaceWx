@@ -13,7 +13,7 @@ const md = require('markdown-it')({
   .use(require('markdown-it-ins'))
   .use(require('markdown-it-sup'));
 
-const subDirName = 'r2dev/vueswx';
+const subDirName = 'r2dev/spacewx-v2';
 
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
