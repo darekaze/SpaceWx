@@ -33,14 +33,19 @@ export default [
         component: load('HistoricalEvents'),
       },
       {
-        path: 'section/:topic',
+        path: 'section/:category/:topic',
         name: 'section',
         component: load('Section'),
       },
       {
+        path: '404',
+        name: '404',
+        component: load('404'),
+      },
+      {
         path: '*',
         redirect() {
-          return `/${Trans.currentLanguage}/`;
+          return `/${Trans.currentLanguage}/404`;
         },
       },
     ],
