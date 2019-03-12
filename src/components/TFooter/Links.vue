@@ -1,11 +1,14 @@
 <template>
   <v-layout row wrap py-4 justify-start>
-    <v-flex py-3 xs12>
-      <div class="title">Related Links</div>
+    <v-flex py-3 xs6>
+      <div class="title">{{ $t('related-links') }}</div>
+    </v-flex>
+    <v-flex py-3 xs6>
+      <div class="body-1 text-xs-right">{{ $t('tips') }}</div>
     </v-flex>
     <v-flex py-2 xs12 sm6
       class="t-hov"
-      v-for="(item, index) in links" :key="index">
+      v-for="(item, index) in $t('links')" :key="index">
       <v-icon small>navigate_next</v-icon>
       <a
         class="c-link"
@@ -18,14 +21,6 @@
   </v-layout>
 </template>
 
-<script>
-import links from '@/data/contexts/links.json';
-
-export default {
-  data: () => ({ links }),
-};
-</script>
-
 <style lang="scss" scoped>
 .c-link {
   text-decoration: none;
@@ -37,3 +32,5 @@ export default {
   }
 }
 </style>
+
+<i18n src="@/data/contexts/links.json"/>

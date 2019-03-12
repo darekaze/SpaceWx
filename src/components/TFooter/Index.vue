@@ -7,9 +7,9 @@
       <v-card flat tile color="transparent">
         <v-divider/>
         <v-card-title class="pl-0 text-xs-center">
-          <div>&copy;2019 — <strong>Hong Kong Observatory</strong></div>
+          <div>&copy;{{ new Date().getFullYear() }} — <strong>{{ $t('hko') }}</strong></div>
           <v-spacer/>
-          <v-btn small dark flat to="/acknowledgement">Acknowledgement</v-btn>
+          <v-btn dark flat to="/acknowledgement">{{ $t('acknowledgement') }}</v-btn>
         </v-card-title>
     </v-card>
 
@@ -30,3 +30,16 @@ export default {
   },
 };
 </script>
+
+<i18n>
+{
+  "en": {
+    "hko": "Hong Kong Observatory",
+    "acknowledgement": "Acknowledgement"
+  },
+  "zh_hk": {
+    "hko": "香港天文台",
+    "acknowledgement": "鳴謝"
+  }
+}
+</i18n>
