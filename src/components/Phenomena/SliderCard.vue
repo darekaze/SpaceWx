@@ -1,7 +1,12 @@
 <template>
-  <v-card
-    :to="$i18nRoute({ name: 'section', params: { topic: topic.link } })"
-    class="round">
+  <v-card class="round"
+    :to="$i18nRoute({
+      name: 'section',
+      params: {
+        topic: topic.link,
+        category: 'phenomena',
+      }
+    })">
     <v-img
       class="grey round"
       :src="require(`@/assets/images/${topic.image}`)"
