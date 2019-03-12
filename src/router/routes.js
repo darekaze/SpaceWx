@@ -1,6 +1,6 @@
 import { Trans } from '@/plugins/i18n';
 import Home from '@/views/Home.vue';
-import Template from '@/router/Template.vue';
+import LocaleRouteWrapper from '@/router/LocaleRouteWrapper.vue';
 
 function load(component) {
   return () => import(/* webpackChunkName: "[request]" */ `@/views/${component}.vue`);
@@ -9,7 +9,7 @@ function load(component) {
 export default [
   {
     path: '/:lang',
-    component: Template,
+    component: LocaleRouteWrapper,
     beforeEnter: Trans.routeMiddleware,
     children: [
       {
