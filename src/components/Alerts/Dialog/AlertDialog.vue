@@ -90,7 +90,7 @@ export default {
     "close": "Close"
   },
   "zh_hk": {
-    "learn-more": "瞭解更多",
+    "learn-more": "了解更多",
     "close": "關閉"
   }
 }

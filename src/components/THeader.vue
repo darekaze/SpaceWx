@@ -94,7 +94,7 @@ export default {
     "home": "首頁",
     "phenomena": "現象",
     "impacts": "影響",
-    "historical-events": "重大的歷史事件"
+    "historical-events": "重大歷史事件"
   }
 }
 </i18n>

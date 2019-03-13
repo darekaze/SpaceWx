@@ -6,13 +6,16 @@
       <links-panel v-if="atHome"/>
       <v-card flat tile color="transparent">
         <v-divider/>
-        <v-card-title class="pl-0 text-xs-center">
-          <div>&copy;{{ new Date().getFullYear() }} — <strong>{{ $t('hko') }}</strong></div>
+        <v-card-title class="pl-0 py-2">
+          <v-btn dark flat
+            class="subheading mx-0 text-capitalize"
+            to="#">
+            <v-icon class="pr-2">stars</v-icon>{{ $t('acknowledgement') }}
+          </v-btn>
           <v-spacer/>
-          <v-btn dark flat to="/acknowledgement">{{ $t('acknowledgement') }}</v-btn>
+          <div class="body-1 text-xs-right">{{ $t('tips') }}</div>
         </v-card-title>
-    </v-card>
-
+      </v-card>
     </v-container>
   </v-footer>
 </template>
@@ -34,11 +37,11 @@ export default {
 <i18n>
 {
   "en": {
-    "hko": "Hong Kong Observatory",
+    "tips": " ",
     "acknowledgement": "Acknowledgement"
   },
   "zh_hk": {
-    "hko": "香港天文台",
+    "tips": "(* 為英文網站)",
     "acknowledgement": "鳴謝"
   }
 }

@@ -89,7 +89,7 @@ export default {
     "read-more": "Read more"
   },
   "zh_hk": {
-    "read-more": "瞭解更多"
+    "read-more": "了解更多"
   }
 }
 </i18n>

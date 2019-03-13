@@ -30,8 +30,8 @@ export default {
     "historical-events-info": "Discover more about past interesting space weather historical events"
   },
   "zh_hk": {
-    "historical-events": "重大的歷史事件",
-    "historical-events-info": "瞭解有關過去重大的太空天氣歷史現象"
+    "historical-events": "重大歷史事件",
+    "historical-events-info": "了解有關過去重大太空天氣歷史現象"
   }
 }
 </i18n>
