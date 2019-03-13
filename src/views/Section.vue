@@ -73,6 +73,7 @@ export default {
     color: #333;
     line-height: 1.58;
     text-align: justify;
+    text-justify: auto;
 
     img {
       display: block;
