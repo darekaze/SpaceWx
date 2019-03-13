@@ -1,4 +1,4 @@
-## F10.7 cm Radio Emissions 
+# F10.7 cm Radio Emissions 
 
 ![0313_f10.7](./static/0313_f10.7.gif)
 *(Source/Credits: [NOAA](https://www.swpc.noaa.gov/phenomena/f107-cm-radio-emissions))*

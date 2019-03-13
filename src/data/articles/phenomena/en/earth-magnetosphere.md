@@ -1,4 +1,4 @@
-## Earth's Magnetosphere
+# Earth's Magnetosphere
 
 ![0306_mag](./static/0306_mag.gif)
 *(Source/Credits: NASA)*

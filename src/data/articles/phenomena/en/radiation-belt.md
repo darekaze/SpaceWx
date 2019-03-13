@@ -1,4 +1,4 @@
-## Radiation belt
+# Radiation belt
 
 ![0313_belt](./static/0313_belt.jpg)
 *(Source/Credits: nasa)*

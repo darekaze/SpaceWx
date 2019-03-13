@@ -1,4 +1,4 @@
-## Aurora
+# Aurora
 
 In **North Pole** and **South Pole**, they are called **aurora borealis** and **aurora australis** respectively.
 

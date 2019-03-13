@@ -1,4 +1,4 @@
-## 太陽10.7厘米射電流量
+# 太陽10.7厘米射電流量
 
 ![0313_f10.7](./static/0313_f10.7.gif)
 *(資料來源︰ [NOAA](https://www.swpc.noaa.gov/phenomena/f107-cm-radio-emissions))*

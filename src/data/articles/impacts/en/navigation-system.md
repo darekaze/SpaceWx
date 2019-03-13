@@ -1,4 +1,4 @@
-## Navigation Systems
+# Navigation Systems
 
 ![0306_navigation](./static/0306_navigation.png)
 

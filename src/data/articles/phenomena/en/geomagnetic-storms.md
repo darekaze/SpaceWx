@@ -1,4 +1,4 @@
-## Geomagnetic Storms
+# Geomagnetic Storms
 
 ![0306_geo](./static/0306_geo.jpg)
 *(Source/Credits: NASA)*

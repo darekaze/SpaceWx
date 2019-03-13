@@ -1,4 +1,4 @@
-## 2003: “Halloween” Solar Storm
+# 2003: “Halloween” Solar Storm
 
 This solar storm was a massive **X45-class solar storm** which was one of the largest ones of the past half-century.  It began in mid-October 2003 when increased solar activity occurred, then intensified when a coronal mass ejection (CME) left the sun on 28 October.
 

@@ -1,4 +1,4 @@
-## Ionosphere
+# Ionosphere
 
 ![0306_ionosphere_2](./static/0306_ionosphere_2.jpg)
 *Regions of the ionosphere, showing the D, E and F layers (Source/Credits: UCAR Center for Science Education staff (Randy Russell))*

@@ -1,4 +1,4 @@
-## Solar Radiation Storm
+# Solar Radiation Storm
 
 ![0306_srs](./static/0306_srs.jpg)
 *(Source/Credits: Sunspot 1402 M9 Solar Flare Event as Seen by Solar Dynamics Observatory)*

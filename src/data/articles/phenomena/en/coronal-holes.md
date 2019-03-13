@@ -1,4 +1,4 @@
-## Coronal Holes
+# Coronal Holes
 
 ![0306_hole](./static/0306_hole.jpg)
 *(Source/Credits:NASA)*

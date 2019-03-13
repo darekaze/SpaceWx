@@ -1,4 +1,4 @@
-## Sunspots/Solar Cycle
+# Sunspots/Solar Cycle
 
 Sunspots are areas on the **photosphere** (the visible surface of the sun), which appear **darker** than the surrounding surface of the sun by virtue of their relatively **lower temperature**.  But in absolute terms, they are actually very bright. Sunspots can last from hours to months, which are carried around the solar surface by the sun's rotation. Sunspots often appear in pairs or clusters. The formation of sunspots is associated with solar magnetic disturbances.
 

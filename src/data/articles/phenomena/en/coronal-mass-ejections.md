@@ -1,4 +1,4 @@
-## Coronal Mass Ejections (CME)
+# Coronal Mass Ejections (CME)
 
 ![0306_cme](./static/0306_cme.jpg)
 *(Source/Credits:  Solar Dynamics Observatory)*

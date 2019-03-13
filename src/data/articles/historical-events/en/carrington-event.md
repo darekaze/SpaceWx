@@ -1,4 +1,4 @@
-## 1859: Carrington Event
+# 1859: Carrington Event
 
 A large **solar storm** brought some chaos to the **telegraph system** in 1859. On 1 September that year, English astronomer Richard Carrington observed one very extreme explosion of a group of sunspots through the image projected from his telescope (image below).
 

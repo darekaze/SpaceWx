@@ -1,4 +1,4 @@
-## 電力
+# 電力
 
 ![0306_electric](./static/0306_electric.png)
 
