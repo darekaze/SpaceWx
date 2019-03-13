@@ -13,7 +13,6 @@
 
 參考資料
 
-- [The Ionosphere](https://scied.ucar.edu/ionosphere)
-- [這個離我們最近的太空圈層，讓人又愛又恨](https://kknews.cc/science/r8j69y4.html)
+- https://scied.ucar.edu/ionosphere
 
-
+- https://kknews.cc/science/r8j69y4.html
