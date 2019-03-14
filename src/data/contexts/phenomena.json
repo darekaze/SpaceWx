@@ -14,7 +14,7 @@
       "zh_hk": "太陽風",
       "zh_cn": ""
     },
-    "link": "solar_wind",
+    "link": "solarwind",
     "image": "phenomena/solarwind.jpg"
   },
   {
@@ -23,7 +23,7 @@
       "zh_hk": "太陽黑子/太陽周期",
       "zh_cn": ""
     },
-    "link": "sunspots:solar_cycle",
+    "link": "sunspots",
     "image": "phenomena/sunspots.png"
   },
   {
@@ -32,7 +32,7 @@
       "zh_hk": "冕洞",
       "zh_cn": ""
     },
-    "link": "coronal_holes",
+    "link": "coronal-holes",
     "image": "phenomena/coronal_holes.jpg"
   },
   {
@@ -41,7 +41,7 @@
       "zh_hk": "日冕物質拋射",
       "zh_cn": ""
     },
-    "link": "cme",
+    "link": "coronal-mass-ejections",
     "image": "phenomena/cme@JanRobbe.jpg"
   },
   {
@@ -50,7 +50,7 @@
       "zh_hk": "地球磁層",
       "zh_cn": ""
     },
-    "link": "earth's_magnetosphere",
+    "link": "earth-magnetosphere",
     "image": "phenomena/magnetosphere.png"
   },
   {
@@ -59,7 +59,7 @@
       "zh_hk": "地磁風暴",
       "zh_cn": ""
     },
-    "link": "geomagnetic_storms",
+    "link": "geomagnetic-storms",
     "image": "geomagnetic_storm.jpg"
   },
   {
@@ -77,7 +77,7 @@
       "zh_hk": "輻射帶",
       "zh_cn": ""
     },
-    "link": "radiation_belt",
+    "link": "radiation-belt",
     "image": "phenomena/radiation_belt.jpg"
   },
   {
@@ -86,7 +86,7 @@
       "zh_hk": "太陽耀斑/無線電通信中斷",
       "zh_cn": ""
     },
-    "link": "radio_blackouts",
+    "link": "radio-blackouts",
     "image": "radio_blackout.jpg"
   },
   {
@@ -95,7 +95,7 @@
       "zh_hk": "太陽輻射風暴",
       "zh_cn": ""
     },
-    "link": "solar_radiation_storm",
+    "link": "solar-radiation-storm",
     "image": "solar_radiation_storm.jpg"
   },
   {
@@ -104,7 +104,7 @@
       "zh_hk": "太陽10.7厘米射電流量",
       "zh_cn": ""
     },
-    "link": "f10.7",
+    "link": "f107-radio-emissions",
     "image": "phenomena/sunspots.png"
   }
 ]
