@@ -1,21 +1,29 @@
-# Earth's Magnetosphere
+# Magnetosphere
 
-![0306_mag](./static/0306_mag.gif)
-*(Source/Credits: NASA)*
-
-**Differences in temperature, pressure and composition** within the inner and outer core of the earth causes convection currents in the molten metal as cool, dense matter sinks whilst warm, less dense matter rises. This flow of liquid iron generates electric currents, which in turn produce magnetic fields. Charged metals passing through these fields go on to create electric currents of their own, and so the cycle continues. 
+Differences in temperature, pressure and composition within the inner and outer core of the Earth causes convection currents in the molten metal (primarily iron) as cool, dense matter sinks whilst warm, less dense matter rises. This flow of liquid iron generates electric currents, which in turn produces **magnetic fields**. Charged metals passing through these fields go on to create electric currents of their own, and so the cycle continues. 
 
 ![0306_mag](./static/0313_earth.jpg)
 *(Source/Credits: NASA)*
 
-The Earth’s magnetosphere acts as a giant bubble of magnetism to protect us from the **sun’s ultraviolet radiation**. 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iVSD9x598jw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The magnetosphere is periodically reconfigured by **solar wind**.
+*Earth's Magnetic Field Vibrates Like a Drum(Source/Credits: NASA)*
 
-After absorbing the incoming energy from the solar wind, the magnetosphere releases energy through **geomagnetic storms or substorms**. 
+The Earth’s magnetosphere is the region of space surrounding Earth where the dominant magnetic field is the magnetic field of Earth. The magnetosphere is formed by the interaction of solar wind with the Earth’s magnetic field.  It acts as a giant bubble of magnetism to protect us from the **sun’s ultraviolet radiation** and **cosmic radiation** (see "Phenomenon : Galactic Cosmic Rays").
 
-Apart from the earth, other planets also have their magnetosphere:
+![0314_magnetosphere](./static/0314_magnetosphere.jpg)
+*(Source/Credits: NASA)*
 
+The Earth’s magnetic field can be viewed as a dipole, with north and south poles like a simple bar magnet. Earth’s magnetic axis, the dipole, is inclined at about 11 degrees to Earth’s spin axis.
+
+The pressure of the solar wind on Earth’s magnetic field compresses the field on the dayside of Earth and stretches the field into a long tail on the nightside. On the dayside of Earth, the magnetic field is confined to within about 10 Earth radii from the center of Earth while on the nightside, the field is stretched out to hundreds of Earth radii.
+
+![0314_plasmasphere](./static/0314_plasmasphere.jpg)
+*Plasmasphere (Source/Credits: NASA)*
+
+The boundary between the solar wind and Earth’s magnetic field is called the **magnetopause**. This boundary is constantly in motion as Earth is buffeted by the ever-changing solar wind. While the magnetopause shields us to some extent from the solar wind, energy, mass, and momentum are still transferred from the solar wind to regions inside the magnetosphere. The interaction between the solar wind and Earth’s magnetic field, and the influence of the underlying atmosphere, creates various regions of fields, plasmas, and currents inside the magnetosphere such as the **plasmasphere**, the **ring current**, and **radiation belts** (see "Phenomenon : Radiation Belts"). The dynamic conditions inside the magnetosphere create what we call space weather that can affect technological systems and human activities.
+
+Apart from Earth, other planets also have their magnetosphere:
 
 ![0306_mag_@](./static/0306_mag_@.jpg)
 *Jupiter's Magnetosphere (Source/Credits: [Jupiter's Magnetosphere](http://planetaryexploration-net.planetpatriot.net/jupiter/io/jupiter%27s_magnetosphere.html))*
