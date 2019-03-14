@@ -20,24 +20,33 @@ export default {
     swiperSlide,
     SliderCard,
   },
-  props: { list: Array },
-  data: () => ({
-    swiperOption: {
-      slidesPerView: 5,
-      spaceBetween: 12,
-      freeMode: true,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-        hideOnClick: true,
-      },
-      breakpoints: {
-        1264: { slidesPerView: 4 },
-        872: { slidesPerView: 3 },
-        599: { slidesPerView: 2 },
-      },
+  props: {
+    list: Array,
+    column: {
+      type: Number,
+      default: 1,
     },
-  }),
+  },
+  data() {
+    return {
+      swiperOption: {
+        slidesPerView: 5,
+        slidesPerColumn: this.column,
+        spaceBetween: 12,
+        freeMode: true,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+          hideOnClick: true,
+        },
+        breakpoints: {
+          1264: { slidesPerView: 4 },
+          872: { slidesPerView: 3 },
+          599: { slidesPerView: 2 },
+        },
+      },
+    };
+  },
   computed: {
     swiper() {
       return this.$refs.mySwiper.swiper;
