@@ -11,7 +11,7 @@
     </v-toolbar-title>
     <v-spacer/>
 
-    <v-menu offset-y nudge-left="180">
+    <v-menu offset-y nudge-left="160">
       <v-toolbar-side-icon slot="activator"/>
       <v-list>
         <v-list-tile
