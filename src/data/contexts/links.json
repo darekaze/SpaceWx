@@ -1,7 +1,6 @@
 {
   "en": {
     "related-links": "Related Links",
-    "tips": " ",
     "links": [
       {
         "name": "Space Weather Prediction Center (SWPC)",
@@ -39,7 +38,6 @@
   },
   "zh_hk": {
     "related-links": "相關鏈接",
-    "tips": "(* 為英文網站)",
     "links": [
       {
         "name": "美國太空天氣預報中心(SWPC) *",

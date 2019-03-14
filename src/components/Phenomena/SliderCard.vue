@@ -15,9 +15,9 @@
         <v-layout
           fill-height px-3
           align-center justify-center>
-          <span class="headline font-weight-light white--text text-xs-center">
-            {{ topic.title[lang] }}
-          </span>
+          <span
+            v-html="topic.title[lang]"
+            class="headline font-weight-light white--text text-xs-center"/>
         </v-layout>
       </div>
     </v-img>

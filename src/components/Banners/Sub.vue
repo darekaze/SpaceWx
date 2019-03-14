@@ -36,7 +36,5 @@ export default {
 <style lang="scss" scoped>
 .boxxing {
   max-width: 420px !important;
-  text-align: justify;
-  text-justify: inter-word;
 }
 </style>
