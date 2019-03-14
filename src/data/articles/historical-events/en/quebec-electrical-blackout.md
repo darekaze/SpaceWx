@@ -1,4 +1,4 @@
-## 1989: Solar Flare – Quebec Electrical Blackout
+# 1989: Solar Flare – Quebec Electrical Blackout
 
 In March 1989, a sunspot group which is as large as the sum of the size of 54 Earths caused more than **195 solar flares**. On 10 March, astronomers witnessed a powerful explosion on the sun. Within minutes, tangled magnetic forces on the sun had released a billion-ton cloud of gas. On the evening of 12 March, the vast cloud of solar plasma (a gas of electrically charged particles) finally struck Earth's magnetic field. 
 

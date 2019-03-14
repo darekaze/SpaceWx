@@ -1,4 +1,4 @@
-## 電離層
+# 電離層
 
 ![0306_ionosphere](./static/0306_ionosphere.jpg)
 *(資料來源︰國家空間科學中心)*
@@ -13,7 +13,6 @@
 
 參考資料
 
-- [The Ionosphere](https://scied.ucar.edu/ionosphere)
-- [這個離我們最近的太空圈層，讓人又愛又恨](https://kknews.cc/science/r8j69y4.html)
+- https://scied.ucar.edu/ionosphere
 
-
+- https://kknews.cc/science/r8j69y4.html
