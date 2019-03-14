@@ -12,4 +12,4 @@
 
 Charged particles from the Sun may cause impacts to the equipment of the spacecraft. For example, **high energy ions** penetrate electronic components and cause errors in **electronic signals**, leading to **improper commands** in the spaceship or **incorrect data** of an instrument.
 
-Moreover, charge accumulation may occur on the electronics on board satellites and spacecraft, resulting in a build-up of the electric field. When an electrical discharge eventually happens, the **electronics may be damaged**, hence affecting the operation of spacecraft.
+Moreover, charge accumulation may occur on the electronics on board satellites and spacecraft, resulting in a build-up of the electric field. When an electrical discharge eventually happens, the **electronics may be damaged**, hence affecting the operation of satellite and spacecraft.
