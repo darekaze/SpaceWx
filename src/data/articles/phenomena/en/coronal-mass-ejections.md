@@ -3,7 +3,8 @@
 ![0306_cme](./static/0306_cme.jpg)
 *(Source/Credits:  Solar Dynamics Observatory)*
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/gAOEG9cf_H0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gAOEG9cf_H0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 The CME Heard 'Round the Solar System
 (Source/Credits: NASA)
 
@@ -15,7 +16,7 @@ The frequency of CMEs is often associated with the amount of solar activity. Dur
 ![0306_CME](./static/0306_CME.gif)
 *A coronal mass ejection on Feb. 27, 2000. A CME blasts into space a billion tons of particles traveling millions of miles an hour. (Source/Credits: NASA)*
 
- ---
+---
 
 Reference 
 

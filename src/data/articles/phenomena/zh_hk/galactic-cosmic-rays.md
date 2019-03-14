@@ -10,3 +10,4 @@ The energetic particles are ionized and thus they interact and are influenced by
 These energetic charged particles are traveling near the speed of light. When they hit the atmosphere, large showers of secondary particles are created with some even reaching the ground. Nevertheless, these particles pose little threat to humans and systems on the ground. 
 
 The Earth’s magnetic field works to deflect these particles away from the equatorial regions, but it provides little protection above roughly 55 degrees magnetic latitude. This constant shower of GCR particles at high latitudes can result in increased radiation exposures for aircrew and passengers at high latitudes and altitudes.
+
