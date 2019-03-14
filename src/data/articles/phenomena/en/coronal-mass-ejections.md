@@ -16,7 +16,7 @@ The frequency of CMEs is often associated with the amount of solar activity. Dur
 ![0306_CME](./static/0306_CME.gif)
 *A coronal mass ejection on Feb. 27, 2000. A CME blasts into space a billion tons of particles traveling millions of miles an hour. (Source/Credits: NASA)*
 
- ---
+---
 
 Reference 
 

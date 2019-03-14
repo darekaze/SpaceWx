@@ -82,14 +82,3 @@ export default {
   width: 66%;
 }
 </style>
-
-<i18n>
-{
-  "en": {
-    "read-more": "Read more"
-  },
-  "zh_hk": {
-    "read-more": "了解更多"
-  }
-}
-</i18n>

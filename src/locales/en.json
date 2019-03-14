@@ -1,3 +1,10 @@
 {
-  "message": "hello i18n !!"
+  "back": "Back",
+  "back-home": "Back to Home",
+  "read-more": "Read more",
+  "space-weather": "SpaceWeather",
+  "home": "Home",
+  "phenomena": "Phenomena",
+  "impacts": "Impacts",
+  "historical-events": "Historical Events"
 }

@@ -41,16 +41,12 @@ export default {
 <i18n>
 {
   "en": {
-    "impacts": "Impacts",
     "impacts-info": "Discover how space weather affects our lives",
-    "epos": "Effects on People and System",
-    "historical-events": "Historical Events"
+    "epos": "Effects on People and System"
   },
   "zh_hk": {
-    "impacts": "影響",
     "impacts-info": "了解太空天氣如何影響我們的生活",
-    "epos": "對人與電子系統的影響",
-    "historical-events": "重大歷史事件"
+    "epos": "對人與電子系統的影響"
   }
 }
 </i18n>

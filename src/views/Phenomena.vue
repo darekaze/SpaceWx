@@ -5,7 +5,7 @@
       <p>{{ $t('ph-info') }}</p>
     </sub-banner>
     <v-container pt-2>
-      <slider :list="phenomena" />
+      <slider :list="phenomena" :column="2"/>
     </v-container>
   </div>
 </template>
