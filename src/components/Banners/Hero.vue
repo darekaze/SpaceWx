@@ -1,5 +1,5 @@
 <template>
-  <v-container fluid px-0 pt-0> <!-- eslint-disable max-len -->
+  <v-container fluid px-0 pt-0>
     <!-- desire height is 80vh, then 580 -->
     <v-img
       class="grey darken-1 round"
@@ -26,16 +26,19 @@
   </v-container>
 </template>
 
+<script> /* eslint-disable max-len */
+</script>
+
 <i18n>
 {
   "en": {
     "space-weather": "Space Weather",
-    "hero-subtitle": "Conditions in space that can impact our technological systems",
+    "hero-subtitle": "Changing electromagnetic conditions in near-Earth space caused mainly by the Sun",
     "discover-more": "Discover More"
   },
   "zh_hk": {
     "space-weather": "太空天氣",
-    "hero-subtitle": "太空中影響我們技術系統的氣候",
+    "hero-subtitle": "主要由太陽引起近地空間的電磁狀況",
     "discover-more": "探索更多"
   }
 }

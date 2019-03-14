@@ -48,9 +48,9 @@ export default {
   },
   "zh_hk": {
     "impacts": "影響",
-    "impacts-info": "瞭解太空天氣如何影響我們的生活",
+    "impacts-info": "了解太空天氣如何影響我們的生活",
     "epos": "對人與電子系統的影響",
-    "historical-events": "重大的歷史事件"
+    "historical-events": "重大歷史事件"
   }
 }
 </i18n>

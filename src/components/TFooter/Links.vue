@@ -1,10 +1,7 @@
 <template>
   <v-layout row wrap py-4 justify-start>
-    <v-flex py-3 xs6>
+    <v-flex py-3 xs12>
       <div class="title">{{ $t('related-links') }}</div>
-    </v-flex>
-    <v-flex py-3 xs6>
-      <div class="body-1 text-xs-right">{{ $t('tips') }}</div>
     </v-flex>
     <v-flex py-2 xs12 sm6
       class="t-hov"
