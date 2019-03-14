@@ -11,7 +11,14 @@
       <v-card-text class="pt-0" v-if="article">
         <div class="article-md" v-html="article.html"/>
       </v-card-text>
+      <v-card-actions>
+        <v-btn flat color="blue"
+          :to="$i18nRoute({ name: $route.params.category })">
+          <v-icon class="pr-2">keyboard_arrow_left</v-icon>{{ $t('back') }}
+        </v-btn>
+      </v-card-actions>
     </v-card>
+
   </v-container>
 </template>
 
@@ -46,17 +53,6 @@ export default {
   },
 };
 </script>
-
-<i18n>
-{
-  "en": {
-    "back": "Back"
-  },
-  "zh_hk": {
-    "back": "返回"
-  }
-}
-</i18n>
 
 <style lang="scss" scoped>
 .extra {
