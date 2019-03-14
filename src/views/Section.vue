@@ -72,7 +72,8 @@ export default {
     img {
       display: block;
       margin: 0 auto;
-      max-width: 100%;
+      width: 80%;
+      height: auto;
       border-radius: 4px;
     }
     img + em {
@@ -88,8 +89,7 @@ export default {
       border-radius:3px;
       border-collapse: collapse;
       height: 320px;
-      margin: auto;
-      // max-width: 600px;
+      margin: 30px auto;
       width: 95%;
       box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
       animation: float 5s infinite;
@@ -101,7 +101,7 @@ export default {
       background:#1b1e24;
       border-bottom:4px solid #9ea7af;
       border-right: 1px solid #343a45;
-      font-size:23px;
+      font-size: 20px;
       font-weight: 100;
       padding: 16px;
       text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -121,17 +121,17 @@ export default {
       border-top: 1px solid #C1C3D1;
       border-bottom: 1px solid #C1C3D1;
       color:#666B85;
-      font-size:16px;
+      font-size: 16px;
       font-weight:normal;
       text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
     }
 
     tr:first-child {
-      border-top:none;
+      border-top: none;
     }
 
     tr:last-child {
-      border-bottom:none;
+      border-bottom: none;
     }
 
     tr:nth-child(odd) td {
@@ -148,7 +148,7 @@ export default {
 
     td {
       background:#FFFFFF;
-      padding: 16px;
+      padding: 12px;
       vertical-align:middle;
       font-weight:300;
       font-size:18px;
