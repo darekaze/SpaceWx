@@ -12,8 +12,8 @@ Solar flare intensities are classified in terms of peak emission in the 0.1 – 
 
 |Flare Classification|Peak flux range (Watts/square metre)|
 |---|---|
-|A|<10^-7|
-|B|<10^-7-10^-6|
-|C|<10^-6-10^-5|
-|M|<10^-5-10^-4|
-|X|<10^(-4)-10^-3|
+|A|&lt; 10^-7^|
+|B|&lt; 10^-7^-10^-6^|
+|C|&lt; 10^-6^-10^-5^|
+|M|&lt; 10^-5^-10^-4^|
+|X|&lt; 10^-4^-10^-3^|

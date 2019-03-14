@@ -1,9 +1,9 @@
 # Magnetosphere
 
-Differences in temperature, pressure and composition within the inner and outer core of the Earth causes convection currents in the molten metal (primarily iron) as cool, dense matter sinks whilst warm, less dense matter rises. This flow of liquid iron generates electric currents, which in turn produces **magnetic fields**. Charged metals passing through these fields go on to create electric currents of their own, and so the cycle continues. 
-
 ![0306_mag](./static/0313_earth.jpg)
 *(Source/Credits: NASA)*
+
+Differences in temperature, pressure and composition within the inner and outer core of the Earth causes convection currents in the molten metal (primarily iron) as cool, dense matter sinks whilst warm, less dense matter rises. This flow of liquid iron generates electric currents, which in turn produces **magnetic fields**. Charged metals passing through these fields go on to create electric currents of their own, and so the cycle continues. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iVSD9x598jw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

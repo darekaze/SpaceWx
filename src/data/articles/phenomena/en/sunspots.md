@@ -12,10 +12,11 @@ Sunspots often appear near 30-35 degrees North and South of the sun's hemisphere
 #### Solar (Sunspot) Cycle
 
 The number of sunspots changes periodically. In the early stage of a solar cycle, the number of sunspots increases when the solar state changes from less active to more active. The period or year with the most sunspots is called **"solar maximum"**. It is also the time when the solar activity is most active and solar magnetic storms often occur. In the later stage of the solar cycle, the solar state becomes less active and the number of sunspots **decreases**. The period with the least sunspots is called **"solar minimum"**, during which the solar activity is most quiescent. The period of a solar cycle usually refers to the duration starting at its solar minimum and ending at the next solar minimum. The whole period lasts for about **11 years**.  Solar cycles have been assigned consecutive numbers. This number assignment began with solar cycle 1 in 1755 and the most recent being cycle 24 – which began in December, 2008  (in 2019 it is nearing solar minimum). A new solar cycle is considered to have begun when sunspot groups emerge at higher latitudes with the magnetic polarities of the leading spots opposite that of the previous cycle.  
-The official daily and monthly sunspot numbers are determined by the World Data Center – Sunspot Index and Long-term Solar Observations ([WDC-SILSO](http://sidc.oma.be/silso/)) at the Royal Observatory of Belgium.
 
 ![0314_cycle](./static/0314_cycle.png)
 *Solar cycle (Source/Credits: [SILO, Royal Observatory of Belgium, Brussels](http://sidc.be/silso))*
+
+The official daily and monthly sunspot numbers are determined by the World Data Center – Sunspot Index and Long-term Solar Observations ([WDC-SILSO](http://sidc.oma.be/silso/)) at the Royal Observatory of Belgium.
 
 ---
 

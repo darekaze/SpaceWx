@@ -1,9 +1,9 @@
 # Ionosphere
 
-The Ionosphere is part of Earth’s upper atmosphere where Extreme UltraViolet (EUV) and x-ray solar radiation ionizes the atoms and molecules thus creating a layer of electrons. Due to spectral variability of the solar radiation and the density of various constituents in the atmosphere, there are different layers created within the ionosphere, called the **D, E, and F-layers**. These layers' altitude varies from season to season. 
-
 ![0306_ionosphere_2](./static/0306_ionosphere_2.jpg)
 *Regions of the ionosphere, showing the D, E and F layers. (Source/Credits: UCAR Center for Science Education staff (Randy Russell))*
+
+The Ionosphere is part of Earth’s upper atmosphere where Extreme UltraViolet (EUV) and x-ray solar radiation ionizes the atoms and molecules thus creating a layer of electrons. Due to spectral variability of the solar radiation and the density of various constituents in the atmosphere, there are different layers created within the ionosphere, called the **D, E, and F-layers**. These layers' altitude varies from season to season. 
 
 The ionosphere is important because it reflects and modifies radio waves used for communication and navigation. When high-energy particles from the sun arrive the ionosphere, auroras would be generated (see “Phenomenon : Aurora”).
 
