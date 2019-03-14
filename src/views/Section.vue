@@ -76,12 +76,18 @@ export default {
       height: auto;
       border-radius: 4px;
     }
-    img + em {
+    img + em, iframe+p em {
       display: block;
       margin: auto;
       text-align: center;
       font-size: 1.1rem;
       padding-top: 8px;
+    }
+
+    video, iframe {
+      display: block;
+      margin: 0 auto;
+      width: 80%;
     }
 
     table {
@@ -158,11 +164,6 @@ export default {
 
     td:last-child {
       border-right: 0px;
-    }
-
-    video {
-      margin: 2em 0;
-      border:1px solid #ddd;
     }
 
     /* Typography */
