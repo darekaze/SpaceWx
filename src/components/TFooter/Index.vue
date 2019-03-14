@@ -7,11 +7,7 @@
       <v-card flat tile color="transparent">
         <v-divider/>
         <v-card-title class="pl-0 py-2">
-          <v-btn dark flat
-            class="subheading mx-0 text-capitalize"
-            to="#">
-            <v-icon class="pr-2">stars</v-icon>{{ $t('acknowledgement') }}
-          </v-btn>
+          <AckBtn/>
           <v-spacer/>
           <div v-if="atHome" class="body-1 text-xs-right">{{ $t('tips') }}</div>
           <div v-else class="text-xs-right">
@@ -28,6 +24,7 @@ export default {
   name: 'main-footer',
   components: {
     LinksPanel: () => import('@/components/TFooter/Links.vue'),
+    AckBtn: () => import('@/components/TFooter/AckBtn.vue'),
   },
   computed: {
     atHome() {
@@ -41,13 +38,11 @@ export default {
 {
   "en": {
     "tips": " ",
-    "hko": "Hong Kong Observatory",
-    "acknowledgement": "Acknowledgement"
+    "hko": "Hong Kong Observatory"
   },
   "zh_hk": {
     "tips": "(* 為英文網站)",
-    "hko": "香港天文台",
-    "acknowledgement": "鳴謝"
+    "hko": "香港天文台"
   }
 }
 </i18n>
