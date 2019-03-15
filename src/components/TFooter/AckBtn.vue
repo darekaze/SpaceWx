@@ -5,7 +5,7 @@
         dark flat
         class="subheading text-capitalize mx-0"
         v-on="on">
-        <v-icon left dark>stars</v-icon>
+        <!-- <v-icon left dark>stars</v-icon> -->
         {{ $t('ack') }}
       </v-btn>
     </template>
