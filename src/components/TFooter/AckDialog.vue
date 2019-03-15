@@ -1,19 +1,17 @@
 <template>
-  <v-card >
+  <v-card>
     <v-card-title primary-title class="headline black white--text">
-      <v-icon dark class="pr-2">stars</v-icon>Acknowledgement
+      <v-icon left dark>stars</v-icon>
+      {{ $t('ack') }}
     </v-card-title>
-
     <v-card-text v-if="ack">
       <div v-html="ack.html"/>
     </v-card-text>
-
     <v-divider></v-divider>
-
     <v-card-actions>
       <v-spacer></v-spacer>
       <v-btn flat color="primary" @click="$emit('dialog')">
-        Close
+        {{ $t('close') }}
       </v-btn>
     </v-card-actions>
   </v-card>
