@@ -9,16 +9,15 @@
 </template>
 
 <script>
-import 'swiper/dist/css/swiper.css'; // eslint-disable-line import/no-extraneous-dependencies
+import '@/assets/css/swiper.min.css';
 import { swiper, swiperSlide } from 'vue-awesome-swiper';
-import SliderCard from '@/components/Phenomena/SliderCard.vue';
 
 export default {
   name: 'slider-list',
   components: {
     swiper,
     swiperSlide,
-    SliderCard,
+    SliderCard: () => import('@/components/Phenomena/SliderCard.vue'),
   },
   props: {
     list: Array,
