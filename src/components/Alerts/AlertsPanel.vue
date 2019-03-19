@@ -1,5 +1,5 @@
 <template>
-  <v-container grid-list-sm pt-2>
+  <v-container grid-list-md pt-2>
     <div class="mb-2">
       <h2 class="headline font-weight-bold">
         {{ $t('space-wx-conditions') }}
@@ -19,7 +19,7 @@
     <v-layout
       row wrap justify-center
       v-if="isInit">
-      <v-flex xs6 sm4 xl3
+      <v-flex xs6 sm4
         v-for="(value, key) in $t('alertsInfo')" :key="key">
         <alert-card
           :info="value"

@@ -1,8 +1,5 @@
 <template>
-  <v-card flat
-    max-width="380px"
-    color="#FAFAFA"
-    class="round">
+  <v-card flat color="#FAFAFA" class="round">
     <v-img
       :src="require(`@/assets/images/${info.image}`)"
       :aspect-ratio="1.9"
