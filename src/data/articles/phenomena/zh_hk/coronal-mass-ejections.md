@@ -11,3 +11,9 @@
 
 日冕物質抛射有可能會影響無線電傳輸，損壞衛星或其他電力傳輸線設施並導致電力中斷。
 
+--- 
+
+資料來源
+
+- [SolarScience](https://solarscience.msfc.nasa.gov/CMEs.shtml)
+- [NASA](https://solarscience.msfc.nasa.gov/CMEs.shtml)
