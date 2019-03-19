@@ -1,6 +1,7 @@
 <template>
-  <v-footer
+  <v-card
     dark height="auto"
+    color="grey darken-4"
     class="mt-3 white--text">
     <v-container py-0>
       <links-panel v-if="atHome"/>
@@ -10,13 +11,10 @@
           <AckBtn/>
           <v-spacer/>
           <div v-if="atHome" class="body-1 text-xs-right">{{ $t('tips') }}</div>
-          <div v-else class="text-xs-right">
-            &copy;{{ new Date().getFullYear() }} — <strong>{{ $t('hko') }}</strong>
-          </div>
         </v-card-title>
       </v-card>
     </v-container>
-  </v-footer>
+  </v-card>
 </template>
 
 <script>
@@ -37,12 +35,10 @@ export default {
 <i18n>
 {
   "en": {
-    "tips": " ",
-    "hko": "Hong Kong Observatory"
+    "tips": " "
   },
   "zh_hk": {
-    "tips": "(* 為英文網站)",
-    "hko": "香港天文台"
+    "tips": "(* 為英文網站)"
   }
 }
 </i18n>

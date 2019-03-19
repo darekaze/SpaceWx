@@ -5,8 +5,8 @@
       <transition name="fade" mode="out-in">
         <router-view/>
       </transition>
+      <TFooter/>
     </v-content>
-    <t-footer/>
   </v-app>
 </template>
 

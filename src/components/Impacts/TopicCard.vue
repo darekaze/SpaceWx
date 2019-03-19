@@ -12,7 +12,8 @@
         <div class="fill-height gradient-effect">
           <v-container fluid fill-height>
             <v-layout fill-height align-center justify-center>
-              <span class="headline font-weight-light white--text text-xs-center">
+              <span class="headline font-weight-light
+                white--text text-xs-center word-break">
                 {{ topic.title[lang] || topic.title }}
               </span>
             </v-layout>
@@ -47,5 +48,9 @@ export default {
   &:hover {
     background-color: rgba(251, 147, 28, 0.1);
   }
+}
+.word-break {
+  word-break: break-word;
+  hyphens: auto;
 }
 </style>

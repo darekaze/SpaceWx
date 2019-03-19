@@ -2,6 +2,7 @@
   <v-container mt-5 pt-3>
     <v-card flat class="extra">
       <v-card-title class="pt-3 pb-2">
+        <!-- Change to breadcrum -->
         <v-btn
           dark flat color="blue"
           :to="$i18nRoute({ name: $route.params.category })">
@@ -238,16 +239,29 @@ export default {
     &/deep/ {
       font-size: 1.1rem;
       line-height: 1.44;
+
+      img + em, iframe + p em {
+        font-size: 1.0rem;
+      }
+      th, tr, td {
+        font-size: 1.3rem;
+      }
     }
   } /* @iPad */
 }
 
-@media only screen and (max-device-width: 480px) {
+@media only screen and (max-device-width: 600px) {
   .article-md {
     &/deep/ {
-      text-align: left;
       width: auto;
       padding: 0 10px;
+
+      img {
+        width: 95%;
+      }
+      th, tr, td {
+        font-size: 1.1rem;
+      }
     }
   } /* @Phone */
 }
