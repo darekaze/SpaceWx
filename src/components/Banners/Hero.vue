@@ -15,11 +15,6 @@
           <div class="subheading pl-1 pr-3 mb-2">
             {{ $t('hero-subtitle') }}
           </div>
-          <v-btn dark outline depressed
-            color="cyan lighten-3"
-            @click.stop="$vuetify.goTo('#phenomena')">
-            {{ $t('discover-more') }}
-          </v-btn>
         </v-flex>
       </v-layout>
     </v-img>
