@@ -1,6 +1,7 @@
 <template>
-  <v-footer
+  <v-card
     dark height="auto"
+    color="grey darken-4"
     class="mt-3 white--text">
     <v-container py-0>
       <links-panel v-if="atHome"/>
@@ -13,7 +14,7 @@
         </v-card-title>
       </v-card>
     </v-container>
-  </v-footer>
+  </v-card>
 </template>
 
 <script>
