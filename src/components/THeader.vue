@@ -65,7 +65,7 @@ export default {
       return /^\/\w+\/?$/.test(this.$route.path); // match locale route
     },
     headerColor() {
-      return this.atHome ? 'transparent' : '#000000b3';
+      return this.atHome ? 'transparent' : '#000000a8';
     },
   },
   methods: {

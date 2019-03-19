@@ -2,7 +2,7 @@
   {
     "title": {
       "en": "Electric Power",
-      "zh_hk": "影響",
+      "zh_hk": "電力",
       "zh_cn": ""
     },
     "link": {
@@ -61,8 +61,8 @@
   },
   {
     "title": {
-      "en": "Human space exploration",
-      "zh_hk": "人類太空探索",
+      "en": "Human space exploration & Satellite",
+      "zh_hk": "人類太空探索和人造衞星",
       "zh_cn": ""
     },
     "link": {
@@ -73,20 +73,5 @@
       }
     },
     "image": "impacts/space_expo.jpg"
-  },
-  {
-    "title": {
-      "en": "Satellite",
-      "zh_hk": "人造衞星",
-      "zh_cn": ""
-    },
-    "link": {
-      "name": "section",
-      "params": {
-        "topic": "satellite",
-        "category": "impacts"
-      }
-    },
-    "image": "impacts/satellite.jpg"
   }
 ]

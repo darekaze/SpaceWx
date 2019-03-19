@@ -27,7 +27,14 @@
       </v-flex>
     </v-layout>
     <!-- Links to NSMC -->
-    <external-card :link="chinaLink"/>
+    <v-layout row wrap justify-center>
+      <v-flex xs12 sm4>
+        <topic-card :topic="monitor" :ratio="2.7"/>
+      </v-flex>
+      <v-flex xs12 sm8>
+        <external-card :link="chinaLink"/>
+      </v-flex>
+    </v-layout>
   </v-container>
 </template>
 
@@ -39,6 +46,7 @@ export default {
   components: {
     AlertCard: () => import('@/components/Alerts/AlertCard.vue'),
     ExternalCard: () => import('@/components/Alerts/ExternalLink.vue'),
+    TopicCard: () => import('@/components/Impacts/TopicCard.vue'),
   },
   data() {
     return {
@@ -46,6 +54,17 @@ export default {
         title: this.$t('china-source'),
         image: 'satellite.jpg',
         url: 'http://www.nsmc.org.cn/NSMC/Channels/SpaceWeather.html',
+      },
+      monitor: {
+        title: this.$t('monitor'),
+        image: 'impacts/monitor@nasa.jpg',
+        link: {
+          name: 'section',
+          params: {
+            topic: 'space-weather-monitoring',
+            category: 'impacts',
+          },
+        },
       },
     };
   },
@@ -83,6 +102,7 @@ export default {
     "updated": "Updated at",
     "source": "Source: Space Weather Prediction Center",
     "china-source": "3-day Space Weather Forecast by National Satellite Meteorological Center",
+    "monitor": "Space Weather Monitoring",
     "no-alert": "No Alert",
     "alert-msg": {
       "R": "Radio Blackout in force",
@@ -94,7 +114,8 @@ export default {
     "space-wx-conditions": "太空天氣狀況",
     "updated": "更新時間：",
     "source": "資料來源：美國太空天氣預報中心",
-    "china-source": "國家衛星氣象中心未來三天空間天氣預報",
+    "china-source": "國家衛星氣象中心未來三天太空天氣預報",
+    "monitor": "太空天氣監測",
     "no-alert": "無警報",
     "alert-msg": {
       "R": "級別無綫電通訊中斷正在生效",

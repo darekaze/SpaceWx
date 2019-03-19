@@ -31,7 +31,7 @@ export default {
       swiperOption: {
         slidesPerView: 5,
         slidesPerColumn: this.column,
-        spaceBetween: 12,
+        spaceBetween: 8,
         freeMode: true,
         navigation: {
           nextEl: '.swiper-button-next',
@@ -39,8 +39,8 @@ export default {
           hideOnClick: true,
         },
         breakpoints: {
-          1264: { slidesPerView: 4 },
-          872: { slidesPerView: 3 },
+          1259: { slidesPerView: 4 },
+          759: { slidesPerView: 3 },
           599: { slidesPerView: 2 },
         },
       },

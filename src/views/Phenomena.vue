@@ -33,7 +33,7 @@ export default {
   },
   "zh_hk": {
     "phenomena": "現象",
-    "ph-info": "探索太陽與地球之間的各種空間環境"
+    "ph-info": "探索太陽與地球之間的各種太空環境"
   }
 }
 </i18n>
