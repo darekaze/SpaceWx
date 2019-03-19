@@ -94,7 +94,7 @@ export default {
     "space-wx-conditions": "太空天氣狀況",
     "updated": "更新時間：",
     "source": "資料來源：美國太空天氣預報中心",
-    "china-source": "國家衛星氣象中心未來三天空間天氣預報",
+    "china-source": "國家衛星氣象中心未來三天太空天氣預報",
     "no-alert": "無警報",
     "alert-msg": {
       "R": "級別無綫電通訊中斷正在生效",

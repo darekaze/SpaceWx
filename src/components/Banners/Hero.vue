@@ -38,7 +38,7 @@
   },
   "zh_hk": {
     "space-weather": "太空天氣",
-    "hero-subtitle": "主要由太陽引起近地空間的電磁狀況",
+    "hero-subtitle": "主要由太陽引起近地太空的電磁狀況",
     "discover-more": "探索更多"
   }
 }
