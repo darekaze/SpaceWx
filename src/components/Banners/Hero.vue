@@ -15,6 +15,11 @@
           <div class="subheading pl-1 pr-3 mb-2">
             {{ $t('hero-subtitle') }}
           </div>
+          <v-btn dark outline depressed
+            color="cyan lighten-3"
+            @click.stop="$vuetify.goTo('#phenomena')">
+            {{ $t('discover-more') }}
+          </v-btn>
         </v-flex>
       </v-layout>
     </v-img>
@@ -28,11 +33,13 @@
 {
   "en": {
     "space-weather": "Space Weather",
-    "hero-subtitle": "Changing electromagnetic conditions in near-Earth space caused mainly by the Sun"
+    "hero-subtitle": "Changing electromagnetic conditions in near-Earth space caused mainly by the Sun",
+    "discover-more": "Discover More"
   },
   "zh_hk": {
     "space-weather": "太空天氣",
-    "hero-subtitle": "主要由太陽引起近地空間的電磁狀況"
+    "hero-subtitle": "主要由太陽引起近地空間的電磁狀況",
+    "discover-more": "探索更多"
   }
 }
 </i18n>
