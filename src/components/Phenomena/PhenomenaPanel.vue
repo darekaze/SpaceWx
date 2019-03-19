@@ -30,7 +30,7 @@ export default {
     "ph-info": "Explore various space environments between the Sun and the Earth"
   },
   "zh_hk": {
-    "ph-info": "探索太陽與地球之間的各種空間環境"
+    "ph-info": "探索太陽與地球之間的各種太空環境"
   }
 }
 </i18n>
