@@ -88,5 +88,21 @@
       }
     },
     "image": "impacts/satellite.jpg"
+  },
+  {
+    "title": {
+      "en": "space weather monitoring",
+      "zh_hk": "太空天氣監測",
+      "zh_cn": ""
+    },
+    "link": {
+      "name": "section",
+      "params": {
+        "topic": "space-weather-monitoring",
+        "category": "impacts"
+      }
+    },
+    "image": "impacts/monitor@nasa.jpg"
   }
+
 ]
