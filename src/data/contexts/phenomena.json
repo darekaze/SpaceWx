@@ -102,8 +102,8 @@
   {
     "title": {
       "en": "Radio Blackouts",
-      "zh_hk": "無線電通信中斷",
-      "zh_cn": "無線電通信中斷"
+      "zh_hk": "無線電通訊中斷",
+      "zh_cn": "無線電通訊中斷"
     },
     "link": "radio-blackouts",
     "image": "radio_blackout.jpg"
