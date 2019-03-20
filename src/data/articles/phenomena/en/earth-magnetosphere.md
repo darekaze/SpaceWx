@@ -1,6 +1,6 @@
 # Magnetosphere
 
-![0306_mag](./static/0313_earth.jpg)
+![0306_mag](./static/magnetosphere_en.png)
 *(Schematic diagram showing the magnetic field of the Earth and its surrounding space. (Source: US National Aeronautics and Space Administration))*
 
 Differences in temperature, pressure and composition within the inner and outer core of the Earth cause convection currents in the molten metal (primarily iron) in its liquid outer core as cool, dense matter sinks whilst warm, less dense matter rises.  This flow of liquid iron generates electric currents, which in turn produces a **magnetic field**.  Charged metals passing through these fields go on to create electric currents of their own, and so the cycle continues. 
@@ -11,7 +11,7 @@ Differences in temperature, pressure and composition within the inner and outer 
 
 The Earth’s magnetosphere is the region of space surrounding Earth where the dominant magnetic field is the magnetic field of Earth. The magnetosphere is formed by the interaction of solar wind with the Earth’s magnetic field.  It acts as a giant bubble of magnetism to protect us from the **sun’s ultraviolet radiation** and **cosmic radiation** (see ["Phenomenon : Galactic Cosmic Rays"](/#/en/section/phenomena/galactic-cosmic-rays)).
 
-![0314_magnetosphere](./static/magnesphere.png)
+![0314_magnetosphere](./static/earth_mag_en.png)
 *Schematic diagram showing the Earth’s geographic poles and magnetic poles as well as tilting of their axis.*
 
 The Earth’s magnetic field can be viewed as a dipole, with north and south poles like a simple bar magnet. Earth’s magnetic axis, the dipole, is inclined at about 11 degrees to Earth’s spin axis.
