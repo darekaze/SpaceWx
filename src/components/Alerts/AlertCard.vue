@@ -21,7 +21,7 @@
             </v-icon>
           </v-btn>
         </template>
-        <span>Show Details</span>
+        <span>{{ $t('show-details') }}</span>
       </v-tooltip>
       <div class="ctx-click" @click.stop="toogleDialog()">
         <h3 class="subheading indigo--text font-weight-bold">
