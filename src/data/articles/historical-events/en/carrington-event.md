@@ -9,4 +9,8 @@ This solar flare hurled at Earth a huge cloud of **charged particles** that arri
 
 Since the telegraph was practically the only electrical system back then, the impact was relatively limited, but the solar storm itself is in fact one of the most powerful storms on record. Energetic particles from the Sun could trigger a chain of chemical reactions that result in nitrates being deposited onto the Earth's surface and preserved in ice cores, and samples corresponding to 1859 have been analysed to show the highest concentration of the compound in 500 years. The Carrington Event is therefore believed to be the largest over these past centuries, and is often portrayed as the worst-case scenario. If a solar storm of such magnitude were to happen today, the impacts would certainly be much more serious.
 
-YouTube video (UK Met Office): [What was the Carrington Event and how would it affect us today?](https://www.youtube.com/watch?v=i1Of6j17ImI)
+---
+
+Related information
+
+- [YouTube video (UK Met Office)](https://www.youtube.com/watch?v=i1Of6j17ImI)

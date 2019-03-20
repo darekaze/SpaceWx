@@ -1,13 +1,12 @@
-# Galactic Cosmic Rays
+# 銀河宇宙射線
 
 ![0314_gcr](./static/0314_gcr.png)
-*(Source/Credits: [Windows To The Unicerse](https://www.windows2universe.org/))*
+*(圖片來源: [Windows To The Unicerse](https://www.windows2universe.org/))*
 
-Galactic Cosmic Rays (GCR) are the slowly varying, highly energetic background source of energetic particles consisting of a wide spectrum of elements that constantly bombard Earth. GCR originate outside the solar system and are likely formed by explosive events such as **supernova**.
+銀河宇宙射線是廣泛元素帶緩慢變化及高能量背景的高能量粒子，它們不斷撞擊地球。銀河宇宙射線起源於太陽系外，很可能是由**超新星爆炸**等事件形成。
 
-The energetic particles are ionized and thus they interact and are influenced by the sun’s magnetic fields. Near the solar maximum (see "Phenomenon : Sunspots/Solar Cycle"), the solar wind modulates the fraction of the lower-energy GCR particles such that a majority cannot penetrate to Earth. On the other hand, GCR particles have easier access to Earth near solar minimum due to the absence of many coronal mass ejections (see "Phenomenon : Coronal Mass Ejections") and their corresponding magnetic fields.
+高能量粒子被電離，因此它們有相互作用並受到太陽磁場的影響。在接近**太陽活動極小期時**（參閱[「現象：太陽黑子/太陽週期」](/#/zh_hk/section/phenomena/sunspots)），太陽風會調節低能量銀河宇宙射線粒子的比例，使大部分粒子不能穿透到地球。 另一方面，在**太陽活動極小期間**由於沒有許多日冕物質拋射（參閱[「現象：日冕物質拋射」](/#/zh_hk/section/phenomena/coronal-mass-ejections)）及其相應的磁場，銀河宇宙射線粒子更容易進入地球。
 
-These energetic charged particles are traveling near the speed of light. When they hit the atmosphere, large showers of secondary particles are created with some even reaching the ground. Nevertheless, these particles pose little threat to humans and systems on the ground. 
+這些高能帶電粒子以接近光速移動。當它們撞擊大氣層時，會產生大量的二次粒子，有些甚至會到達地面。
 
-The Earth’s magnetic field works to deflect these particles away from the equatorial regions, but it provides little protection above roughly 55 degrees magnetic latitude. This constant shower of GCR particles at high latitudes can result in increased radiation exposures for aircrew and passengers at high latitudes and altitudes.
-
+地球的磁場可以使這些粒子偏離赤道區域，但在大約55磁緯度以上，它提供很少保護。在高緯度地區持續不斷的銀河宇宙射線粒子會導致高緯度和高海拔地區的機組人員和乘客的輻射照射量增加。

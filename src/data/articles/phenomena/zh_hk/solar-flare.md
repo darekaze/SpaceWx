@@ -1,17 +1,17 @@
-# Solar Flares
+# 太陽耀斑
 
-![0314_solar_flare](./static/0314_solar_flare.png)*A solar flare captured by the Solar and Heliospheric Observatory (SOHO) spacecraft as it erupted from the sun early on 28 October, 2003. (Source/Credits: NASA/SOHO)*
-
-Solar flares are large eruptions of **electromagnetic radiation** from the Sun. A flare appears as a sudden, intense brightening region on the sun, typically lasting from minutes to hours.
+![0314_solar_flare](./static/0314_solar_flare.png)
+*SOHO太空船在2003年10月28日拍攝的太陽耀斑 (圖片來源: NASA/SOHO)*
 
 ![0314_loop](./static/0314_loop.jpg)
 *Coronal Loops (Source/Credits: [solarsystemcentral.com](http://www.solarsystemcentral.com/sun_in_depth_page.html))*
 
-Solar flares normally erupt near sunspots where comparatively stronger magnetic field is located.  Magnetic field lines extend from the surface into the corona displaying arching shapes in broad loops. These loops trap extremely hot gas, where the temperature reaches 10 to 40 million degrees. As these magnetic fields evolve, they can reach a point of instability and release energy in a variety of forms including solar flares. These flares emit **X-ray** and **Extreme UltraViolet (EUV)** radiation which cause **radio blackouts** (see "Phenomenon : Radio Blackouts").  The electromagnetic emission produced during flares travels at the speed of light, taking about 8 minutes—rapidly affecting the dayside of Earth.
-Solar flare intensities are classified in terms of peak emission in the 0.1 – 0.8 nm spectral band (soft x-rays) of the GOES satellite X-ray Sensor. The X-ray flux levels start with the “A” flares (nominally starting at 10-8 W/m2); then “B” flares; followed by “C”, “M”, and the most intense “X” flares.
+太陽耀斑通常在太陽黑子附近較大磁場的地方爆發。磁場的磁力線從太陽表面伸延至日冕，並呈拱型環狀。這些環狀磁場困著極高溫的氣體（氣體溫度可達一千萬至四千萬度）。隨著這些磁場的演變，它們可以達到不穩定點並以各種形式釋放能量，包括太陽耀斑。這些耀斑釋放出**X射線**和**極紫外線**（Extreme UltraViolet）輻射，可造成**無線電通訊中斷**（參閱「現象：無線電通訊中斷」）。在耀斑期間產生的電磁輻射會以光速傳播，大約只需8分鐘，便可迅速影響地球受日照的地方。
 
-|Flare Classification|Peak flux range (Watts/square metre)|
-|---|---|
+太陽耀斑強度根據GOES衛星X射線感應器的0.1-0.8nm光譜帶（軟X射線）的峰值排放進行分類。 X射線通量水平以“A”耀斑開始（數值上從10-8 W / m2開始）; 其次是“B”、“C” 、“M”和最強烈的“X”耀斑。
+
+| 耀斑類型 | 峰值通量範圍（瓦特/平方米） |
+|:-:|:-:|
 |A|&lt; 10^-7^|
 |B|&lt; 10^-7^-10^-6^|
 |C|&lt; 10^-6^-10^-5^|
