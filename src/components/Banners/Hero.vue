@@ -53,7 +53,7 @@ export default {
     "space-weather": "Space Weather",
     "hero-subtitle": "Changing electromagnetic conditions in near-Earth space caused mainly by the Sun",
     "discover-more": "Discover More",
-    "trial": "Beta"
+    "trial": "Beta version"
   },
   "zh_hk": {
     "space-weather": "太空天氣",
