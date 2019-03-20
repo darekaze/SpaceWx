@@ -7,7 +7,7 @@ The Ionosphere is part of Earth’s upper atmosphere where Extreme UltraViolet (
 
 The ionosphere is important because it reflects and modifies radio waves used for communication and navigation. When high-energy particles from the sun arrive the ionosphere, auroras would be generated (see “Phenomenon : Aurora”).
 
-![0314_NotOfficialImage](./static/0314_NotOfficialImage.png)
+![0314_NotOfficialImage](./static/ionosphere_drawing.png)
 
 #### Ionospheric scintillation
 
