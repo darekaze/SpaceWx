@@ -95,6 +95,13 @@ export default {
     "phenomena": "現象",
     "impacts": "影響",
     "historical-events": "歷史事件"
+  },
+  "zh_cn": {
+    "space-weather": "太空天氣",
+    "home": "首頁",
+    "phenomena": "現象",
+    "impacts": "影響",
+    "historical-events": "歷史事件"
   }
 }
 </i18n>

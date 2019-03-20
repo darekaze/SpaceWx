@@ -72,5 +72,42 @@
         "url": "https://www.lcsd.gov.hk/CE/Museum/Space/zh_TW/web/spm/whatsnew.html"
       }
     ]
+  },
+  "zh_cn": {
+    "related-links": "相關鏈接",
+    "links": [
+      {
+        "name": "美國太空天氣預報中心(SWPC) *",
+        "url": "https://www.swpc.noaa.gov"
+      },
+      {
+        "name": "國家太空天氣監測預警中心",
+        "url": "http://www.nsmc.org.cn/NSMC/Channels/SpaceWeather.html"
+      },
+      {
+        "name": "太空環境預報中心",
+        "url": "http://www.sepc.ac.cn"
+      },
+      {
+        "name": "太陽活動預報中心",
+        "url": "http://rwcc.bao.ac.cn"
+      },
+      {
+        "name": "太空環境預報中心 *",
+        "url": "https://sunearthday.gsfc.nasa.gov/swac"
+      },
+      {
+        "name": "歐洲太空天氣網 *",
+        "url": "http://swe.ssa.esa.int"
+      },
+      {
+        "name": "英國氣象局 *",
+        "url": "https://www.metoffice.gov.uk/services/public-sector/emergencies/space-weather"
+      },
+      {
+        "name": "香港太空館",
+        "url": "https://www.lcsd.gov.hk/CE/Museum/Space/zh_TW/web/spm/whatsnew.html"
+      }
+    ]
   }
 }

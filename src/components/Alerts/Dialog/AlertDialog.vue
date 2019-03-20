@@ -92,6 +92,10 @@ export default {
   "zh_hk": {
     "learn-more": "了解更多",
     "close": "關閉"
+  },
+  "zh_cn": {
+    "learn-more": "了解更多",
+    "close": "關閉"
   }
 }
 </i18n>

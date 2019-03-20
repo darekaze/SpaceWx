@@ -39,6 +39,9 @@ export default {
   },
   "zh_hk": {
     "tips": "(* 為英文網站)"
+  },
+  "zh_cn": {
+    "tips": "(* 為英文網站)"
   }
 }
 </i18n>

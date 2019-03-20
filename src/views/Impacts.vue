@@ -32,6 +32,10 @@ export default {
   "zh_hk": {
     "impacts-epos": "對人與電子系統的影響",
     "impacts-epos-info": "了解太空天氣如何影響我們的生活"
+  },
+  "zh_cn": {
+    "impacts-epos": "對人與電子系統的影響",
+    "impacts-epos-info": "了解太空天氣如何影響我們的生活"
   }
 }
 </i18n>
