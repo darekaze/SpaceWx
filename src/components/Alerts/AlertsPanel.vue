@@ -29,10 +29,10 @@
     <!-- Links to NSMC -->
     <v-layout row wrap justify-center>
       <v-flex xs12 sm4>
-        <topic-card :topic="monitor" :ratio="2.7"/>
+        <LinkInternal :link="monitorLink" :ratio="2.7"/>
       </v-flex>
       <v-flex xs12 sm8>
-        <external-card :link="chinaLink"/>
+        <LinkExternal :link="chinaLink"/>
       </v-flex>
     </v-layout>
   </v-container>
@@ -45,8 +45,8 @@ export default {
   name: 'alerts-panel',
   components: {
     AlertCard: () => import('@/components/Alerts/AlertCard.vue'),
-    ExternalCard: () => import('@/components/Alerts/ExternalLink.vue'),
-    TopicCard: () => import('@/components/Impacts/TopicCard.vue'),
+    LinkExternal: () => import('@/components/Alerts/LinkExternal.vue'),
+    LinkInternal: () => import('@/components/Alerts/LinkInternal.vue'),
   },
   data() {
     return {
@@ -55,10 +55,10 @@ export default {
         image: 'satellite.jpg',
         url: 'http://www.nsmc.org.cn/NSMC/Channels/SpaceWeather.html',
       },
-      monitor: {
+      monitorLink: {
         title: this.$t('monitor'),
         image: 'impacts/monitor@nasa.jpg',
-        link: {
+        to: {
           name: 'section',
           params: {
             topic: 'space-weather-monitoring',
@@ -91,7 +91,6 @@ export default {
     },
   },
 };
-// ENHANCE: Split alert info to json
 </script>
 
 <i18n src="@/data/contexts/alerts.json"></i18n>
