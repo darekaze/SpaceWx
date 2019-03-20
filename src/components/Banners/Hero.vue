@@ -53,9 +53,15 @@ export default {
     "space-weather": "Space Weather",
     "hero-subtitle": "Changing electromagnetic conditions in near-Earth space caused mainly by the Sun",
     "discover-more": "Discover More",
-    "trial": "Prototype"
+    "trial": "Beta"
   },
   "zh_hk": {
+    "space-weather": "太空天氣",
+    "hero-subtitle": "主要由太陽引起近地太空的電磁狀況",
+    "discover-more": "探索更多",
+    "trial": "試驗版"
+  },
+  "zh_cn": {
     "space-weather": "太空天氣",
     "hero-subtitle": "主要由太陽引起近地太空的電磁狀況",
     "discover-more": "探索更多",

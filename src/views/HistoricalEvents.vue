@@ -32,6 +32,10 @@ export default {
   "zh_hk": {
     "historical-events": "歷史事件",
     "historical-events-info": "了解有關過去太空天氣歷史現象"
+  },
+  "zh_cn": {
+    "historical-events": "歷史事件",
+    "historical-events-info": "了解有關過去太空天氣歷史現象"
   }
 }
 </i18n>

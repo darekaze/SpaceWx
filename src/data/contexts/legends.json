@@ -198,5 +198,105 @@
         "intensity": "-"
       }
     }
+  },
+  "zh_cn": {
+    "scale": "級別",
+    "definition": "定義",
+    "R": {
+      "R5": {
+        "scale": "5",
+        "definition": "X射線最高流量 = 2 x 10<sup>-3</sup> Wm<sup>-2</sup><br>(X20級耀班)",
+        "intensity": "極端"
+      },
+      "R4": {
+        "scale": "4",
+        "definition": "X射線最高流量 = 1 x 10<sup>-3</sup> Wm<sup>-2</sup><br>(X10級耀班)",
+        "intensity": "嚴重"
+      },
+      "R3": {
+        "scale": "3",
+        "definition": "X射線最高流量 = 1 x 10<sup>-4</sup> Wm<sup>-2</sup><br>(X1級耀班)",
+        "intensity": "强烈"
+      },
+      "R2": {
+        "scale": "2",
+        "definition": "X射線最高流量 = 5 x 10<sup>-5</sup> Wm<sup>-2</sup><br>(M2級耀班)",
+        "intensity": "中等"
+      },
+      "R1": {
+        "scale": "1",
+        "definition": "X射線最高流量 = 1 x 10<sup>-5</sup> Wm<sup>-2</sup><br>(M1級耀班)",
+        "intensity": "輕微"
+      },
+      "無級別": {
+        "scale": "0",
+        "definition": "X射線最高流量 &lt; 1 x 10-5 Wm<sup>-2</sup>",
+        "intensity": "-"
+      }
+    },
+    "S": {
+      "S5": {
+        "scale": "5",
+        "definition": "10兆電子伏高能質子通量 = 10<sup>5</sup> pfu",
+        "intensity": "極端"
+      },
+      "S4": {
+        "scale": "4",
+        "definition": "10兆電子伏高能質子通量 = 10<sup>4</sup> pfu",
+        "intensity": "嚴重"
+      },
+      "S3": {
+        "scale": "3",
+        "definition": "10兆電子伏高能質子通量 = 10<sup>3</sup> pfu",
+        "intensity": "强烈"
+      },
+      "S2": {
+        "scale": "2",
+        "definition": "10兆電子伏高能質子通量 = 10<sup>2</sup> pfu",
+        "intensity": "中等"
+      },
+      "S1": {
+        "scale": "1",
+        "definition": "10兆電子伏高能質子通量 = 10 pfu",
+        "intensity": "輕微"
+      },
+      "無級別": {
+        "scale": "0",
+        "definition": "10兆電子伏高能質子通量 &lt; 10 pfu",
+        "intensity": "-"
+      }
+    },
+    "G": {
+      "G5": {
+        "scale": "5",
+        "definition": "Kp指數 = 9",
+        "intensity": "極端"
+      },
+      "G4": {
+        "scale": "4",
+        "definition": "Kp指數 = 8",
+        "intensity": "嚴重"
+      },
+      "G3": {
+        "scale": "3",
+        "definition": "Kp指數 = 7",
+        "intensity": "强烈"
+      },
+      "G2": {
+        "scale": "2",
+        "definition": "Kp指數 = 6",
+        "intensity": "中等"
+      },
+      "G1": {
+        "scale": "1",
+        "definition": "Kp指數 = 5",
+        "intensity": "輕微"
+      },
+      "無級別": {
+        "scale": "0",
+        "definition": "Kp指數 &lt; 5",
+        "intensity": "-"
+      }
+    }
   }
 }
