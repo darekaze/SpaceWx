@@ -5,6 +5,7 @@
       <transition name="fade" mode="out-in">
         <router-view/>
       </transition>
+      <!-- Footer should be outside v-content -->
       <TFooter/>
     </v-content>
   </v-app>

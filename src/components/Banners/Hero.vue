@@ -5,15 +5,22 @@
       class="grey darken-1 round"
       height="360"
       :src="require('@/assets/images/hero.jpg')">
-      <v-layout fill-height align-center pa-3>
+      <v-layout
+        mt-5 fill-height
+        align-center :justify-center="isMobile">
         <v-flex
-          xs8 offset-xs1
-          class="white--text">
-          <h2 class="display-3 font-weight-light">
+          xs12 offset-sm1
+          class="white--text boxxing"
+          :class="{'text-xs-center': isMobile}">
+          <h2 :class="`display-${isMobile ? 2:3} font-weight-light`">
             {{ $t('space-weather') }}
           </h2>
-          <div class="subheading pl-1 pr-3">
+          <div class="subheading mt-2">
             {{ $t('hero-subtitle') }}
+          </div>
+          <!-- Temporary tag -->
+          <div class="subheading mt-5 font-weight-light">
+            ({{ $t('trial') }})
           </div>
           <!-- <v-btn dark outline depressed
             color="cyan lighten-3"
@@ -27,19 +34,32 @@
 </template>
 
 <script> /* eslint-disable max-len */
+export default {
+  computed: {
+    isMobile() { return this.$vuetify.breakpoint.xsOnly; },
+  },
+};
 </script>
+
+<style lang="scss" scoped>
+.boxxing {
+  max-width: 450px !important;
+}
+</style>
 
 <i18n>
 {
   "en": {
     "space-weather": "Space Weather",
     "hero-subtitle": "Changing electromagnetic conditions in near-Earth space caused mainly by the Sun",
-    "discover-more": "Discover More"
+    "discover-more": "Discover More",
+    "trial": "Prototype"
   },
   "zh_hk": {
     "space-weather": "太空天氣",
     "hero-subtitle": "主要由太陽引起近地太空的電磁狀況",
-    "discover-more": "探索更多"
+    "discover-more": "探索更多",
+    "trial": "試驗版"
   }
 }
 </i18n>
