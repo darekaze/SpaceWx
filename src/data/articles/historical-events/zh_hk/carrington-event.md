@@ -11,6 +11,6 @@
 
 ---
 
-參考影片
+相關資料
 
-https://www.youtube.com/watch?v=i1Of6j17ImI
+- [YouTube video (UK Met Office)](https://www.youtube.com/watch?v=i1Of6j17ImI)

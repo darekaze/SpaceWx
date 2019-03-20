@@ -14,3 +14,4 @@ Charged particles from the Sun may cause impacts to the equipment of the spacecr
 
 Moreover, charge accumulation may occur in the electronics on board satellites and spacecraft, resulting in a build-up of the electric field.  When an electrical discharge eventually happens, the **electronics may be damaged**, hence affecting the operation of satellites and spacecraft.
 
+When intense solar activities bring severe **solar winds** towards the Earth, the atmosphere in which satellites travel will increase in density.  This will increase the **drag force** on the movement of these satellites, causing a **slow down** or even **deorbit** of these satellites.
