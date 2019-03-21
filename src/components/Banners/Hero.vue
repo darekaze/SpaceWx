@@ -18,10 +18,6 @@
           <div class="subheading mt-2">
             {{ $t('hero-subtitle') }}
           </div>
-          <!-- Temporary tag -->
-          <div class="subheading mt-5 font-weight-light">
-            ({{ $t('trial') }})
-          </div>
           <!-- <v-btn dark outline depressed
             color="cyan lighten-3"
             @click.stop="$vuetify.goTo('#phenomena')">
@@ -52,20 +48,17 @@ export default {
   "en": {
     "space-weather": "Space Weather",
     "hero-subtitle": "Changing electromagnetic conditions in near-Earth space caused mainly by the Sun",
-    "discover-more": "Discover More",
-    "trial": "Beta version"
+    "discover-more": "Discover More"
   },
   "zh_hk": {
     "space-weather": "太空天氣",
     "hero-subtitle": "主要由太陽引起近地太空的電磁狀況",
-    "discover-more": "探索更多",
-    "trial": "試驗版"
+    "discover-more": "探索更多"
   },
   "zh_cn": {
     "space-weather": "太空天氣",
     "hero-subtitle": "主要由太陽引起近地太空的電磁狀況",
-    "discover-more": "探索更多",
-    "trial": "試驗版"
+    "discover-more": "探索更多"
   }
 }
 </i18n>
