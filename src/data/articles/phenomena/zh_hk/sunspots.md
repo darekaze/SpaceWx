@@ -11,6 +11,7 @@
 
 ## 太陽(太陽黑子)週期
 
+
 太陽黑子出現的數量有週期性變化。在太陽週期初期，黑子數量會隨著太陽活動由低潮進入高潮而**增多**。黑子數量出現最多的期間或年份，就是太陽活動最活躍的時期，稱為「**太陽活動極大期**」，太陽磁暴會經常出現。在太陽週期的後期，太陽活動會逐漸變得不活躍，太陽黑子數量**減少**。太陽黑子最少的時期稱為「**太陽活動極小期**」，也是太陽活動最安靜的時期。
 
 一個太陽週期通常是指從一個「太陽活動極小期」開始至下一個「太陽活動極小期」到來時的一段期間，這段時間一般持續約**11年**。太陽週期的排序開始於1755年，而現時處於第24週期（從2008年12月開始，2019年接近太陽活動極小期）。當太陽黑子群再出現在高緯度地區，並且其前導黑子的磁性與前一周期的磁性相反時，新太陽週期便會被確認開始。
@@ -29,3 +30,4 @@
 - "Sunspot group tilt angles and the strength of the solar cycle", by M. Dasi-Espuig, S. K. Solanki, N. A. Krivova, R. H. Cameron, and T. Penuela, Astronomy & Astrophysics, May 12, 2010.
 - "[The Solar Dynamo](http://solarscience.msfc.nasa.gov/dynamo.shtml)", The National Aeronautics and Space Administration (NASA).
 - "[How Sunspots are Thought to Develop](http://www.windows.ucar.edu/tour/link=/sun/atmosphere/sunspot_form_jpg_image.html)", [Windows to the Universe](http://www.windows2universe.org/spaceweather/images/sunspot_form_jpg_image.html), at the website of University Corporation for Atmospheric Research (UCAR).
+

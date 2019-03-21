@@ -8,7 +8,7 @@ Coronal mass ejections (CMEs) are explosive outbursts of **plasma** from the Sun
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gAOEG9cf_H0?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 *The CME Heard 'Round the Solar System (Source: US National Aeronautics and Space Administration)*
 
-The more explosive CMEs generally begin when highly twisted magnetic field structures contained in the Sun’s lower corona, become too stressed and realign into a less tense configuration – a process called magnetic reconnection. CMEs, travelling faster than the background solar wind speed, can generate a shock wave which can accelerate charged particles ahead of them – causing increased **solar radiation storm** (see ["Phenomenon : Solar Radiation Storms"](/#/en/section/phenomena/solar-radiation-storm)) potential or intensity. 
+The more explosive CMEs generally begin when highly twisted magnetic field structures contained in the Sun’s lower corona, become too stressed and realign into a less tense configuration – a process called magnetic reconnection. CMEs, travelling faster than the background solar wind speed, can generate a shock wave which can accelerate charged particles ahead of them – causing increased **solar radiation storm** (see ["Phenomenon : Solar Radiation Storms"](#/en/section/phenomena/solar-radiation-storm)) potential or intensity. 
 
 ![0306_CME](./static/0306_CME.gif)
 *A coronal mass ejection on Feb. 27, 2000. A CME blasts into space a billion tons of particles traveling millions of miles an hour. (Source: US National Aeronautics and Space Administration)*
