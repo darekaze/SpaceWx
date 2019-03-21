@@ -6,12 +6,12 @@
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gAOEG9cf_H0?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-*The CME Heard 'Round the Solar System (影片來源: NASA)*
+*The CME Heard 'Round the Solar System (影片來源: 美國國家航空暨太空總署)*
 
-較強爆發的日冕物質拋射通常開始在磁重聯(magnetic reconnection)過程時，即太陽低層日冕中高扭曲磁場結構變得過於繃緊，並重新調整為不太繃緊的狀態。日冕物質拋射的移動速度超過背景太陽風的速度，能產生衝擊波，可以加速前方的帶電粒子，導致**太陽輻射風暴**增加或增強（參閱[「現象：太陽輻射風暴」](/#/zh_hk/section/phenomena/solar-radiation-storm)。
+較強爆發的日冕物質拋射通常開始在磁重聯(magnetic reconnection)過程時，即太陽低層日冕中高扭曲磁場結構變得過於繃緊，並重新調整為不太繃緊的狀態。日冕物質拋射的移動速度超過背景太陽風的速度，能產生衝擊波，可以加速前方的帶電粒子，導致**太陽輻射風暴**增加或增強（參閱[「現象：太陽輻射風暴」](/#/zh_hk/section/phenomena/solar-radiation-storm)）。
 
 ![0306_CME](./static/0306_CME.gif)
-*2000年2月27日的日冕物質拋射。一個日冕物質拋射向太空發射了數十億噸每小時行駛數百萬英里的粒子 (圖片來源︰NASA)*
+*2000年2月27日的日冕物質拋射。一個日冕物質拋射向太空發射了數十億噸每小時行駛數百萬英里的粒子 (圖片來源︰美國國家航空暨太空總署)*
 
 與太陽耀斑相反，日冕物質拋射並不是特別明亮，並可能需要數小時才能從太陽完全噴發。日冕物質拋射從太陽向外移動，速度從低於每秒250公里到接近每秒3000公里。向著地球移動最快的日冕物質拋射可以在15-18小時內到達地球，而較慢的日冕物質拋射則可能需要幾天才能到達。
 
@@ -22,4 +22,4 @@
 資料來源
 
 - [SolarScience](https://solarscience.msfc.nasa.gov/CMEs.shtml)
-- [NASA](https://solarscience.msfc.nasa.gov/CMEs.shtml)
+- [美國國家航空暨太空總署](https://solarscience.msfc.nasa.gov/CMEs.shtml)
