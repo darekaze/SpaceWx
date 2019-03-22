@@ -6,11 +6,9 @@ While observation from the ground is affected by the Earth's atmosphere and weat
 
 Solar and Heliospheric Observatory (SOHO) was launched in 1995 to study solar wind and the internal structure of the Sun.  It was a cooperation between European Space Agency (ESA) and National Aeronautics and Space Administration (NASA).
 
-![monitor1](./static/monitor1.png)
-*Observation of the Sun by SOHO from 1996 to 2015.  (Source: NASA)*
-
-![SOHO](./static/SOHOopen.jpg)
-*Solar and Heliospheric Observatory (SOHO) satellite (Source: NASA)*
+|                                                              |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![monitor1](./static/monitor1.png) *Observation of the Sun by SOHO from 1996 to 2015.  (Source: NASA)* | ![SOHO](./static/SOHOopen.jpg) *Solar and Heliospheric Observatory (SOHO) satellite (Source: NASA)*  |
 
 Advanced Composition Explorer (ACE) was launched in 1997 by the United States.  It is capable of measuring the composition of charged particle from the Sun and the interplanetary magnetic field.  It gives us important information on the materials released during solar events.
 

@@ -8,7 +8,6 @@
     "link": "sunspots",
     "image": "phenomena/cycle_icon@nasa.png"
   },
-
   {
     "title": {
       "en": "Solar Wind",
@@ -18,7 +17,6 @@
     "link": "solarwind",
     "image": "phenomena/solarwind@nasa.png"
   },
-
   {
     "title": {
       "en": "Coronal Holes",
@@ -28,7 +26,6 @@
     "link": "coronal-holes",
     "image": "phenomena/coronal_holes.jpg"
   },
-  
   {
     "title": {
       "en": "Solar Flares",
@@ -38,7 +35,6 @@
     "link": "solar-flare",
     "image": "phenomena/solar_falre@nasa.jpg"
   },
-
   {
     "title": {
       "en": "Coronal Mass Ejections",
@@ -48,17 +44,15 @@
     "link": "coronal-mass-ejections",
     "image": "phenomena/cme@JanRobbe.jpg"
   },
-
   {
     "title": {
-      "en": "Magnetosphere",
+      "en": "Earth's Magnetosphere",
       "zh_hk": "地球磁層",
       "zh_cn": "地球磁層"
     },
     "link": "earth-magnetosphere",
     "image": "phenomena/magnetosphere.png"
   },
-
   {
     "title": {
       "en": "Ionosphere",
@@ -68,7 +62,6 @@
     "link": "ionosphere",
     "image": "phenomena/ionosphere.jpg"
   },
-
   {
     "title": {
       "en": "Radiation Belts",
@@ -78,7 +71,6 @@
     "link": "radiation-belt",
     "image": "phenomena/radiation_belt.jpg"
   },
-
   {
     "title": {
       "en": "Aurora",
@@ -88,7 +80,6 @@
     "link": "aurora",
     "image": "phenomena/aurora.jpg"
   },
-
   {
     "title": {
       "en": "Geomagnetic Storm",
@@ -98,17 +89,6 @@
     "link": "geomagnetic-storms",
     "image": "geomagnetic_storm.jpg"
   },
-
-  {
-    "title": {
-      "en": "Radio Blackouts",
-      "zh_hk": "無線電通訊中斷",
-      "zh_cn": "無線電通訊中斷"
-    },
-    "link": "radio-blackouts",
-    "image": "radio_blackout.jpg"
-  },
-
   {
     "title": {
       "en": "Solar Radiation Storm",
@@ -118,7 +98,15 @@
     "link": "solar-radiation-storm",
     "image": "solar_radiation_storm.jpg"
   },
-
+  {
+    "title": {
+      "en": "Radio Blackouts",
+      "zh_hk": "無線電通訊中斷",
+      "zh_cn": "無線電通訊中斷"
+    },
+    "link": "radio-blackouts",
+    "image": "radio_blackout.jpg"
+  },
   {
     "title": {
       "en": "F10.7cm Radio Emissions",
@@ -128,12 +116,11 @@
     "link": "f107-radio-emissions",
     "image": "phenomena/sunspots.png"
   },
-
   {
     "title": {
       "en": "Galactic Cosmic Rays",
-      "zh_hk": "銀河宇宙射線",
-      "zh_cn": "銀河宇宙射線"
+      "zh_hk": "銀河宇宙<br>射線",
+      "zh_cn": "銀河宇宙<br>射線"
     },
     "link": "galactic-cosmic-rays",
     "image": "phenomena/cosmic_ray@nasa.png"

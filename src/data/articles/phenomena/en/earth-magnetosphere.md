@@ -1,4 +1,4 @@
-# Magnetosphere
+# Earth's Magnetosphere
 
 ![0306_mag](./static/magnetosphere_en.png)
 *Schematic diagram showing the magnetic field of the Earth and its surrounding space. (Source: US National Aeronautics and Space Administration)*

@@ -45,7 +45,7 @@
         "description": "日冕物質拋射的等離子體在地球磁層中產生強烈的電流，扭曲地球磁場，令大氣的密度會增加，影響低地球軌道上的衛星軌道、無線電信號路徑或GPS系統的性能。",
         "image": "geomagnetic_storm.jpg",
         "code": "G",
-        "link": "geomagnetic-storm"
+        "link": "geomagnetic-storms"
       }
     }
   },
@@ -70,7 +70,7 @@
         "description": "日冕物質拋射的等離子體在地球磁層中產生強烈的電流，扭曲地球磁場，令大氣的密度會增加，影響低地球軌道上的衛星軌道、無線電信號路徑或GPS系統的性能。",
         "image": "geomagnetic_storm.jpg",
         "code": "G",
-        "link": "geomagnetic-storm"
+        "link": "geomagnetic-storms"
       }
     }
   }

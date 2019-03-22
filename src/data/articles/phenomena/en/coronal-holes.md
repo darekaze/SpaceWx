@@ -1,7 +1,7 @@
 # Coronal Holes
 
 ![0314_hole](./static/0314_hole.jpg)
-*Coronal holes in the Sun's atmosphere from an ultraviolet image taken in January 2011. (Source:NASA/SDO and the AIA, EVE, and HMI science teams)*
+*Coronal holes in the Sun's atmosphere from an ultraviolet image taken in January 2011. (Source: NASA/SDO and the AIA, EVE, and HMI science teams)*
 
 Coronal holes are areas in the Sun's **corona** (the outermost part of the Sun's atmosphere) which are **colder** and have **lower density**. It is common to see coronal holes during years of **solar minimum**. We can find them in X-ray images of the Sun.
 
