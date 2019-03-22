@@ -39,7 +39,14 @@
 
       <v-card-actions>
         <v-spacer></v-spacer>
-        <v-btn flat color="green darken-1" to="#">
+        <v-btn flat color="green darken-1"
+          :to="$i18nRoute({
+            name: 'section',
+            params: {
+              topic: info.link,
+              category: 'phenomena',
+            }
+          })">
           {{ $t('learn-more') }}
         </v-btn>
         <v-btn flat color="green darken-1" @click.stop="dialog = false">
