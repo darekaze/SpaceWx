@@ -19,11 +19,9 @@ Advanced Composition Explorer (ACE) was launched in 1997 by the United States.  
 
 Transition Region and Coronal Explorer (TRACE) was launched in 1998 by the United States.  It aims at studying the evolution of magnetic field structures of the Sun.
 
-![monitor3](./static/monitor3.png)
-*Transition Region and Coronal Explorer (TRACE) spacecraft in orbit (Source: NASA)*
-
-![monitor4](./static/monitor4.png)
-*The last exposure of TRACE on 21 June 2010 after over 12 successful years on orbit. (Source: NASA)* 
+|                                                              |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![monitor3](./static/monitor3.png) *Transition Region and Coronal Explorer (TRACE) spacecraft in orbit (Source: NASA)* | ![monitor4](./static/monitor4.png) *The last exposure of TRACE on 21 June 2010 after over 12 successful years on orbit. (Source: NASA)*  |
 
 The Geosynchronous Operational Environmental Satellites (GOES) are operated by the United States. The GOES 13-15 (N-P) each carry a sophisticated X-ray telescope called the Solar X-ray Imager (SXI) to monitor the Sun’s corona.  Observations of solar X-rays aids in the early detection of solar flares, coronal mass ejections (CMEs), and other phenomena that impact the geospace environment.
 
@@ -44,14 +42,9 @@ The Space Environment Monitor (SEM) on **China’s Fengyun 3C (FY-3C) satellite*
 
 The Meridian Project is an important technological infrastructure being developed by China in the 2010s.  It uses monitoring stations along the vicinity of the 120°E longitude and 30°N latitude and various methods such as radio, sounding rocket, etc. to build a space environment monitoring network.
 
-![China rocket](./static/crocket.jpg)
-*Sounding rocket of the Meridian Project*
-
-![China radar](./static/cradar.jpg)
-*Monitoring instrument of the Meridian Project*
-
-![China monitor](./static/cmonitor.jpg)
-*Very High Frequency (VHF) coherent scatter radar of the Meridian Project located in Hainan*
+|                                                              |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![China rocket](./static/crocket.jpg) *Sounding rocket of the Meridian Project* | ![China radar](./static/cradar.jpg) *Monitoring instrument of the Meridian Project* <br> ![China monitor](./static/cmonitor.jpg) *Very High Frequency (VHF) coherent scatter radar of the Meridian Project located in Hainan* |
 
 Utilizing the China FengYun series satellites and the ground-based space weather monitoring network, China is able to provide monitoring data of multiple regions from the Sun to the ionosphere on a near real-time basis.  On board the six FY satellites, there are 21 instruments of eight different types of space weather monitoring facilities.  All of the monitoring work are in operation.  
 
@@ -59,9 +52,9 @@ Utilizing the China FengYun series satellites and the ground-based space weather
 
 Reference:
 
-- http://www.sohu.com/a/260052273_610722
-- http://www.cas.cn/xw/zyxw/yw/201006/t20100603_2873133.shtml
-- http://news.ifeng.com/gundong/detail_2012_11/07/18899799_0.shtml
-- https://baike.baidu.com/item/%E5%AD%90%E5%8D%88%E5%B7%A5%E7%A8%8B
-- https://www.youtube.com/watch?v=Z0z6ywslGJ4
-- http://www.cma.gov.cn/en2014/20150311/20190323/2019032305/201903/t20190318_517527.html
+- [CMA Space Weather Observation](http://www.cma.gov.cn/en2014/20150311/20190323/2019032305/201903/t20190318_517527.html)
+- [Chinese Wiki of Meridian Project](https://baike.baidu.com/item/%E5%AD%90%E5%8D%88%E5%B7%A5%E7%A8%8B)
+- [Meridian project: Successful Launch of China's 1st sounding rocket](https://www.youtube.com/watch?v=Z0z6ywslGJ4)
+- [Chinese Academy of Science](http://www.cas.cn/xw/zyxw/yw/201006/t20100603_2873133.shtml)
+- [Sohu: Meridian Project](http://www.sohu.com/a/260052273_610722)
+- [IFeng: Meridian Project](http://news.ifeng.com/gundong/detail_2012_11/07/18899799_0.shtml)

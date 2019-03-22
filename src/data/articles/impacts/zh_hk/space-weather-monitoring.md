@@ -19,11 +19,9 @@
 
 過渡區及日冕探測者（Transition Region And Coronal Explorer，簡稱TRACE）於1998年由美國發射，它的任務是研究太陽磁場結構的演變。
 
-![monitor3](./static/monitor3.png)
-*於軌道上的「過渡區及日冕探測者」(TRACE)。 (來源: NASA)*
-
-![monitor4](./static/monitor4.png)
-*TRACE於軌道上成功運行12年後，在2010年6月21日最後曝光的一幅圖片。 (來源: NASA)* 
+|                                                              |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![monitor3](./static/monitor3.png) *於軌道上的「過渡區及日冕探測者」(TRACE)。 (來源: NASA)* | ![monitor4](./static/monitor4.png) *TRACE於軌道上成功運行12年後，在2010年6月21日最後曝光的一幅圖片。 (來源: NASA)* |
 
 「地球同步運行環境衛星」（Geosynchronous Operational Environmental Satellite，簡稱GOES）由美國運作。GOES 12 - 15 (N-P) 各自配備一個稱為「太陽X射線成像儀」（SXI）的精密X射線望遠鏡以監測太陽的日冕。太陽X射線的觀測可幫助及早探測到太陽耀斑、日冕物質拋射，以及其他影響地球太空環境的現象。
 
@@ -44,14 +42,9 @@ SXI的觀測可在太陽噴發相關衝擊波到達地球前15小時發出預警
 
 子午工程是中國在二零一零年代發展的一項重大科技基礎設施。它利用沿東經120°附近、北緯30°線附近的監測站，以及無線電和探空火箭等多種手段建成一個太空環境監測網絡。
 
-![China rocket](./static/crocket.jpg)
-*子午工程探空火箭*
-
-![China radar](./static/cradar.jpg)
-*子午工程監測儀器*
-
-![China monitor](./static/cmonitor.jpg)
-*位於海南的子午工程甚高頻相干散射雷達*
+|                                                              |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![China rocket](./static/crocket.jpg) *子午工程探空火箭* | ![China radar](./static/cradar.jpg) *子午工程監測儀器* <br> ![China monitor](./static/cmonitor.jpg) *位於海南的子午工程甚高頻相干散射雷達* |
 
 利用中國風雲系列衛星的太空天氣和地面專業監測網絡，可以提供從太陽到電離層的多個區域近實時的監測數據。在6顆中國風雲衛星上，共配備了8種太空氣象監測設施及21台儀器，所有監測都在運行中。  
 
@@ -59,9 +52,8 @@ SXI的觀測可在太陽噴發相關衝擊波到達地球前15小時發出預警
 
 參考:
 
-- http://www.sohu.com/a/260052273_610722
-- http://www.cas.cn/xw/zyxw/yw/201006/t20100603_2873133.shtml
-- http://news.ifeng.com/gundong/detail_2012_11/07/18899799_0.shtml
-- https://baike.baidu.com/item/%E5%AD%90%E5%8D%88%E5%B7%A5%E7%A8%8B
-- https://www.youtube.com/watch?v=Z0z6ywslGJ4
-- http://www.cma.gov.cn/en2014/20150311/20190323/2019032305/201903/t20190318_517527.html
+- [搜狐：子午工程：空間科學之重器](http://www.sohu.com/a/260052273_610722)
+- [中國科學院：我國"子午工程"首枚氣象火箭發射成功](http://www.cas.cn/xw/zyxw/yw/201006/t20100603_2873133.shtml)
+- [鳳凰網：子午工程監測空間天氣](http://news.ifeng.com/gundong/detail_2012_11/07/18899799_0.shtml)
+- [百度百科：子午工程](https://baike.baidu.com/item/%E5%AD%90%E5%8D%88%E5%B7%A5%E7%A8%8B)
+- [Youtube: 中國子午工程首枚探空火箭成功發射](https://www.youtube.com/watch?v=Z0z6ywslGJ4)
