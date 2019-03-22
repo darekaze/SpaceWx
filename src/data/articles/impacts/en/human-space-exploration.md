@@ -1,4 +1,4 @@
-# Human space exploration and Satellite
+# Human Space Exploration and Satellite
 
 ![0313_exploration](./static/0313_exploration.png)
 

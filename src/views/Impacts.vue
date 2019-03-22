@@ -26,7 +26,7 @@ export default {
 <i18n>
 {
   "en": {
-    "impacts-epos": "Impacts on People and System",
+    "impacts-epos": "Impacts on People and Systems",
     "impacts-epos-info": "Discover how space weather affects our lives"
   },
   "zh_hk": {

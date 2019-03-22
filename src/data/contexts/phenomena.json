@@ -2,8 +2,8 @@
   {
     "title": {
       "en": "Sunspots & Solar Cycle",
-      "zh_hk": "太陽黑子 /<br> 太陽周期",
-      "zh_cn": "太陽黑子 /<br> 太陽周期"
+      "zh_hk": "太陽黑子 /<br> 太陽週期",
+      "zh_cn": "太陽黑子 /<br> 太陽週期"
     },
     "link": "sunspots",
     "image": "phenomena/cycle_icon@nasa.png"
@@ -42,8 +42,8 @@
   {
     "title": {
       "en": "Coronal Mass Ejections",
-      "zh_hk": "日冕物質拋射",
-      "zh_cn": "日冕物質拋射"
+      "zh_hk": "日冕物質<br>拋射",
+      "zh_cn": "日冕物質<br>拋射"
     },
     "link": "coronal-mass-ejections",
     "image": "phenomena/cme@JanRobbe.jpg"
@@ -71,7 +71,7 @@
 
   {
     "title": {
-      "en": "Radiation Belt",
+      "en": "Radiation Belts",
       "zh_hk": "輻射帶",
       "zh_cn": "輻射帶"
     },
@@ -112,8 +112,8 @@
   {
     "title": {
       "en": "Solar Radiation Storm",
-      "zh_hk": "太陽輻射風暴",
-      "zh_cn": "太陽輻射風暴"
+      "zh_hk": "太陽輻射<br>風暴",
+      "zh_cn": "太陽輻射<br>風暴"
     },
     "link": "solar-radiation-storm",
     "image": "solar_radiation_storm.jpg"
@@ -122,8 +122,8 @@
   {
     "title": {
       "en": "F10.7cm Radio Emissions",
-      "zh_hk": "太陽10.7厘米射電流量",
-      "zh_cn": "太陽10.7厘米射電流量"
+      "zh_hk": "太陽10.7厘米<br>射電流量",
+      "zh_cn": "太陽10.7厘米<br>射電流量"
     },
     "link": "f107-radio-emissions",
     "image": "phenomena/sunspots.png"
@@ -132,8 +132,8 @@
   {
     "title": {
       "en": "Galactic Cosmic Rays",
-      "zh_hk": "宇宙線",
-      "zh_cn": "宇宙線"
+      "zh_hk": "銀河宇宙線",
+      "zh_cn": "銀河宇宙線"
     },
     "link": "galactic-cosmic-rays",
     "image": "phenomena/cosmic_ray@nasa.png"

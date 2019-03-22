@@ -42,7 +42,7 @@ export default {
 {
   "en": {
     "impacts-info": "Discover how space weather affects our lives",
-    "epos": "Effects on People and System"
+    "epos": "Impacts on People and Systems"
   },
   "zh_hk": {
     "impacts-info": "了解太空天氣如何影響我們的生活",
