@@ -4,13 +4,11 @@
 
 地面觀測會受到地球大氣及天氣的影響，而在太空上進行觀測則沒有這限制。因此，人造衛星和太空船通常被用作觀測太空天氣。其中一些在如下介紹：
 
-「太陽和日球觀測站」（Solar and Heliospheric Observatory，簡稱SOHO）衛星於1995年升空，它的任務是研究太陽風及太陽內部的結構。這衛星由歐洲航天局（European Space Agency，簡稱ESA）和美國國家航空暨太空總署（National Aeronautics and Space Administration，簡稱NASA）合作開發。 
+「太陽和日球觀測站」（Solar and Heliospheric Observatory，簡稱SOHO）衛星於1995年升空，它的任務是研究太陽風及太陽內部的結構。這衛星由歐洲航天局（European Space Agency，簡稱ESA）和美國國家航空暨太空總署（National Aeronautics and Space Administration，簡稱NASA）合作開發。
 
-![monitor1](./static/monitor1.png)
-*太陽和日球觀測站(SOHO)衛星。(來源: NASA)*
-
-![SOHO](./static/SOHOopen.jpg)
-*「太陽和日球觀測站」在1996至2015年間的二十年太陽觀測。(來源: NASA)*
+|                                                              |                                                              |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![monitor1](./static/monitor1.png) *太陽和日球觀測站(SOHO)衛星。(來源: NASA)* | ![SOHO](./static/SOHOopen.jpg) *「太陽和日球觀測站」在1996至2015年間的二十年太陽觀測。(來源: NASA)*  |
 
 先進組合探測者（Advanced Composition Explorer，簡稱ACE）於1997年由美國發射，它能測量太陽釋放出來帶電粒子的物質組合及行星間的磁場，為我們提供太陽活動中釋出物質的重要資料。
 
