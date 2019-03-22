@@ -6,6 +6,7 @@
 Differences in temperature, pressure and composition within the inner and outer core of the Earth cause convection currents in the molten metal (primarily iron) in its liquid outer core as cool, dense matter sinks whilst warm, less dense matter rises.  This flow of liquid iron generates electric currents, which in turn produces a **magnetic field**.  Charged metals passing through these fields go on to create electric currents of their own, and so the cycle continues. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iVSD9x598jw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 *Earth's Magnetic Field Vibrates Like a Drum(Source/Credits: NASA)*
 
 The Earth’s magnetosphere is the region of space surrounding the Earth where the dominant magnetic field is the magnetic field of the Earth. The magnetosphere is formed by the interaction of solar wind with the Earth’s magnetic field.  It acts as a giant bubble of magnetism to protect us from the **Sun’s ultraviolet radiation** and **cosmic radiation** (see ["Phenomenon : Galactic Cosmic Rays"](#/en/section/phenomena/galactic-cosmic-rays)).

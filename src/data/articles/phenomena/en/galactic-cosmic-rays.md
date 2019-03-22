@@ -1,7 +1,7 @@
 # Galactic Cosmic Rays
 
 ![0314_gcr](./static/0314_gcr.png)
-*(Source: [Windows To The Unicerse](https://www.windows2universe.org/))*
+*(Source: US National Oceanic and Atmospheric Administration)*
 
 Galactic Cosmic Rays (GCR) are the slowly varying, highly energetic background source of energetic particles consisting of a wide spectrum of elements that constantly bombard the Earth. GCR originate outside the solar system and are likely formed by explosive events such as **supernova**.
 

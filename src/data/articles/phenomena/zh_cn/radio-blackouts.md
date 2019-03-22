@@ -1,15 +1,11 @@
-## 太陽耀斑/無線電通訊中斷
+# 無線電通訊中斷
 
-![0306_rb1](./static/0306_rb1.jpg)
-
-![0306_rb2](./static/0306_rb2.jpg)
-
-![0306_rb3](./static/0306_rb3.jpg)
+![0314_rb](./static/0314_rb.png)
 *(資料來源: [TRACE (Transition Region and Coronal Explorer)](http://trace.lmsal.com/Science/ScientificResults/trace_cdrom/html/trace_images.html))*
 
-**太陽耀斑**是一種劇烈的太陽活動現象。太陽耀斑的出現，與太陽上某處地方急劇地放出**電磁波**及大量**帶電荷粒子**（主要是電子）有關。這些電磁波能干擾地球的廣播通訊及無線導航系統，而帶電荷粒子亦能對航行中的太空船和人造衛星構成危險，也會使太空人處於較高輻射環境中。
+無線電通訊中斷是由**太陽耀斑**釋放的**X射線**和**極紫外輻射**所造成的（參閱[「現象：太陽耀斑」](#/zh_hk/section/phenomena/solar-flare)）。雖然無線電通訊中斷主要影響高頻（3-30 MHz）通訊，但亦有機會影響到甚高頻（Very High Frequency）（30-300 MHz）和更高的頻率，以致其接收衰減或減弱。這些風暴是由太陽耀斑引起的電子密度增加而造成。太陽耀斑的釋放物質會電離地球受日照的一方，增加無線電波通過該區域時的能量損失，造成**訊號閃爍**（參閱[「現象：電離層 - 電離層閃爍」](#/zh_hk/section/phenomena/ionosphere)），並擾亂無線電通訊（參閱[「影響」](#/zh_hk/impacts)）。
 
-![0306_flare](./static/0306_flare.jpg) 
-*太陽耀斑 (資料來源︰[Space Environment Center, Boulder, CO, National Oceanic and Atmospheric Administration, US Dept. of Commerce](http://www.sec.noaa.gov/))*
+![0306_flare](./static/0306_flare.jpg)
+*太陽耀斑 (資料來源︰ 美國太空天氣預報中心)*
 
-當強烈**X射線**的電離作用擾亂地球的**電離層**時，所產生的訊號閃爍（意即噪音、畸變失真和衰減）會干擾無線電通訊，導致**無線電通訊中斷**。
+無線電通訊中斷是最常見的太空天氣事件，也是最快影響到地球的。 每個太陽週期平均發生2000次輕微事件。它們通常持續幾分鐘，但有些也可持續數小時。
