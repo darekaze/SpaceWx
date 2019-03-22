@@ -4,6 +4,7 @@
     <phenomena-panel/>
     <impacts-panel/>
     <alerts-panel/>
+    <TFooter/>
   </div>
 </template>
 
@@ -18,6 +19,7 @@ export default {
     PhenomenaPanel: () => import('@/components/Phenomena/PhenomenaPanel.vue'),
     ImpactsPanel: () => import('@/components/Impacts/ImpactsPanel.vue'),
     AlertsPanel: () => import('@/components/Alerts/AlertsPanel.vue'),
+    TFooter: () => import('@/components/TFooter/Index.vue'),
   },
   async beforeMount() {
     await this.$store.dispatch('loadConditions');

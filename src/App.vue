@@ -5,9 +5,9 @@
       <transition name="fade" mode="out-in">
         <router-view/>
       </transition>
-      <!-- Footer should be outside v-content -->
-      <TFooter/>
     </v-content>
+    <!-- Disabled for the sake of integration -->
+    <!-- <TFooter/> -->
   </v-app>
 </template>
 
@@ -16,7 +16,7 @@ export default {
   name: 'App',
   components: {
     THeader: () => import('@/components/THeader.vue'),
-    TFooter: () => import('@/components/TFooter/Index.vue'),
+    // TFooter: () => import('@/components/TFooter/Index.vue'),
   },
 };
 </script>
