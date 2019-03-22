@@ -30,7 +30,7 @@ The Geosynchronous Operational Environmental Satellites (GOES) are operated by t
 The early warning given by the SXI observations comes at least 15 hours before the associated shockwave of the solar eruption arrives at the Earth, allowing the space weather forecasters to issue timely watches, warnings and alerts.
 
 ![monitor5](./static/monitor5.png)
-*GOES N-P (13-15) Satellite (Credit: NOAA/NASA)*
+*GOES 13-15 (N-P) Satellite (Credit: NOAA/NASA)*
 
 The Solar Dynamics Observatory (SDO) spacecraft is a NASA mission which has been observing the sun since 2010. It was placed in a geosynchronous orbit (GEO) for constant communication with the ground station.
 
@@ -40,7 +40,7 @@ The Solar Dynamics Observatory (SDO) spacecraft is a NASA mission which has been
 The Space Environment Monitor (SEM) on **China’s Fengyun 3C (FY-3C) satellite**, launched in September 2013, can effectively monitor the space environment and the charged particle flux, record impacts of space weather events on the satellite, and provide important data for space weather monitoring and warning.
 
 ![monitor7](./static/monitor7.jpg)
-*GOES N-P (13-15) Satellite (Credit: NOAA/NASA)*
+*The launch of Fengyun 3C satellite in September 2013.  (Source: China Meteorological News Press)*
 
 The Meridian Project is an important technological infrastructure being developed by China in the 2010s.  It uses monitoring stations along the vicinity of the 120°E longitude and 30°N latitude and various methods such as radio, sounding rocket, etc. to build a space environment monitoring network.
 

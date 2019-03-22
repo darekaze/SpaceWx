@@ -1,6 +1,6 @@
 # Solar Flares
 
-![0314_solar_flare](./static/0314_solar_flare.png)*A solar flare captured by the Solar and Heliospheric Observatory (SOHO) spacecraft as it erupted from the sun early on 28 October, 2003. (Source: NASA/SOHO)*
+![0314_solar_flare](./static/0314_solar_flare.png)*A solar flare captured by the Solar and Heliospheric Observatory (SOHO) spacecraft as it erupted from the Sun early on 28 October, 2003. (Source: NASA/SOHO)*
 
 Solar flares are large eruptions of **electromagnetic radiation** from the Sun. A flare appears as a sudden, intense brightening region on the Sun, typically lasting from minutes to hours.
 

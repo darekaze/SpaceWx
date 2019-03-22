@@ -18,7 +18,7 @@ The period of a solar cycle usually refers to the duration starting at its solar
 The official daily and monthly sunspot numbers are determined by the World Data Center – Sunspot Index and Long-term Solar Observations ([WDC-SILSO](http://sidc.oma.be/silso/)) at the Royal Observatory of Belgium.
 
 ![0314_cycle](./static/0314_cycle.png)
-*(Source: [SILO, Royal Observatory of Belgium, Brussels](http://sidc.be/silso))*
+*(Source: [SISLO, Royal Observatory of Belgium, Brussels](http://sidc.be/silso))*
 
 ---
 

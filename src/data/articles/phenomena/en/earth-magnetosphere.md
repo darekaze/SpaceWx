@@ -1,7 +1,7 @@
 # Magnetosphere
 
 ![0306_mag](./static/magnetosphere_en.png)
-*(Schematic diagram showing the magnetic field of the Earth and its surrounding space. (Source: US National Aeronautics and Space Administration))*
+*Schematic diagram showing the magnetic field of the Earth and its surrounding space. (Source: US National Aeronautics and Space Administration)*
 
 Differences in temperature, pressure and composition within the inner and outer core of the Earth cause convection currents in the molten metal (primarily iron) in its liquid outer core as cool, dense matter sinks whilst warm, less dense matter rises.  This flow of liquid iron generates electric currents, which in turn produces a **magnetic field**.  Charged metals passing through these fields go on to create electric currents of their own, and so the cycle continues. 
 

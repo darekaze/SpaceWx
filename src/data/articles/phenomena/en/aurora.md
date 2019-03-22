@@ -14,7 +14,7 @@ At the peak (called an **auroral substorm**), these arcs may expand to fill the 
 
 ## Aurora Viewing
 
-The oval shaped regions between the north and south latitudes of about 60 and 75 degrees would be the best places to observe aurora. At these polar latitudes, the aurora can be observed more than half of the nights of a given year, of course depending on local weather, such as blocking by clouds.  In North Pole and South Pole, they are called **aurora borealis** and **aurora australis**respectively.
+The oval shaped regions between the north and south latitudes of about 60 and 75 degrees would be the best places to observe aurora. At these polar latitudes, the aurora can be observed more than half of the nights of a given year, of course depending on local weather, such as blocking by clouds.  In North Pole and South Pole, they are called **aurora borealis** and **aurora australis** respectively.
 
 ![0306_aurora](./static/0306_aurora.jpeg)*(Source/Credits: Keith Vanderlinde, National Science Foundation)*
 

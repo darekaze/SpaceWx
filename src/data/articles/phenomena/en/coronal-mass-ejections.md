@@ -1,7 +1,7 @@
 # Coronal Mass Ejections (CME)
 
 ![0306_cme](./static/0306_cme.jpg)
-*(Source:  Solar Dynamics Observatory)*
+*Coronal mass ejections (Source:  Solar Dynamics Observatory)*
 
 Coronal mass ejections (CMEs) are explosive outbursts of **plasma** from the Sun’s **corona**. They contain billions of tons of coronal materials (mostly protons and electrons) and carry an embedded magnetic field.
 

@@ -3,7 +3,7 @@
 This solar storm was a massive X45-class solar storm which was one of the largest ones of the past half-century. It began in mid-October 2003 when increased solar activity occurred, then further intensified when a coronal mass ejection (CME) left the Sun on 28 October.
 
 ![0306_2003](./static/0306_2003.png)
-*A solar flare captured by the Solar and Heliospheric Observatory (SOHO)_spacecraft as it erupted from the Sun on 28 October 2003 (Source:  US National Aeronautics and Space Administration).*
+*A solar flare captured by the Solar and Heliospheric Observatory (SOHO) spacecraft as it erupted from the Sun on 28 October 2003 (Source:  US National Aeronautics and Space Administration).*
 
 The solar storm severely affected satellite systems and communications.  The Solar and Heliospheric Observatory (SOHO) satellite of NASA and the European Space Agency (ESA) failed temporarily.  NASA's Advanced Composition Explorer (ACE) satellite experienced damage, and instruments aboard many spacecraft had to be shut down temporarily.  It even impaired the Japanese ADEOS-II satellite.  Astronauts aboard the International Space Station were also required to seek shelter from the elevated radiation levels. 
 
