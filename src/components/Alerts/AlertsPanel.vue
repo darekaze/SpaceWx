@@ -11,7 +11,13 @@
           {{ `${$t('updated')} ${dateTime}` }}
         </div>
         <div class="font-italic" v-if="$vuetify.breakpoint.smAndUp">
-          ({{ $t('source') }})
+          ({{ $t('source') }}
+          <a
+            target="_blank"
+            href="https://www.swpc.noaa.gov/"
+            rel="noopener noreferrer nofollow">
+            {{ $t('spc') }}
+          </a>)
         </div>
       </v-layout>
     </div>
@@ -99,8 +105,9 @@ export default {
   "en": {
     "space-wx-conditions": "Space Weather Conditions",
     "updated": "Updated at",
-    "source": "Source: Space Weather Prediction Center",
-    "china-source": "3-day Space Weather Forecast by National Satellite Meteorological Center",
+    "source": "Source: ",
+    "spc": "US Space Weather Prediction Center",
+    "china-source": "3-day Forecast by National Center for Space Weather",
     "monitor": "Space Weather Monitoring",
     "no-alert": "No Alert",
     "alert-msg": {
@@ -112,8 +119,9 @@ export default {
   "zh_hk": {
     "space-wx-conditions": "太空天氣狀況",
     "updated": "更新時間：",
-    "source": "資料來源：美國太空天氣預報中心",
-    "china-source": "國家衛星氣象中心未來三天太空天氣預報",
+    "source": "資料來源：",
+    "spc": "美國太空天氣預報中心",
+    "china-source": "國家空間天氣監測預警中心未來三天預報",
     "monitor": "太空天氣監測",
     "no-alert": "無警報",
     "alert-msg": {
