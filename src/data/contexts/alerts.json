@@ -31,7 +31,7 @@
         "description": "太陽釋放出來的紫外線輻射和X-射線會把地球上被陽光照射的一面離子化，以至當無線電波通過該區域時，產生大量的能量損失並擾亂地球的電離層，導致無線電通訊中斷。",
         "image": "radio_blackout.jpg",
         "code": "R",
-        "link": "radio-blackout"
+        "link": "radio-blackouts"
       },
       "S": {
         "name": "太陽輻射風暴",
@@ -56,7 +56,7 @@
         "description": "太陽釋放出來的紫外線輻射和X-射線會把地球上被陽光照射的一面離子化，以至當無線電波通過該區域時，產生大量的能量損失並擾亂地球的電離層，導致無線電通訊中斷。",
         "image": "radio_blackout.jpg",
         "code": "R",
-        "link": "radio-blackout"
+        "link": "radio-blackouts"
       },
       "S": {
         "name": "太陽輻射風暴",
