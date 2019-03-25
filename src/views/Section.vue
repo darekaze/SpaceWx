@@ -5,6 +5,7 @@
         <!-- Change to breadcrum -->
         <v-btn
           dark flat color="blue"
+          :class="{ 'pl-0 ma-0': $vuetify.breakpoint.xsOnly }"
           :to="$i18nRoute({ name: $route.params.category })">
           <v-icon class="pr-2">keyboard_arrow_left</v-icon>{{ $t('back') }}
         </v-btn>
@@ -64,7 +65,7 @@ export default {
 }
 
 .article-md {
-  &/deep/ {
+  &::v-deep {
     padding: 0 2.2em;
     margin: auto;
     font: 1.3rem "Noto Sans TC", sans-serif;
@@ -239,7 +240,7 @@ export default {
 
 @media only screen and (max-device-width: 1024px) {
   .article-md {
-    &/deep/ {
+    &::v-deep {
       font-size: 1.1rem;
       line-height: 1.44;
 
@@ -255,7 +256,7 @@ export default {
 
 @media only screen and (max-device-width: 600px) {
   .article-md {
-    &/deep/ {
+    &::v-deep {
       width: auto;
       padding: 0 10px;
 
