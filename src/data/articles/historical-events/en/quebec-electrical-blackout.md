@@ -4,7 +4,7 @@ On 10 March 1989, astronomers witnessed a powerful explosion on the Sun. Within 
 
 The extreme geomagnetic storm created a huge electrical power blackout which covered the entire province of Quebec, Canada.  The power grid failed on 13 March, leaving millions without power for more than 9 hours.   The blackout also caused closing of schools, businesses and Dorval Airport. 
 
-In space, some satellites tumbled out of control for several hours.  NASA’s TDRS-1 communication satellite recorded more than 250 anomalies as high energy particles invaded the satellite’s sensitive electronics.  Even the Space Shuttle Discovery was having problems on its sensor.
+In space, some satellites tumbled out of control for several hours.  NASA's TDRS-1 communication satellite recorded more than 250 anomalies as high energy particles invaded the satellite's sensitive electronics.  Even the Space Shuttle Discovery was having problems on its sensor.
 
 ![0306_1989](./static/0306_1989.jpg)
 *Artist rendition of the 1989 blackout.  (Source: NASA)*

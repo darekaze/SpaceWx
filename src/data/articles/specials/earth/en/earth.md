@@ -24,4 +24,4 @@ Reference:
 - [EarthLabs - Climate and Earth's Energy Balance](https://serc.carleton.edu/eslabs/weather/2.html)
 - [NOAA - What Causes Weather?](https://www.slideshare.net/nicoleschaefer92/weather-unit-power-point-2)
 - [NOAA - Grade 3 Unit 4 Lesson 3 Weather & Climate](https://coast.noaa.gov/data/SEAMedia/Presentations/Powerpoints/Grade%203%20Unit%204%20Lesson%203%20Weather%20&%20Climate.pptx)
-- [Solar Energy Input and Topography Shape Earth’s Physical Environments](http://www.macmillanhighered.com/BrainHoney/Resource/6716/digital_first_content/trunk/test/hillis2e/hillis2e_ch41_3.html)
+- [Solar Energy Input and Topography Shape Earth's Physical Environments](http://www.macmillanhighered.com/BrainHoney/Resource/6716/digital_first_content/trunk/test/hillis2e/hillis2e_ch41_3.html)

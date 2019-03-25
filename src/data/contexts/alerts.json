@@ -17,7 +17,7 @@
       },
       "G": {
         "name": "Geomagnetic Storm",
-        "description": "Coronal mass ejections deposit energy and result in intense currents in the Earth’s magnetosphere. The density of the atmosphere would be inceased. It could cause extra drag on satellites in low-earth orbit, modify the radio signals path or affect the performance of GPS systems.",
+        "description": "Coronal mass ejections deposit energy and result in intense currents in the Earth's magnetosphere. The density of the atmosphere would be inceased. It could cause extra drag on satellites in low-earth orbit, modify the radio signals path or affect the performance of GPS systems.",
         "image": "geomagnetic_storm.jpg",
         "code": "G",
         "link": "geomagnetic-storms"

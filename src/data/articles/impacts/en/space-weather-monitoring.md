@@ -21,7 +21,7 @@ Transition Region and Coronal Explorer (TRACE) was launched in 1998 by the Unite
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![monitor3](./static/monitor3.png) *Transition Region and Coronal Explorer (TRACE) spacecraft in orbit (Source: NASA)* | ![monitor4](./static/monitor4.png) *The last exposure of TRACE on 21 June 2010 after over 12 successful years on orbit. (Source: NASA)*  |
 
-The Geosynchronous Operational Environmental Satellites (GOES) are operated by the United States. The GOES 13-15 (N-P) each carry a sophisticated X-ray telescope called the Solar X-ray Imager (SXI) to monitor the Sun’s corona.  Observations of solar X-rays aids in the early detection of solar flares, coronal mass ejections (CMEs), and other phenomena that impact the geospace environment.
+The Geosynchronous Operational Environmental Satellites (GOES) are operated by the United States. The GOES 13-15 (N-P) each carry a sophisticated X-ray telescope called the Solar X-ray Imager (SXI) to monitor the Sun's corona.  Observations of solar X-rays aids in the early detection of solar flares, coronal mass ejections (CMEs), and other phenomena that impact the geospace environment.
 
 The early warning given by the SXI observations comes at least 15 hours before the associated shockwave of the solar eruption arrives at the Earth, allowing the space weather forecasters to issue timely watches, warnings and alerts.
 
@@ -31,9 +31,9 @@ The early warning given by the SXI observations comes at least 15 hours before t
 The Solar Dynamics Observatory (SDO) spacecraft is a NASA mission which has been observing the sun since 2010. It was placed in a geosynchronous orbit (GEO) for constant communication with the ground station.
 
 ![sun](./static/monitor6.png)
-*SDO’s visible light images (a yolk-like spotless Sun for 15 days starting on March 7, 2017). (Credit: NASA)*
+*SDO's visible light images (a yolk-like spotless Sun for 15 days starting on March 7, 2017). (Credit: NASA)*
 
-The Space Environment Monitor (SEM) on **China’s Fengyun 3C (FY-3C) satellite**, launched in September 2013, can effectively monitor the space environment and the charged particle flux, record impacts of space weather events on the satellite, and provide important data for space weather monitoring and warning.
+The Space Environment Monitor (SEM) on **China's Fengyun 3C (FY-3C) satellite**, launched in September 2013, can effectively monitor the space environment and the charged particle flux, record impacts of space weather events on the satellite, and provide important data for space weather monitoring and warning.
 
 ![monitor7](./static/monitor7.jpg)
 *The launch of Fengyun 3C satellite in September 2013.  (Source: China Meteorological News Press)*
