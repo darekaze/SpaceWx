@@ -34,14 +34,24 @@
             {{ $t('home') }}
           </v-list-tile-title>
         </v-list-tile>
+        <!-- To kids version -->
+        <v-list-tile
+          target="_black"
+          href="https://kids.weather.gov.hk/V2/education/spacewx4kids/index.html"
+          rel="noopener noreferrer">
+          <v-list-tile-action>
+            <v-icon>child_care</v-icon>
+          </v-list-tile-action>
+          <v-list-tile-title>
+            {{ $t('kids-version') }}
+          </v-list-tile-title>
+        </v-list-tile>
       </v-list>
     </v-menu>
   </v-toolbar>
 </template>
 
 <script>
-import { Trans } from '@/plugins/i18n';
-
 export default {
   name: 'main-header',
   data: () => ({
@@ -69,7 +79,7 @@ export default {
     },
   },
   methods: {
-    goHome() { this.$router.push(Trans.i18nRoute({ name: 'home' })); },
+    goHome() { this.$router.push(this.$i18nRoute({ name: 'home' })); },
   },
 };
 </script>
@@ -87,21 +97,24 @@ export default {
     "home": "Home",
     "phenomena": "Phenomena",
     "impacts": "Impacts",
-    "historical-events": "Historical Events"
+    "historical-events": "Historical Events",
+    "kids-version": "Kids Version"
   },
   "zh_hk": {
     "space-weather": "太空天氣",
     "home": "首頁",
     "phenomena": "現象",
     "impacts": "影響",
-    "historical-events": "歷史事件"
+    "historical-events": "歷史事件",
+    "kids-version": "小童版"
   },
   "zh_cn": {
     "space-weather": "太空天氣",
     "home": "首頁",
     "phenomena": "現象",
     "impacts": "影響",
-    "historical-events": "歷史事件"
+    "historical-events": "歷史事件",
+    "kids-version": "儿童版"
   }
 }
 </i18n>
