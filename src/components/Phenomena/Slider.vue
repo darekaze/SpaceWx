@@ -58,6 +58,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.swiper-container {
+  max-width: 100%;
+  width: 94vw;
+  height: auto;
+}
 .swiper-button {
   &-next, &-prev {
     transform: scale(0.7);

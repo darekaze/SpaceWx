@@ -69,6 +69,8 @@ export default {
     font: 1.3rem "Noto Sans TC", sans-serif;
     color: #333;
     line-height: 1.58;
+    width: 90vw;
+    max-width: 100%;
 
     img {
       display: block;
