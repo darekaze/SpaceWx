@@ -7,6 +7,7 @@ import { i18n, Trans } from './plugins/i18n';
 import './plugins/vuetify';
 import './stylus/main.styl';
 import './registerServiceWorker';
+import 'material-design-icons-iconfont/dist/material-design-icons.css';
 
 Vue.prototype.$i18nRoute = Trans.i18nRoute.bind(Trans);
 
