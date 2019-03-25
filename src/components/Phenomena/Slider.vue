@@ -60,7 +60,7 @@ export default {
 <style lang="scss" scoped>
 .swiper-container {
   max-width: 100%;
-  width: 90vw;
+  width: 94vw;
   height: auto;
 }
 .swiper-button {

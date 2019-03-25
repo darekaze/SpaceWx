@@ -1,8 +1,9 @@
 <template>
   <v-card
     dark height="auto"
-    color="grey darken-4"
+    color="#004B87"
     class="mt-3 white--text">
+    <!-- Footer original color: grey darken-4 -->
     <v-container py-0>
       <links-panel v-if="atHome"/>
       <v-card flat tile color="transparent">
