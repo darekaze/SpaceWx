@@ -77,7 +77,7 @@ export default {
     img {
       display: block;
       margin: 0 auto;
-      width: 80%;
+      width: 90%;
       height: auto;
       border-radius: 4px;
     }
@@ -92,14 +92,15 @@ export default {
     iframe {
       display: block;
       margin: 0 auto;
-      width: 80%;
+      width: 90%;
       height: 400px;
     }
 
     video {
       display: block;
       margin: 0 auto;
-      width: 80%;
+      width: 100%;
+      height: auto;
     }
 
     table {
