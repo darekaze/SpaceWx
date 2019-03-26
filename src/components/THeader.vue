@@ -37,7 +37,7 @@
         <!-- To kids version -->
         <v-list-tile
           target="_black"
-          href="https://kids.weather.gov.hk/V2/education/spacewx4kids/index.html"
+          :href="$t('kids-web')"
           rel="noopener noreferrer">
           <v-list-tile-action>
             <v-icon>child_care</v-icon>
@@ -98,7 +98,8 @@ export default {
     "phenomena": "Phenomena",
     "impacts": "Impacts",
     "historical-events": "Historical Events",
-    "kids-version": "Kids Version"
+    "kids-version": "Kids Version",
+    "kids-web": "https://kids.weather.gov.hk/V2/education/spacewx4kids/index.html"
   },
   "zh_hk": {
     "space-weather": "太空天氣",
@@ -106,7 +107,8 @@ export default {
     "phenomena": "現象",
     "impacts": "影響",
     "historical-events": "歷史事件",
-    "kids-version": "小童版"
+    "kids-version": "小童版",
+    "kids-web": "https://kids.weather.gov.hk/V2/education/spacewx4kids/index.html#/zh/"
   },
   "zh_cn": {
     "space-weather": "太空天氣",
@@ -114,7 +116,8 @@ export default {
     "phenomena": "現象",
     "impacts": "影響",
     "historical-events": "歷史事件",
-    "kids-version": "儿童版"
+    "kids-version": "儿童版",
+    "kids-web": "https://kids.weather.gov.hk/V2/education/spacewx4kids/index.html#/zh/"
   }
 }
 </i18n>

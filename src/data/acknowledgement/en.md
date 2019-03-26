@@ -1,7 +1,7 @@
 
-[National Oceanic and Atmospheric Administration](https://www.swpc.noaa.gov/)
+[US National Oceanic and Atmospheric Administration](https://www.swpc.noaa.gov/)
 
-[NASA](https://www.nasa.gov/)
+[US National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/)
 
 [SpaceWeatherLive](https://www.spaceweatherlive.com)
 
