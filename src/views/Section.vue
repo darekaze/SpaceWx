@@ -81,7 +81,7 @@ export default {
       height: auto;
       border-radius: 4px;
     }
-    img + em, iframe+p em {
+    img + em, iframe + p em, video + p em {
       display: block;
       margin: auto;
       text-align: center;
@@ -89,7 +89,14 @@ export default {
       padding-top: 8px;
     }
 
-    video, iframe {
+    iframe {
+      display: block;
+      margin: 0 auto;
+      width: 80%;
+      height: 400px;
+    }
+
+    video {
       display: block;
       margin: 0 auto;
       width: 80%;
