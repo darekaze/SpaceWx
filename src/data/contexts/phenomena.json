@@ -1,21 +1,12 @@
 [
   {
     "title": {
-      "en": "Sunspots & Solar Cycle",
-      "zh_hk": "太陽黑子 /<br> 太陽週期",
-      "zh_cn": "太陽黑子 /<br> 太陽週期"
+      "en": "Aurora",
+      "zh_hk": "極光",
+      "zh_cn": "極光"
     },
-    "link": "sunspots",
-    "image": "phenomena/cycle_icon@nasa.png"
-  },
-  {
-    "title": {
-      "en": "Solar Wind",
-      "zh_hk": "太陽風",
-      "zh_cn": "太陽風"
-    },
-    "link": "solarwind",
-    "image": "phenomena/solarwind@nasa.png"
+    "link": "aurora",
+    "image": "phenomena/aurora.jpg"
   },
   {
     "title": {
@@ -25,15 +16,6 @@
     },
     "link": "coronal-holes",
     "image": "phenomena/coronal_holes.jpg"
-  },
-  {
-    "title": {
-      "en": "Solar Flares",
-      "zh_hk": "太陽耀斑",
-      "zh_cn": "太陽耀斑"
-    },
-    "link": "solar-flare",
-    "image": "phenomena/solar_falre@nasa.jpg"
   },
   {
     "title": {
@@ -55,6 +37,33 @@
   },
   {
     "title": {
+      "en": "F10.7cm Radio Emissions",
+      "zh_hk": "太陽10.7厘米<br>射電流量",
+      "zh_cn": "太陽10.7厘米<br>射電流量"
+    },
+    "link": "f107-radio-emissions",
+    "image": "phenomena/sunspots.png"
+  },
+  {
+    "title": {
+      "en": "Galactic Cosmic Rays",
+      "zh_hk": "銀河宇宙<br>射線",
+      "zh_cn": "銀河宇宙<br>射線"
+    },
+    "link": "galactic-cosmic-rays",
+    "image": "phenomena/cosmic_ray@nasa.png"
+  },
+  {
+    "title": {
+      "en": "Geomagnetic Storm",
+      "zh_hk": "地磁暴",
+      "zh_cn": "地磁暴"
+    },
+    "link": "geomagnetic-storms",
+    "image": "geomagnetic_storm.jpg"
+  },
+  {
+    "title": {
       "en": "Ionosphere",
       "zh_hk": "電離層",
       "zh_cn": "電離層"
@@ -73,21 +82,21 @@
   },
   {
     "title": {
-      "en": "Aurora",
-      "zh_hk": "極光",
-      "zh_cn": "極光"
+      "en": "Radio Blackouts",
+      "zh_hk": "無線電<br>通訊中斷",
+      "zh_cn": "無線電<br>通訊中斷"
     },
-    "link": "aurora",
-    "image": "phenomena/aurora.jpg"
+    "link": "radio-blackouts",
+    "image": "radio_blackout.jpg"
   },
   {
     "title": {
-      "en": "Geomagnetic Storm",
-      "zh_hk": "地磁暴",
-      "zh_cn": "地磁暴"
+      "en": "Solar Flares",
+      "zh_hk": "太陽耀斑",
+      "zh_cn": "太陽耀斑"
     },
-    "link": "geomagnetic-storms",
-    "image": "geomagnetic_storm.jpg"
+    "link": "solar-flare",
+    "image": "phenomena/solar_falre@nasa.jpg"
   },
   {
     "title": {
@@ -100,29 +109,20 @@
   },
   {
     "title": {
-      "en": "Radio Blackouts",
-      "zh_hk": "無線電通訊中斷",
-      "zh_cn": "無線電通訊中斷"
+      "en": "Solar Wind",
+      "zh_hk": "太陽風",
+      "zh_cn": "太陽風"
     },
-    "link": "radio-blackouts",
-    "image": "radio_blackout.jpg"
+    "link": "solarwind",
+    "image": "phenomena/solarwind@nasa.png"
   },
   {
     "title": {
-      "en": "F10.7cm Radio Emissions",
-      "zh_hk": "太陽10.7厘米<br>射電流量",
-      "zh_cn": "太陽10.7厘米<br>射電流量"
+      "en": "Sunspots & Solar Cycle",
+      "zh_hk": "太陽黑子 /<br> 太陽週期",
+      "zh_cn": "太陽黑子 /<br> 太陽週期"
     },
-    "link": "f107-radio-emissions",
-    "image": "phenomena/sunspots.png"
-  },
-  {
-    "title": {
-      "en": "Galactic Cosmic Rays",
-      "zh_hk": "銀河宇宙<br>射線",
-      "zh_cn": "銀河宇宙<br>射線"
-    },
-    "link": "galactic-cosmic-rays",
-    "image": "phenomena/cosmic_ray@nasa.png"
+    "link": "sunspots",
+    "image": "phenomena/cycle_icon@nasa.png"
   }
 ]

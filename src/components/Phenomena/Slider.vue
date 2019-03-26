@@ -1,7 +1,9 @@
 <template>
-  <swiper ref="mySwiper" :options="swiperOption">
+  <swiper ref="mySwiper" :options="swiperOption"
+    @mouseover.native="swiper.autoplay.stop();"
+    @mouseout.native="swiper.autoplay.start();">
     <swiper-slide v-for="item in list" :key="item.link">
-      <slider-card  :topic="item" :ratio="0.85"/>
+      <slider-card :topic="item" :ratio="0.96"/>
     </swiper-slide>
     <div class="swiper-button-prev swiper-button-white" slot="button-prev"/>
     <div class="swiper-button-next swiper-button-white" slot="button-next"/>
@@ -23,7 +25,7 @@ export default {
     list: Array,
     column: {
       type: Number,
-      default: 1,
+      default: 2,
     },
   },
   data() {
@@ -31,8 +33,12 @@ export default {
       swiperOption: {
         slidesPerView: 5,
         slidesPerColumn: this.column,
-        spaceBetween: 8,
-        freeMode: true,
+        slidesPerColumnFill: 'row',
+        spaceBetween: 4,
+        autoplay: {
+          delay: 3500,
+          disableOnInteraction: false,
+        },
         navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
@@ -62,10 +68,11 @@ export default {
   max-width: 100%;
   width: 94vw;
   height: auto;
+  margin: 0 auto;
 }
 .swiper-button {
   &-next, &-prev {
-    transform: scale(0.7);
+    transform: scale(0.8);
   }
   &-disabled { opacity: 0; }
 }
