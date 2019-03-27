@@ -241,6 +241,85 @@ export default {
       border-left: 0;
       border-right: 0;
     }
+    // Slider
+    #slider {
+      position: relative;
+      width: 100%;
+      max-height: 450px; /*Customize*/
+      height: 52vw;
+      margin: 14px auto;
+    }
+
+    #slider:before,
+    #slider:after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      z-index: -1;
+    }
+
+    #slider:after {
+      transform: skew(8deg) rotate(3deg)
+    }
+
+    #slider .slider-container {
+      position:relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      max-height: 450px; /*Customize*/
+      height: 52vw;
+      overflow: hidden
+    }
+
+    #slider #slides {
+      position: absolute;
+      width: 800%; /* 100% * 8 */
+      height: 100%;
+      top: 0;
+      left: 0;
+      overflow: hidden;
+      -webkit-animation: slider 30s infinite;
+      animation: slider 30s infinite
+    }
+
+    #slider #slides:hover {
+      -webkit-animation-play-state: paused;
+      animation-play-state: paused
+    }
+
+    #slider #slides .slide {
+      position: relative;
+      width: 12.5%; /* 100% / 8 */
+      height: 100%;
+      float: left;
+      overflow: hidden
+    }
+
+    /*--- Start Slider animation ---*/
+    @-webkit-keyframes slider {
+      0%, 10%, 100% {left: 0}
+      12%, 22% {left: -100%}
+      24%, 34% {left: -200%}
+      36%, 46% {left: -300%}
+      48%, 58% {left: -400%}
+      60%, 70% {left: -500%}
+      72%, 82% {left: -600%}
+      84%, 94% {left: -700%}
+    }
+
+    @keyframes slider {
+      0%, 10%, 100% {left: 0}
+      12%, 22% {left: -100%}
+      24%, 34% {left: -200%}
+      36%, 46% {left: -300%}
+      48%, 58% {left: -400%}
+      60%, 70% {left: -500%}
+      72%, 82% {left: -600%}
+      84%, 94% {left: -700%}
+    }
+    /*--- End Slider animation ---*/
   }
 }
 
