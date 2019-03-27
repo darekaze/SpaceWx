@@ -4,8 +4,8 @@
       <template v-slot:title>{{ $t('phenomena') }}</template>
       <p>{{ $t('ph-info') }}</p>
     </sub-banner>
-    <v-container pt-2>
-      <slider :list="phenomena" :column="2"/>
+    <v-container grid-list-sm pt-2>
+      <PanelGrids :list="phenomena" :column="2"/>
     </v-container>
   </div>
 </template>
@@ -17,7 +17,7 @@ export default {
   name: 'Phenomena',
   components: {
     SubBanner: () => import('@/components/Banners/Sub.vue'),
-    Slider: () => import('@/components/Phenomena/Slider.vue'),
+    PanelGrids: () => import('@/components/Phenomena/PhenomenaPanelGrids.vue'),
   },
   data: () => ({
     phenomena,
