@@ -22,15 +22,6 @@
   <div class="slider-container">
     <div id="slides">
       <div class="slide">
-        <img src="./static/aurora_ch_2.png" alt="">
-      </div>
-      <div class="slide">
-        <img src="./static/aurora_ch_1.png" alt="">
-      </div>
-      <div class="slide">
-        <img src="./static/aurora_ch_3.png" alt="">
-      </div>
-      <div class="slide">
         <img src="./static/aurora_ch_4.png" alt="">
       </div>
       <div class="slide">
@@ -44,6 +35,15 @@
       </div>
       <div class="slide">
         <img src="./static/aurora_ch_8.png" alt="">
+      </div>
+      <div class="slide">
+        <img src="./static/aurora_ch_2.png" alt="">
+      </div>
+      <div class="slide">
+        <img src="./static/aurora_ch_1.png" alt="">
+      </div>
+      <div class="slide">
+        <img src="./static/aurora_ch_3.png" alt="">
       </div>
     </div>
   </div>

@@ -22,15 +22,6 @@ At the peak (called an **auroral substorm**), these arcs may expand to fill the 
   <div class="slider-container">
     <div id="slides">
       <div class="slide">
-        <img src="./static/aurora_en_2.png" alt="">
-      </div>
-      <div class="slide">
-        <img src="./static/aurora_en_1.png" alt="">
-      </div>
-      <div class="slide">
-        <img src="./static/aurora_en_3.png" alt="">
-      </div>
-      <div class="slide">
         <img src="./static/aurora_en_4.png" alt="">
       </div>
       <div class="slide">
@@ -44,6 +35,15 @@ At the peak (called an **auroral substorm**), these arcs may expand to fill the 
       </div>
       <div class="slide">
         <img src="./static/aurora_en_8.png" alt="">
+      </div>
+      <div class="slide">
+        <img src="./static/aurora_en_2.png" alt="">
+      </div>
+      <div class="slide">
+        <img src="./static/aurora_en_1.png" alt="">
+      </div>
+      <div class="slide">
+        <img src="./static/aurora_en_3.png" alt="">
       </div>
     </div>
   </div>
