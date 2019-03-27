@@ -1,27 +1,35 @@
 # 極光
 
-![0314_aurora2](./static/0314_aurora2.jpeg)
-*(圖片來源: [Marco Bastoni](https://apod.nasa.gov/apod/ap180410.html))*
+<video controls loop autoplay>
+  <source src="./static/shunchiming.mp4" type="video/mp4">
+  Your browser does not support HTML5 video.
+</video>
+
+*挪威特羅姆瑟的極光 <br> (攝影： 香港天文台台長岑智明)*
 
 **電子**會在通過磁層的順風尾部和極光場線較低位置時的加速過程中被激發。這些加速的電子會跟隨著地球的磁場移下到**極地**區域，然後與地球大氣上層的**氧和氮**原子及分子碰撞。在碰撞過程中，它們的能量會被轉移到大氣中，激發原子和分子到較高的能量狀態。當這些原子和分子回到較低的能量狀態時，能量便以光的形式釋放，通常被稱為極光。
 
-![0306_aurora_2](./static/0306_aurora_2.png)
-*(圖片來源: 美國國家航空暨太空總署)*
+![0314_aurora.jpg](./static/river.png)
+*(圖片來源： 周兆榮 - 前香港天文台職員)*
 
 在地球磁場的引導下，極光大概以**磁極**為中心形成**兩個橢圓形**地區。大的**地磁暴**（參閱[「現象：地磁暴」](#/zh_hk/section/phenomena/geomagnetic-storms)）會使這些橢圓地區從極點擴散，因此低緯度地區有時也能看到極光。不同形狀的極光是由不同的光線組合形成的。它們可在傍晚時形成弧線，從地平線一邊延伸到另一邊，而於接近午夜時開始扭曲和搖晃。
 
 在高峰期（稱為**副極光暴**），這些弧線可以擴展至填滿整個天空，並快速移動及變得非常明亮。在清晨時份，極光的外表變得較像雲。這些零碎的一片片可以重複閃爍幾個小時，然後在日出時消失。
 
+![0306_aurora_2](./static/0306_aurora_2.png)
+*(圖片來源: 美國國家航空暨太空總署)*
+
 ## 觀看極光
 
 在南北緯度約60度和75度之間的橢圓形區域是觀賞極光的最佳位置。在這些極地緯度的地方，極光可以在一年中超過一半的夜晚觀看到，而這當然亦需要取決於當地的天氣，例如被雲層遮擋等。在北極和南極，它們分別被稱為**北極光**和**南極光**。
 
-![0306_aurora](./static/0306_aurora.jpeg)*(圖片來源︰Keith Vanderlinde, 國家科學基金會)*
+![0314_aurora.jpg](./static/house.png)
+*(圖片來源： 周兆榮 - 前香港天文台職員)*
 
 一般來說，極光較有機會在高緯度看到。然而，由於地球的磁極與地極並不完全相同，因此真正相關的緯度應該是**磁緯度**。當地磁活動較少時，極光於近午夜時通常位於大約67度的磁緯度。隨著活動增加，極光區域會向赤道擴展。當地磁活動非常多時，在地球中低緯度地區也有機會觀看到極光。
 
-![0314_aurora.jpg](./static/0314_aurora.jpeg)
-*(圖片來源: [AuroraHunter](https://www.aurorahunter.com/photos/white-satin.html))*
+![0314_aurora.jpg](./static/christopherlam.jpg)
+*加拿大黃刀鎮的極光 (攝影： 林俊健)*
 
 要估計看到極光的機會，我們需要知道觀看時的地磁活動程度。一個名為**Kp**（0到9之間的數字）是一個簡單的指數用以表示3小時內的地磁活動（參閱「現象：地磁暴」）。 地磁活動的另一個指標是NOAA POES極光活動水平，它是一個從1到10的數字。
 
@@ -31,7 +39,7 @@
 觀看極光，需要知道所在地點的磁緯度，以及在該磁緯度觀看極光所需的Kp指數有多高。
 
 磁緯度可用以下網站計算(只限英語)：
-[(按此)](http://www.geomag.bgs.ac.uk/data_service/models_compass/coord_calc.html)
+[【按此】](http://www.geomag.bgs.ac.uk/data_service/models_compass/coord_calc.html)
 
 在當地午夜Kp指數的極光邊界和極光活動水平磁緯度的比較:
 | 磁緯度                                                   | Kp |      | 磁緯度 | NOAA POES極光活動水平 |
@@ -50,7 +58,7 @@
 |                                                              |        |      | 45.0       | 10++                      |
 *Kp指數、極光活動水平與極光邊界磁緯度之間的關係。(資料來源︰美國國家海洋和大氣管理局 (NOAA))*
 
-極光的預測請參閱：[(按此)](https://www.swpc.noaa.gov/products/aurora-30-minute-forecast)
+極光的預測請參閱：[【按此】](https://www.swpc.noaa.gov/products/aurora-30-minute-forecast)
 
 擁有大氣層和磁場的行星都有機會出現極光。
 

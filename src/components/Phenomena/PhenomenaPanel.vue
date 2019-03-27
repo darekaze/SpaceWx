@@ -1,5 +1,5 @@
 <template>
-  <v-container pt-2 id="phenomena">
+  <v-container grid-list-sm pt-2 id="phenomena">
     <div class="mb-2">
       <h2 class="headline font-weight-bold">{{ $t('phenomena') }}</h2>
       <div class="subheading">
