@@ -4,7 +4,7 @@
       <template v-slot:title>{{ $t('phenomena') }}</template>
       <p>{{ $t('ph-info') }}</p>
     </sub-banner>
-    <v-container grid-list-sm pt-2>
+    <v-container grid-list-sm pt-3>
       <PanelGrids :list="phenomena" :column="2"/>
     </v-container>
   </div>
