@@ -80,6 +80,7 @@ export default {
       width: 90%;
       height: auto;
       border-radius: 4px;
+      object-fit: contain;
     }
     img + em, iframe + p em, video + p em {
       display: block;
@@ -200,9 +201,6 @@ export default {
       -moz-hypens:auto;
       hyphens:auto;
     }
-    strong {
-      color: #0c72a1;
-    }
     ul {
       list-style: square;
       padding-left:1.2em;
@@ -252,7 +250,7 @@ export default {
       font-size: 1.1rem;
       line-height: 1.44;
 
-      img + em, iframe + p em {
+      img + em, iframe + p em, video + p em {
         font-size: 1.0rem;
       }
       th, tr, td {
