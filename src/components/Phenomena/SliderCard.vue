@@ -17,7 +17,7 @@
           align-center justify-center>
           <span
             v-html="topic.title[lang]"
-            class="headline font-weight-light white--text text-xs-center"/>
+            class="custom-font-size font-weight-light white--text text-xs-center"/>
         </v-layout>
       </div>
     </v-img>
@@ -48,5 +48,8 @@ export default {
   &:hover {
     background-color: rgba(28, 251, 195, 0.15);
   }
+}
+.custom-font-size {
+  font-size: 22px !important;
 }
 </style>
