@@ -4,7 +4,7 @@
 
 日冕物質拋射是來自太陽**日冕**的**等離子**爆發。它們包含數十億噸的日冕物質（主要是質子和電子），並帶有磁場。
 
-較強爆發的日冕物質拋射通常開始在磁重聯(magnetic reconnection)過程時，即太陽低層日冕中高扭曲磁場結構變得過於繃緊，並重新調整為不太繃緊的狀態。日冕物質拋射的移動速度超過背景太陽風的速度，能產生衝擊波，可以加速前方的帶電粒子，導致**太陽輻射風暴**增加或增強（參閱[「現象：太陽輻射風暴」](#/zh_hk/section/phenomena/solar-radiation-storm)）。
+較強爆發的日冕物質拋射通常開始在磁重聯(magnetic reconnection)過程時，即太陽低層日冕中高扭曲磁場結構變得過於繃緊，並重新調整為不太繃緊的狀態。日冕物質拋射的移動速度超過背景太陽風的速度，能產生衝擊波，可以加速前方的帶電粒子，導致**太陽輻射風暴**增加或增強（參閱<a href="#/zh_cn/section/phenomena/solar-radiation-storm">「現象：太陽輻射風暴」</a>）。
 
 ![0306_CME](./static/0306_CME.gif)
 *2000年2月27日的日冕物質拋射。一個日冕物質拋射向太空發射了數十億噸每小時行駛數百萬英里的粒子 (圖片來源︰美國國家航空暨太空總署)*
@@ -17,5 +17,4 @@
 
 資料來源
 
-- [SolarScience](https://solarscience.msfc.nasa.gov/CMEs.shtml)
 - [美國國家航空暨太空總署](https://solarscience.msfc.nasa.gov/CMEs.shtml)
