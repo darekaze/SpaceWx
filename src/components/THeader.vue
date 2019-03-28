@@ -98,8 +98,8 @@ export default {
     "phenomena": "Phenomena",
     "impacts": "Impacts",
     "historical-events": "Historical Events",
-    "kids-version": "Kids Version",
-    "kids-web": "https://kids.weather.gov.hk/V2/education/spacewx4kids/index.html/en/"
+    "kids-version": "Kid Version",
+    "kids-web": "https://kids.weather.gov.hk/V2/education/spacewx4kids/index.html#/en/"
   },
   "zh_hk": {
     "space-weather": "太空天氣",
