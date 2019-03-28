@@ -11,4 +11,4 @@ The largest geomagnetic storms are associated with solar coronal mass ejections 
 
 Geomagnetic storms may enhance the aurora, which becomes brighter and moves closer to the equator.  Geomagnetic storms usually last a few hours to days. The strongest storms may persist for up to a week. Their frequency is higher near solar maximum, but are also common in the declining phase in the solar cycle due to high-speed solar wind stream.
 
-Geomagnetic storms can pose problems to many activities, technological systems, and critical infrastructures (see ["Impacts"](#/en/impacts)).
+Geomagnetic storms can pose problems to many activities, technological systems, and critical infrastructures (see <a href="#/en/impacts">"Impacts"</a>).
