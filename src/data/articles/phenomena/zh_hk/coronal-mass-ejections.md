@@ -17,5 +17,4 @@
 
 資料來源
 
-- [SolarScience](https://solarscience.msfc.nasa.gov/CMEs.shtml)
 - [美國國家航空暨太空總署](https://solarscience.msfc.nasa.gov/CMEs.shtml)

@@ -17,6 +17,4 @@
 
 參考:
 
-- https://scied.ucar.edu/ionosphere
-
-- https://kknews.cc/science/r8j69y4.html
+- [University Corporation for Atmospheric Research (UCAR)](https://scied.ucar.edu/ionosphere)
