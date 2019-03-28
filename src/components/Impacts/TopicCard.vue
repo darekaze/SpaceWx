@@ -51,6 +51,5 @@ export default {
 }
 .word-break {
   word-break: break-word;
-  hyphens: auto;
 }
 </style>

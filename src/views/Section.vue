@@ -47,7 +47,7 @@ export default {
     },
   },
   watch: {
-    '$route.params.lang': {
+    '$route.path': {
       immediate: true,
       handler() {
         this.updateArticle();
@@ -68,16 +68,16 @@ export default {
   &::v-deep {
     padding: 0 2.2em;
     margin: auto;
-    font: 1.3rem "Noto Sans TC", sans-serif;
+    font: 1.24rem "Noto Sans TC", sans-serif;
     color: #333;
-    line-height: 1.58;
+    line-height: 1.46;
     width: 90vw;
     max-width: 100%;
 
     img {
       display: block;
       margin: 0 auto;
-      width: 90%;
+      width: 80%;
       height: auto;
       border-radius: 4px;
       object-fit: contain;
@@ -121,9 +121,8 @@ export default {
       background:#1b1e24;
       border-bottom:4px solid #9ea7af;
       border-right: 1px solid #343a45;
-      font-size: 20px;
       font-weight: 100;
-      padding: 16px;
+      padding: 10px;
       text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
       vertical-align:middle;
     }
@@ -141,7 +140,6 @@ export default {
       border-top: 1px solid #C1C3D1;
       border-bottom: 1px solid #C1C3D1;
       color:#666B85;
-      font-size: 16px;
       font-weight:normal;
       text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
     }
@@ -168,10 +166,9 @@ export default {
 
     td {
       background:#FFFFFF;
-      padding: 12px;
+      padding: 6px;
       vertical-align:middle;
       font-weight:300;
-      font-size:18px;
       text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
       border-right: 1px solid #C1C3D1;
     }
@@ -241,12 +238,13 @@ export default {
       border-left: 0;
       border-right: 0;
     }
-    // Slider
+
+    /* Slider */
     #slider {
       position: relative;
       width: 100%;
       max-height: 450px; /*Customize*/
-      height: 52vw;
+      height: 44vw;
       margin: 14px auto;
     }
 
@@ -269,8 +267,8 @@ export default {
       left: 0;
       width: 100%;
       max-height: 450px; /*Customize*/
-      height: 52vw;
-      overflow: hidden
+      height: 44vw;
+      overflow: hidden;
     }
 
     #slider #slides {
@@ -281,12 +279,12 @@ export default {
       left: 0;
       overflow: hidden;
       -webkit-animation: slider 30s infinite;
-      animation: slider 30s infinite
+      animation: slider 30s infinite;
     }
 
     #slider #slides:hover {
       -webkit-animation-play-state: paused;
-      animation-play-state: paused
+      animation-play-state: paused;
     }
 
     #slider #slides .slide {
@@ -294,30 +292,30 @@ export default {
       width: 12.5%; /* 100% / 8 */
       height: 100%;
       float: left;
-      overflow: hidden
+      overflow: hidden;
     }
 
     /*--- Start Slider animation ---*/
     @-webkit-keyframes slider {
-      0%, 10%, 100% {left: 0}
+      0%, 10%  {left: 0}
       12%, 22% {left: -100%}
       24%, 34% {left: -200%}
       36%, 46% {left: -300%}
       48%, 58% {left: -400%}
       60%, 70% {left: -500%}
       72%, 82% {left: -600%}
-      84%, 94% {left: -700%}
+      84%, 100% {left: -700%}
     }
 
     @keyframes slider {
-      0%, 10%, 100% {left: 0}
+      0%, 10% {left: 0}
       12%, 22% {left: -100%}
       24%, 34% {left: -200%}
       36%, 46% {left: -300%}
       48%, 58% {left: -400%}
       60%, 70% {left: -500%}
       72%, 82% {left: -600%}
-      84%, 94% {left: -700%}
+      84%, 100% {left: -700%}
     }
     /*--- End Slider animation ---*/
   }
