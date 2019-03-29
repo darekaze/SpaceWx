@@ -31,7 +31,7 @@ export default {
   data() {
     return {
       swiperOption: {
-        slidesPerView: 5,
+        slidesPerView: 4,
         slidesPerColumn: this.column,
         slidesPerColumnFill: 'row',
         spaceBetween: 4,

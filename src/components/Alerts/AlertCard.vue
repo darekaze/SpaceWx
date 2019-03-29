@@ -82,6 +82,6 @@ export default {
 }
 
 .fit-icon {
-  margin: 6px;
+  margin: 7px;
 }
 </style>

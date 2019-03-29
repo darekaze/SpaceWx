@@ -11,7 +11,7 @@
     </v-toolbar-title>
     <v-spacer/>
 
-    <v-menu offset-y>
+    <v-menu offset-y bottom>
       <!-- <v-toolbar-side-icon slot="activator"/> -->
       <v-btn icon dark slot="activator">
         <v-img class="ma-1" :src="require('@/assets/icons/menu.png')"/>
