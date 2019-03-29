@@ -2,7 +2,7 @@
   <v-container fluid px-0 pt-0>
     <!-- desire height is 80vh, then 580 -->
     <v-img
-      class="grey darken-1 round"
+      class="grey darken-1"
       height="360"
       :src="require('@/assets/images/hero.jpg')">
       <v-layout
