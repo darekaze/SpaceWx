@@ -16,9 +16,10 @@
             :large="isDesktop"
             :color="getColor(condition.scale)"
             class="alert-btn">
-            <v-icon dark :medium="isDesktop">
+            <!-- <v-icon dark :medium="isDesktop">
               {{ alertIcon }}
-            </v-icon>
+            </v-icon> -->
+            <v-img class="fit-icon" :src="require(`@/assets/icons/${alertIcon}.png`)"/>
           </v-btn>
         </template>
         <span>{{ $t('show-details') }}</span>
@@ -78,5 +79,9 @@ export default {
 .ctx-click {
   cursor: pointer;
   user-select: none;
+}
+
+.fit-icon {
+  margin: 6px;
 }
 </style>

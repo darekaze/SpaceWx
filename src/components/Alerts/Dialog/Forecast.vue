@@ -8,9 +8,10 @@
         <v-btn
           flat
           color="green darken-1"
-          class="mx-0 pr-2"
+          class="mx-0"
           @click.stop="toogleLegend()">
-          {{ $t('legend') }}<v-icon dark>keyboard_arrow_down</v-icon>
+          {{ $t('legend') }}
+          <!-- <v-icon dark>keyboard_arrow_down</v-icon> -->
         </v-btn>
       </v-layout>
     </v-flex>

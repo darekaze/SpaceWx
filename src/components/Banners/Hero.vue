@@ -15,14 +15,14 @@
           <h2 :class="`display-${isMobile ? 2:3} font-weight-light`">
             {{ $t('space-weather') }}
           </h2>
-          <div class="subheading mt-2">
+          <div class="subheading mb-3">
             {{ $t('hero-subtitle') }}
           </div>
-          <!-- <v-btn dark outline depressed
+          <v-btn dark outline depressed
             color="cyan lighten-3"
             @click.stop="$vuetify.goTo('#phenomena')">
             {{ $t('discover-more') }}
-          </v-btn> -->
+          </v-btn>
         </v-flex>
       </v-layout>
     </v-img>
