@@ -113,7 +113,7 @@ export default {
     "phenomena": "現象",
     "impacts": "影響",
     "historical-events": "歷史事件",
-    "kids-version": "小童版",
+    "kids-version": "兒童版",
     "kids-web": "https://kids.weather.gov.hk/V2/education/spacewx4kids/index.html#/zh/"
   },
   "zh_cn": {
