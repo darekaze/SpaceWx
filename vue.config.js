@@ -14,7 +14,7 @@ const md = require('markdown-it')({
   .use(require('markdown-it-ins'))
   .use(require('markdown-it-sup'));
 
-const subDirName = 'V2/education/spacewx';
+const subDirName = 'education/spacewx';
 
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
