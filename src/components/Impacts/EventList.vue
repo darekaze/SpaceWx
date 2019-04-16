@@ -1,7 +1,7 @@
 <template>
   <v-container grid-list-xl pt-3>
     <v-layout row wrap justify-center>
-      <v-flex xs12 sm6 lg4
+      <v-flex xs12 sm6
         v-for="item in list" :key="item.code">
         <event-card :value="item"/>
       </v-flex>

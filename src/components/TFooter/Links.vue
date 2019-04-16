@@ -6,13 +6,13 @@
     <v-flex py-2 xs12 sm6
       class="t-hov"
       v-for="(item, index) in $t('links')" :key="index">
-      <v-icon small>navigate_next</v-icon>
+      <!-- <v-icon small>navigate_next</v-icon> -->
       <a
         class="c-link"
         target="_blank"
         rel="noopener noreferrer"
         :href="item.url">
-        {{ item.name }}
+        &gt; {{ item.name }}
       </a>
     </v-flex>
   </v-layout>

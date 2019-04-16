@@ -11,15 +11,19 @@
     </v-toolbar-title>
     <v-spacer/>
 
-    <v-menu offset-y>
-      <v-toolbar-side-icon slot="activator"/>
+    <v-menu offset-y bottom>
+      <!-- <v-toolbar-side-icon slot="activator"/> -->
+      <v-btn icon dark slot="activator">
+        <v-img class="ma-1" :src="require('@/assets/icons/menu.png')"/>
+      </v-btn>
       <v-list>
         <v-list-tile
           v-for="item in menuItems"
           :key="item.name"
           :to="$i18nRoute({ name: item.name })">
           <v-list-tile-action>
-            <v-icon>{{ item.icon }}</v-icon>
+            <!-- <v-icon>{{ item.icon }}</v-icon> -->
+            <img :src="require(`@/assets/icons/${item.icon}.png`)"/>
           </v-list-tile-action>
           <v-list-tile-title>
             {{ $t(item.name) }}
@@ -28,9 +32,10 @@
         <v-divider class="my-2"/>
         <v-list-tile :to="$i18nRoute({ name: 'home' })">
           <v-list-tile-action>
-            <v-icon>home</v-icon>
+            <!-- <v-icon>home</v-icon> -->
+            <img :src="require('@/assets/icons/home.png')"/>
           </v-list-tile-action>
-          <v-list-tile-title>
+          <v-list-tile-title class="light-blue--text text--darken-3">
             {{ $t('home') }}
           </v-list-tile-title>
         </v-list-tile>
@@ -40,9 +45,10 @@
           :href="$t('kids-web')"
           rel="noopener noreferrer">
           <v-list-tile-action>
-            <v-icon>child_care</v-icon>
+            <!-- <v-icon>child_care</v-icon> -->
+            <img :src="require('@/assets/icons/child.png')"/>
           </v-list-tile-action>
-          <v-list-tile-title>
+          <v-list-tile-title class="light-blue--text text--darken-3">
             {{ $t('kids-version') }}
           </v-list-tile-title>
         </v-list-tile>
@@ -107,7 +113,7 @@ export default {
     "phenomena": "現象",
     "impacts": "影響",
     "historical-events": "歷史事件",
-    "kids-version": "小童版",
+    "kids-version": "兒童版",
     "kids-web": "https://kids.weather.gov.hk/V2/education/spacewx4kids/index.html#/zh/"
   },
   "zh_cn": {

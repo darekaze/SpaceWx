@@ -1,7 +1,7 @@
 <template>
   <v-card>
     <v-card-title primary-title class="headline black white--text">
-      <v-icon left dark>stars</v-icon>
+      <!-- <v-icon left dark>stars</v-icon> -->
       {{ $t('ack') }}
     </v-card-title>
     <v-card-text v-if="ack">

@@ -7,19 +7,21 @@
           dark flat color="blue"
           :class="{ 'pl-0 ma-0': $vuetify.breakpoint.xsOnly }"
           :to="$i18nRoute({ name: $route.params.category })">
-          <v-icon class="pr-2">keyboard_arrow_left</v-icon>{{ $t('back') }}
+          <!-- <v-icon class="pr-2">keyboard_arrow_left</v-icon> -->
+          {{ $t('back') }}
         </v-btn>
       </v-card-title>
       <v-card-text class="pt-0" v-if="article">
         <div class="article-md" v-html="article.html"/>
       </v-card-text>
       <!-- Disabled for integration... -->
-      <!-- <v-card-actions>
+      <v-card-actions>
         <v-btn flat color="blue"
           :to="$i18nRoute({ name: $route.params.category })">
-          <v-icon class="pr-2">keyboard_arrow_left</v-icon>{{ $t('back') }}
+          <!-- <v-icon class="pr-2">keyboard_arrow_left</v-icon> -->
+          {{ $t('back') }}
         </v-btn>
-      </v-card-actions> -->
+      </v-card-actions>
     </v-card>
 
   </v-container>
@@ -29,9 +31,9 @@
 import { Trans } from '@/plugins/i18n';
 
 export default {
-  data: () => ({
-    article: null,
-  }),
+  data() {
+    return { article: null };
+  },
   beforeMount() {
     this.updateArticle();
   },
@@ -47,12 +49,19 @@ export default {
     },
   },
   watch: {
-    '$route.path': {
-      immediate: true,
-      handler() {
-        this.updateArticle();
-      },
-    },
+    '$route.path': 'updateArticle',
+  },
+  created() {
+    // For IE11...
+    if ('-ms-scroll-limit' in document.documentElement.style
+      && '-ms-ime-align' in document.documentElement.style) {
+      window.addEventListener('hashchange', () => {
+        const currentPath = window.location.hash.slice(1);
+        if (this.$route.path !== currentPath) {
+          this.$router.push(currentPath);
+        }
+      }, false);
+    }
   },
 };
 </script>

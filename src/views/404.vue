@@ -7,8 +7,8 @@
         </div>
         <v-btn flat color="blue"
           :to="$i18nRoute({ name: 'home' })">
-          <v-icon class="pr-2">
-            keyboard_arrow_left</v-icon>{{ $t('back-home') }}
+          <!-- <v-icon class="pr-2">keyboard_arrow_left</v-icon> -->
+          {{ $t('back-home') }}
         </v-btn>
       </v-flex>
     </v-layout>
